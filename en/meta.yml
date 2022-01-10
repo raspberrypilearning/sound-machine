@@ -1,0 +1,11 @@
+title: Sound board
+hero_image: images/banner.png
+description: sound-board description
+version: 4
+listed: false
+copyedit: false
+last_tested: "2022-01-10"
+steps:
+  - title: Introduction
+  - title: Step title
+  - title: What next?
