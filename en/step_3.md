@@ -1,4 +1,5 @@
-## Control your sounds
+## Compose your sounds
+
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 </div>
@@ -16,8 +17,6 @@ single-buzzer-wiring
 stereo-buzzer-wiring
 earphones-wiring
 
-**Tip:** If you have not already prepared your LEDs, and need to remind yourself of how to connect LEDs to resistors and jumper wires, visit our [Introduction to the Pico](https://projects.raspberrypi.org/en/projects/introduction-to-the-pico){:target="_blank"} guide. 
-
 --- /task ---
 
 --- task ---
@@ -33,7 +32,7 @@ title: Import Speaker
 --- code ---
 ---
 language: python
-filename: mood-check-in.py
+filename: sound-machine.py
 line_numbers: false
 line_number_start: 1
 line_highlights: 1
@@ -155,6 +154,8 @@ line_highlights: 1-5
 
 --- /code ---
 
+--- /collapse ---
+
 --- collapse ---
 
 ---
@@ -231,16 +232,6 @@ title: I don't hear anything when I run my sound function
 
 + Check that the pins in your code match the pins your Speaker is connected to.
 + Check that you have removed the sticker that covers the sound hole in new buzzwea
-
---- /collapse ---
-
---- collapse ---
-
----
-title: My RGB LED show the wrong colour
----
-
-Check your code to make sure that your colour values are in the right order. Use the ['RGB Colour guide'](https://www.w3schools.com/colors/colors_rgb.asp){:target="_blank"} to check your code matches the colour you expect.
 
 --- /collapse ---
 
