@@ -1,6 +1,6 @@
 ## Introduction
 
-In this project, <mark> short project description </mark>
+Create a sound machine that will play sound effects or music using buttons, switches or a potentiometer.
 
 <mark>Boxout (wherever wanted/needed) </mark>
 
@@ -11,31 +11,36 @@ In this project, <mark> short project description </mark>
 <mark>Objectives in language that learners will understand</mark>
 
 You will:
-+ 
-+ 
-+
+
++ Design a device that uses sound for a specific purpose
++ Program music or sounds effects to play on a buzzer
++ Create an interface that allows user control of sounds
+
+To complete this project you will need:
+
++ A Raspberry Pi Pico with pin headers soldered on
++ A data USB A to micro USB cable
++ A potentiometer or buttons (bought or crafted)
++ A passive tone buzzer 
++ Jumper wires
++ Craft materials including card, sticky tape and kitchen foil
+
+Optional:
+
++ RGB LED(s) or single colour LED(s) with resistors and jumper wires
++ An additional passive tone buzzer for stereo sound
 
 <mark>Image of many different examples in a strip</mark>
 
 --- no-print ---
 
---- task ---
+<mark>Add examples - we'll need audio for these. </mark>
 
-<div style="display: flex; flex-wrap: wrap">
-<div style="flex-basis: 175px; flex-grow: 1">  
+--- task ---
 
 ### Try it 
 
-Description of what to do or think about when looking at the example.
-
-</div>
-<div>
-**Gobo watching**: [See inside](https://scratch.mit.edu/projects/495141114/editor){:target="_blank"}
-<div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/495141114/?autostart=false" frameborder="0"></iframe>
-</div>
-
-</div>
+**Look**
 
 --- /task ---
 
@@ -47,20 +52,12 @@ You are going to make some design decisions to ...
 
 Explore these example projects to get more ideas:
 
-**Don't eat donut**: [See inside](https://scratch.mit.edu/projects/495865093/editor){:target="_blank"}
-<div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/495865093/?autostart=false" frameborder="0"></iframe>
-</div>
+Sound effects board
+LEGO figure dance floor
+Play me a tune (using drop switches)
+Sound Bomb (inverted party popper switch + annoying SFX cycle)
+Musical instrument with two buzzers - one with a whitenoise beat controlled by a potentiometer
 
-**Under the sea**: [See inside](https://scratch.mit.edu/projects/495866460/editor){:target="_blank"}
-<div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/495866460/?autostart=false" frameborder="0"></iframe>
-</div>
-
-**Sporg**: [See inside](https://scratch.mit.edu/projects/495865892/editor){:target="_blank"}
-<div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/495865892/?autostart=false" frameborder="0"></iframe>
-</div>
 --- /task ---
 --- /no-print ---
 

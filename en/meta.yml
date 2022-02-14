@@ -7,10 +7,11 @@ copyedit: false
 last_tested: "2021-03-26"
 steps:
   - title: Introduction
-  - title: Step title
-  - title: Step title
+  - title: Design your sound machine
+  - title: Compose your sounds
     completion: engaged
-  - title: Step title
+  - title: Control your sounds
+  - title: Craft your device
     completion: internal
   - title: Reflection
     knowledge_quiz:
