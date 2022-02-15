@@ -14,8 +14,8 @@ It’s good practice to build your project up gradually. In this step, you will 
 Connect your buzzer(s) to the Raspberry Pi Pico:
 
 [[[single-buzzer-wire]]]
-stereo-buzzer-wiring
-earphones-wiring
+stereo-buzzer-wiring # BECKY
+earphones-wiring # BECKY
 
 --- /task ---
 
@@ -53,7 +53,7 @@ from picozero import Speaker
 Add code to set the pins for your connected buzzer(s):
 
 [[[single-buzzer-pin]]]
-multiple-buzzer-pins
+multiple-buzzer-pins # BECKY
 
 <mark>Add StereoSpeaker if added to picozero</mark>
 

@@ -57,13 +57,13 @@ You need to use conductive material such as kitchen foil and make a connection b
 
 Here are some examples:
 
-drop-switch
+drop-switch # BECKY
 
-card-push-buttons
+card-push-buttons # TRACY
 
-pull-switch
+pull-switch # BECKY
 
-conductive-tape-switch
+conductive-tape-switch # BECKY
 
 Be careful if you are using any sharp or hot tools and get adult permission and supervision before you start!
 
