@@ -58,7 +58,7 @@ A LEGO figure holds an RGB LED which changes colour depending on the tune that i
 ![A LEGO figure is holding an RGB LED. The LED changes colour based on the song chosen. Songs are chosen based on the button that is pressed.](images/LEGO-dance-floor.mp4)
 
 **Play me a tune (using a drop switch)**
-Description
+A drop switch has been crafted using two pieces of foil with foil also attached to the bottom of a character. When the character is dropped on the switch, the tune activates.
 ![A character is dropped on two pieces of kitchen foil and a tune play.](images/wicked-player.mp4)
 
 **Sound Bomb (inverted party popper switch + annoying SFX cycle)**
@@ -91,7 +91,7 @@ A LEGO figure holds an RGB LED which changes colour depending on the tune that i
 ![A LEGO figure is standing on a box with four buttons.](images/LEGO-dance-floor.jpeg){:width="300px"}
 
 **Play me a tune (using a drop switch)**
-Description
+A drop switch has been crafted using two pieces of foil with foil also attached to the bottom of a character. When the character is dropped on the switch, the tune activates.
 ![A character is dropped on two pieces of kitchen foil and a tune play.](images/wicked-player.jpeg){:width="300px"}
 
 **Sound Bomb (inverted party popper switch + annoying SFX cycle)**
