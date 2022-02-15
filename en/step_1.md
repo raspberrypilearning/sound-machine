@@ -48,11 +48,25 @@ You are going to make some design decisions to create your sound board.
 
 Explore these example projects to get more ideas for creating your sound machine:
 
-Sound effects board
-LEGO figure dance floor
-Play me a tune (using drop switches)
-Sound Bomb (inverted party popper switch + annoying SFX cycle)
-Musical instrument with two buzzers - one with a whitenoise beat controlled by a potentiometer
+**Sound effects board**
+Description
+![](images/image)
+
+**LEGO figure dance floor**
+A LEGO figure holds an RGB LED which changes colour depending on the tune that is playing. Four buttons are used for selecting a tune. 
+![A LEGO figure is holding an RGB LED. The LED changes colour based on the song chosen. Songs are chosen based on the button that is pressed.](images/LEGO-dance-floor.mp4)
+
+**Play me a tune (using drop switches)**
+Description
+![](images/image)
+
+**Sound Bomb (inverted party popper switch + annoying SFX cycle)**
+Description
+![](images/image)
+
+**Musical instrument with two buzzers - one with a whitenoise beat controlled by a potentiometer**
+Description
+![](images/image)
 
 --- /task ---
 
@@ -66,11 +80,26 @@ You are going to make some design decisions to create your sound board. Here are
 
 <mark>Images of below with short descriptions</mark>
 
-Sound effects board
-LEGO figure dance floor
-Play me a tune (using drop switches)
-Sound Bomb (inverted party popper switch + annoying SFX cycle)
-Musical instrument with two buzzers - one with a whitenoise beat controlled by a potentiometer
+**Sound effects board**
+Description
+![](images/image)
+
+**LEGO figure dance floor**
+A LEGO figure holds an RGB LED which changes colour depending on the tune that is playing. Four buttons are used for selecting a tune. 
+
+![A LEGO figure is standing on a box with four buttons.](images/LEGO-dance-floor.jpeg)
+
+**Play me a tune (using drop switches)**
+Description
+![](images/image)
+
+**Sound Bomb (inverted party popper switch + annoying SFX cycle)**
+Description
+![](images/image)
+
+**Musical instrument with two buzzers - one with a whitenoise beat controlled by a potentiometer**
+Description
+![](images/image)
 
 --- /print-only ---
 
