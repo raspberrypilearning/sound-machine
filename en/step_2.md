@@ -77,10 +77,10 @@ You could use any combination of:
 
 Will you:
 
-+ Base your design on a traditional instrument such as a piano,
-+ Draw a picture or make a scene with buttons to trigger relevant sounds,
-+ Craft switches or buttons,
-+ Use craft materials to make an enclosure?
++ Base your design on a traditional instrument such as a piano
++ Draw a picture or make a scene with buttons to trigger relevant sounds
++ Craft switches or buttons
++ Use craft materials to make an enclosure
 
 
 **Tip:** You don't need to decide everything now. It's fine to iterate on your design as you start making. 
