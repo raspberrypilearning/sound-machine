@@ -54,6 +54,9 @@ Description
 
 **LEGO figure dance floor**
 A LEGO figure holds an RGB LED which changes colour depending on the tune that is playing. Four buttons are used for selecting a tune. 
+
+[![Alternate Text]({images/LEGO-dance-floor.jpeg})]({images/LEGO-dance-floor.mp4} "Link Title")
+
 ![A LEGO figure is holding an RGB LED. The LED changes colour based on the song chosen. Songs are chosen based on the button that is pressed.](images/LEGO-dance-floor.mp4)
 
 **Play me a tune (using drop switches)**
@@ -87,7 +90,7 @@ Description
 **LEGO figure dance floor**
 A LEGO figure holds an RGB LED which changes colour depending on the tune that is playing. Four buttons are used for selecting a tune. 
 
-![A LEGO figure is standing on a box with four buttons.](images/LEGO-dance-floor.jpeg)
+![A LEGO figure is standing on a box with four buttons.](images/LEGO-dance-floor.jpeg){:width="300px"}
 
 **Play me a tune (using drop switches)**
 Description
