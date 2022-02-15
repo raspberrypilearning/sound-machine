@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You need  a way for the user to control the sounds. In this step, you will connect and code your control interfaces and test that this is working.
+You need a way for the user to control the sounds. In this step, you will connect and code your control interfaces and test that this is working.
 </div>
 <div>
 ![](images/image.png){:width="300px"}
@@ -11,13 +11,13 @@ You need  a way for the user to control the sounds. In this step, you will conne
 
 --- task ---
 
-**Find** the input components that you want to use for your mood check-in. 
+**Find** the input components that you want to use for your sound machine. 
 
 You could use:
-+ One button for each mood
-+ A single button to move to the next mood
++ One button for each tune
++ A single button to move to the next tune
 + Two socket to pin jumper wires that you can connect to a crafted button or switch
-+ A potentiometer to select the mood depending on the dial position
++ A potentiometer to select the tune or BPM (beats per minute) depending on the dial position
 
 You will also need two socket-socket jumper wires for each button or three socket-to-socket wires for a potentiometer. 
 
@@ -120,7 +120,7 @@ Create a variable for each input component using the pin that you have connected
 
 --- /task ---
 
-Now you need to add code to call your mood functions based on the input. 
+Now you need to add code to call your tune functions based on the input. 
 
 --- task ---
 
@@ -128,7 +128,7 @@ Now you need to add code to call your mood functions based on the input.
 --- collapse ---
 
 ---
-title: Call a different function when each button is pressed
+title: Play a different tune when each button is pressed
 ---
 
 You can have multiple buttons that each call a different function when they are pressed. 
@@ -138,15 +138,15 @@ Make sure you use the function names from your project and just use the name of 
 --- code ---
 ---
 language: python
-filename: mood-check-in.py
+filename: sound-machine.py
 line_numbers: false
 line_number_start: 
 line_highlights: 
 ---
 
-happy_button.when_pressed = happy
-sad_button.when_pressed = sad
-angry_button.when_pressed = angry
+annoying_button.when_pressed = annoying_sound
+calming_button.when_pressed = calming_sound
+happy_button.when_pressed = happy_sound
 
 --- /code ---
 
@@ -155,17 +155,17 @@ angry_button.when_pressed = angry
 --- collapse ---
 
 ---
-title: Change to the next mood when a single button is pressed
+title: Change to the next tune when a single button is pressed
 ---
 
-Use an `option` variable to keep track of the current mood so that you can decide which function to call next. 
+Use an `option` variable to keep track of the current tune so that you can decide which function to call next. 
 
-Make sure the function names match the mood functions you defined in the previous step.
+Make sure the function names match the tune functions you defined in the previous step:
 
 --- code ---
 ---
 language: python
-filename: mood-check-in.py
+filename: sound-machine.py
 line_numbers: false
 line_number_start: 
 line_highlights: 
@@ -175,11 +175,11 @@ option = 0 # store the current option
 def choice(): # call the next function and update the option
     global option
     if option == 0:
-        energised() # your first mood
+        annoying_sound() # your first tune
     elif option == 1:
-        calm()      # your second mood
+        calming_sound() # your second tune
     elif option == 2:
-        focused()   # your third mood
+        happy_sound() # your third tune
     elif option == 3:    
         rgb.off()
     
@@ -198,36 +198,21 @@ button.when_pressed = choice # Call the choice function when the button is press
 --- collapse ---
 
 ---
-title: Call a function based on the value of the potentiometer
+title: Change the speed of a tune using a potentiometer
 ---
 
-If you are using a potentiometer to control outputs then you will need to divide up the dial into equal sections. 
+If you are using a potentiometer to control the speed of the tune then you will need to use the following code: 
 
-You can use `dial.percent` to get a value between 0 and 1 from the potentiometer. If you have 5 moods then you can check whether the value is less than 20, 40, 60, 80 or 100. If you have 3 moods then you can check whether the value is less that 33, 66 or 100. 
+<mark> Add code in when picozero has been updated </mark>
 
 --- code ---
 ---
 language: python
-filename: mood-check-in.py
+filename: sound-machine.py
 line_numbers: false
 line_number_start: 
 line_highlights: 
 ---
-
-while True:
-    mood = dial.percent
-    print(mood)
-    if mood < 20:
-        happy()
-    elif mood < 40:
-        good()
-    elif mood < 60:
-        okay()
-    elif mood < 80:
-        unsure()
-    else:
-        unhappy()
-    sleep(0.1) 
 
 --- /code ---
 
@@ -238,7 +223,9 @@ while True:
 
 --- task ---
 
-**Test:** Run your script and make sure that you can switch between moods. 
+**Test:** Run your script and make sure that you can control your tunes. 
+
+Do your buttons switch between tunes? Can you control the speed with your potentiometer? 
 
 --- /task ---
 
@@ -247,6 +234,8 @@ while True:
 **Debug:** You might find some bugs in your project that you need to fix. Here are some common bugs.
 
 [pico-common-code-errors]
+
+<mark>add an ingredient about using the onboard led to test outputs when no sound is heard</mark>
 
 Code runs, but nothings happens:
 + Check that your inputs are connected correctly and that you used the correct pin in your code
