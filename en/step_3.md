@@ -14,8 +14,8 @@ It’s good practice to build your project up gradually. In this step, you will 
 Connect your buzzer(s) to the Raspberry Pi Pico:
 
 [[[single-buzzer-wire]]]
-stereo-buzzer-wiring # BECKY
-earphones-wiring # BECKY
+[[[stereo-buzzer-wiring]]]
+[[[earphones-wiring]]]
 
 --- /task ---
 
