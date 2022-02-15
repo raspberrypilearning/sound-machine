@@ -2,13 +2,9 @@
 
 Create a sound machine that will play sound effects or music using buttons, switches or a potentiometer.
 
-<mark>Boxout (wherever wanted/needed) </mark>
-
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Term**</span> description of term or interesting phrase.
+<span style="color: #0faeb0">**Add**</span> a suitable boxout here.
 </p>
-
-<mark>Objectives in language that learners will understand</mark>
 
 You will:
 
@@ -46,11 +42,11 @@ Optional:
 
 ### Get inspiration 
 
-You are going to make some design decisions to ...
+You are going to make some design decisions to create your sound board.
 
 --- task ---
 
-Explore these example projects to get more ideas:
+Explore these example projects to get more ideas for creating your sound machine:
 
 Sound effects board
 LEGO figure dance floor
@@ -59,15 +55,22 @@ Sound Bomb (inverted party popper switch + annoying SFX cycle)
 Musical instrument with two buzzers - one with a whitenoise beat controlled by a potentiometer
 
 --- /task ---
+
 --- /no-print ---
 
 --- print-only ---
 
 ### Get inspiration 
 
-You are going to make some design decisions to create your character. See inside example projects in [Scratch 1: Googly eye character - Examples](https://scratch.mit.edu/studios/29029028/){:target="_blank"} Scratch studio.
+You are going to make some design decisions to create your sound board. Here are some example sound boards to help you with your ideas:
 
-<mark>one image file per example</mark>
+<mark>Images of below with short descriptions</mark>
+
+Sound effects board
+LEGO figure dance floor
+Play me a tune (using drop switches)
+Sound Bomb (inverted party popper switch + annoying SFX cycle)
+Musical instrument with two buzzers - one with a whitenoise beat controlled by a potentiometer
 
 --- /print-only ---
 
