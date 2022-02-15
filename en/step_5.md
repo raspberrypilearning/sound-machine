@@ -57,7 +57,7 @@ You need to use conductive material such as kitchen foil and make a connection b
 
 Here are some examples:
 
-drop-switch # BECKY
+[[[drop-switch]]]
 
 card-push-buttons # TRACY
 
