@@ -91,6 +91,8 @@ using-sticky-tape-wires # how to use sticky tape to secure wires and components
 
 using-craft-knife # tips and safety info on using a craft knife
 
+--- /task ---
+
 --- task ---
 
 **Test:** your sound machine. Now that it has been assembled, check that your components still work as intended. 
