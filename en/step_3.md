@@ -3,7 +3,7 @@
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 </div>
-It’s good practice to build your project up gradually. In this step, you will connect and code your buzzers to create different sounds and test that this is working.
+It’s good practice to build your project up gradually. In this step, you will connect and code your buzzers to create different sounds and test that they are working.
 <div>
 ![](images/image.png){:width="300px"}
 </div>
@@ -52,7 +52,7 @@ from picozero import Speaker
 
 Add code to set the pins for your connected LED(s):
 
-single-buzzer-pins
+[[[single-buzzer-pin]]]
 multiple-buzzer-pins
 
 <mark>Add StereoSpeaker if added to picozero</mark>
