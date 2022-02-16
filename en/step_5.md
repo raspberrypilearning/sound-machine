@@ -14,19 +14,19 @@ Make the physical parts of your new sound machine.
 **Think:** Some questions to consider in the design of the casing and interface for your sound machine: 
 
 + What materials will you use? What do you have available?
-+ What kind of switches will you make? How will they operate? (If you used them)
-+ How will you mount your potentiometer so it is sturdy and easy to reach? (If you used one)
++ If you are crafting buttons or switches, what kind will you make? How will they operate?
++ How will you mount your controls so they are sturdy and easy to reach? 
 + How will you ensure your sound machine has the best sound quality
 
 --- /task ---
 
 <p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
- <span style="color: #0faeb0"></span> 
+An <span style="color: #0faeb0">Acoustical engineer</span> 
 </p>
 
 --- task ---
 
-Make sure that your code is **saved** and that your Thonny console is minimised. This will help to avoid you accidentally tapping your keyboard and editing your code whilst you make your sound machine. 
+**Tip:** Make sure that your code is **saved** and that your Thonny console is minimised. This will help to avoid you accidentally tapping your keyboard and editing your code whilst you make your sound machine. 
 
 --- /task ---
 
