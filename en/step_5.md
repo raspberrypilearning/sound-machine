@@ -162,16 +162,10 @@ Craft and utility knives are very useful when making models, but you must be ver
 
 --- collapse ---
 ---
-title: Joining together jumper wires
+title: My wires aren't long enough
 ---
 
-You might need extra-long wires to attach your LED to your Raspberry Pi pins. You can do this by 'daisy chaining' wires together. For instance, to make an extra-long socket-socket wire, you can attach an pin-socket wire to a socket-socket wire.
-
-![A pin-socket wire attached to a socket-socket wire.](images/daisy-chain.jpg)
-
-The problem with this method is that often the wires will become detached from each other. You can use a small piece of tape to secure the connection.
-
-![A pin-socket wire taped to a socket-socket wire.](images/tape-daisy-chain.jpg)
+Now that you have crafted your sound machine, you might need extra-long wires to attach your component to your Raspberry Pi pins. Look at the instructions above to 'join jumper wires to extend them'.
 
 --- /collapse ---
 
