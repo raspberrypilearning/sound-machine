@@ -20,7 +20,7 @@ Make the physical parts of your new sound machine.
 --- /task ---
 
 <p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
-An <span style="color: #0faeb0">Acoustical engineer</span> studies the science of sound and makes decisions to provide the best experience for the audience. How will you ensure that the deisgn of your sound machine provides a good sound? 
+An <span style="color: #0faeb0">Acoustical engineer</span> studies the science of sound and makes decisions to provide the best experience for the audience. How will you ensure that the deisgn of your sound machine provides a good sound quality? 
 </p>
 
 --- task ---
