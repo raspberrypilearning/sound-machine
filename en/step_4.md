@@ -32,7 +32,7 @@ Connect your input components to the Raspberry Pi Pico.
 [[[potentiometer-wiring]]]
 [[[crafted-switch-button-wiring]]]
 [[[multiple-crafted-switch-button-wiring]]]
-sharing-a-ground-pin
+[[[sharing-a-ground-pin]]]
 
 **Tip:** If you want to use components you have not used before, or need to wire some more, visit our [Introduction to the Pico](https://projects.raspberrypi.org/en/projects/introduction-to-the-pico){:target="_blank"} guide. 
 

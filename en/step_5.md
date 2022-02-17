@@ -80,9 +80,9 @@ Be careful if you are using any sharp or hot tools and get adult permission and 
 
 **Tip:** Your wiring might come loose as you assemble your sound machine. Use sticky tape to secure your wires. Also, try not to permanently glue your enclosure together to allow you to go back in and replace wires / components if needed. 
 
-[[[joining-jumper-wires]]]   # how to extend the length of wires by joining jumper wires
+[[[joining-jumper-wires]]]   
 
-mount-to-card-plastic  # how to mount components to plastic or card
+[[[mount-components]]]  # how to mount components to plastic or card
 
 using-sticky-tape-wires # how to use sticky tape to secure wires and components
 
