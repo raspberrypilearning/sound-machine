@@ -60,7 +60,7 @@ Here are some examples:
 
 card-push-buttons # TRACY
 
-pull-switch # BECKY
+[[[pull-switch]]]
 
 conductive-tape-switch # BECKY
 
