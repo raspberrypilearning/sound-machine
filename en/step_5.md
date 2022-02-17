@@ -62,8 +62,6 @@ card-push-buttons # TRACY
 
 [[[pull-switch]]]
 
-conductive-tape-switch # BECKY
-
 Be careful if you are using any sharp or hot tools and get adult permission and supervision before you start!
 
 --- /task ---
