@@ -5,7 +5,7 @@
 What is the purpose of your sounds machine? How will the user use inputs to control the sounds that are made? 
 </div>
 <div>
-![](images/image){:width="300px"}
+![A character is dropped on two pieces of kitchen foil and a tune play.](images/wicked-player.jpeg){:width="300px"}
 </div>
 </div>
 
@@ -34,9 +34,11 @@ Your sound machine could be:
 
 --- /task ---
 
-The Raspberry Pi Pico has eight **GND** pins so when you are using jumper wires, you can only have eight components. 
+### How many components can you have?
 
-We have included instructions for sharing a **GND** pin so you can create a full octave of 8 notes if you wish, and still have a **GND** for a speaker.
+The Raspberry Pi Pico has eight **GND** pins so when you are using jumper wires, you can only have eight components unless some share a **GND** pin. 
+
+![An illustration of the Raspberry Pi Pico with the ground pins highlighted.](images/image)
 
 Each speaker can ony play one note at a time so you will need multiple speakers if you want to play multiple sounds at the same time. 
 

@@ -102,13 +102,30 @@ using-craft-knife # tips and safety info on using a craft knife
 
 Your code was working before you assembled your sound machine. It is unlikely that your code will be broken at this stage. The majority of bugs will be from wiring and components. 
 
-+ Check that your components are wired to the correct pins (you should have noted these down earlier, they are displayed at the top of your code)
-+ Check that the **positive** leg of the buzzer is attached to the **GP** pin and not **GND**
-+ If you are using a potentiometer, check that it is wired correctly
++ Check that your components have been rewired to the correct pins (you should have noted these down earlier, they are displayed at the top of your code)
 + Look for any loose connections and secure with tape
 + Check that you haven't covered any conductive elements of your circuit with sticky tape or glue
 
-[[[potentiometer-wiring]]]
+--- collapse ---
+---
+title: My wires aren't long enough
+---
+
+Now that you have crafted your sound machine, you might need extra-long wires to attach your component to your Raspberry Pi pins. Look at the instructions above to 'join jumper wires to extend them'.
+
+--- /collapse ---
+
+
+
+
+
+
+
+
+
+
+
+
 
 --- collapse ---
 
@@ -158,14 +175,7 @@ Craft and utility knives are very useful when making models, but you must be ver
 
 --- /collapse ---
 
---- collapse ---
----
-title: My wires aren't long enough
----
 
-Now that you have crafted your sound machine, you might need extra-long wires to attach your component to your Raspberry Pi pins. Look at the instructions above to 'join jumper wires to extend them'.
-
---- /collapse ---
 
 --- /task ---
 
