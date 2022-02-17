@@ -53,7 +53,7 @@ from picozero import Speaker
 Add code to set the pins for your connected buzzer(s):
 
 [[[single-buzzer-pin]]]
-multiple-buzzer-pins # BECKY
+[[[multiple-buzzer-pins]]]
 
 <mark>Add StereoSpeaker if added to picozero</mark>
 
