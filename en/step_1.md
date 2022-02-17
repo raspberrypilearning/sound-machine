@@ -52,17 +52,13 @@ Explore these example projects to get more ideas for creating your sound machine
 Description
 ![](images/image)
 
-**LEGO figure dance floor**
-A LEGO figure holds an RGB LED which changes colour depending on the tune that is playing. Four buttons are used for selecting a tune. 
-
-<video width="640" height="360" controls>
-<source src="images/LEGO-dance-floor.mp4" type="video/mp4">
-Your browser does not support WebM video, try FireFox or Chrome
-</video>
-
 **Play me a tune (using a drop switch)**
 A drop switch has been crafted using two pieces of foil with foil also attached to the bottom of a character. When the character is dropped on the switch, the tune activates.
-![A character is dropped on two pieces of kitchen foil and a tune play.](images/wicked-player.mp4)
+
+<video width="640" height="360" controls>
+<source src="images/wicked-player.mp4" type="video/mp4">
+Your browser does not support WebM video, try FireFox or Chrome
+</video>
 
 **Sound Bomb (inverted party popper switch + annoying SFX cycle)**
 Description
@@ -87,11 +83,6 @@ You are going to make some design decisions to create your sound board. Here are
 **Sound effects board**
 Description
 ![](images/image)
-
-**LEGO figure dance floor**
-A LEGO figure holds an RGB LED which changes colour depending on the tune that is playing. Four buttons are used for selecting a tune. 
-
-![A LEGO figure is standing on a box with four buttons.](images/LEGO-dance-floor.jpeg){:width="300px"}
 
 **Play me a tune (using a drop switch)**
 A drop switch has been crafted using two pieces of foil with foil also attached to the bottom of a character. When the character is dropped on the switch, the tune activates.

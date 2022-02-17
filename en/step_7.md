@@ -18,6 +18,27 @@ Here are some other ideas you could try:
 
 --- /task ---
 
+--- no-print ---
+
+**LEGO figure dance floor**
+A LEGO figure holds an RGB LED which changes colour depending on the tune that is playing. Four buttons are used for selecting a tune. 
+
+<video width="640" height="360" controls>
+<source src="images/LEGO-dance-floor.mp4" type="video/mp4">
+Your browser does not support WebM video, try FireFox or Chrome
+</video>
+
+--- /no-print ---
+
+--- print-only ---
+
+**LEGO figure dance floor**
+A LEGO figure holds an RGB LED which changes colour depending on the tune that is playing. Four buttons are used for selecting a tune. 
+
+![A LEGO figure is standing on a box with four buttons.](images/LEGO-dance-floor.jpeg){:width="300px"}
+
+--- /print-only ---
+
 --- task ---
 
 Take a look at our 
