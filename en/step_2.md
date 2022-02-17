@@ -38,7 +38,7 @@ Your sound machine could be:
 
 The Raspberry Pi Pico has eight **GND** pins so when you are using jumper wires, you can only have eight components unless some share a **GND** pin. 
 
-![An illustration of the Raspberry Pi Pico with the ground pins highlighted.](images/image)
+![An illustration of the Raspberry Pi Pico with the ground pins highlighted.](images/gnd-pins.png){:width="400px"}
 
 Each speaker can ony play one note at a time so you will need multiple speakers if you want to play multiple sounds at the same time. 
 
