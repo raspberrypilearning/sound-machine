@@ -64,11 +64,13 @@ card-push-buttons # TRACY
 
 Be careful if you are using any sharp or hot tools and get adult permission and supervision before you start!
 
+[[[using-craft-knife]]]
+
 --- /task ---
 
 --- task ---
 
-**Write down** which pins have been used for each component to help you connect your wires back onto your Raspberry Pi Pico. 
+Make a note of which pins have been used for each component. This will help you connect your wires back onto your Raspberry Pi Pico. 
 
 **Tip**: The pins are listed at the top of your code.
 
@@ -76,17 +78,15 @@ Be careful if you are using any sharp or hot tools and get adult permission and 
 
 --- task ---
 
-**Assemble** your sound machine.
+Assemble your sound machine. Try not to permanently glue your enclosure together as you might want replace wires or components at a later date. 
 
-**Tip:** Your wiring might come loose as you assemble your sound machine. Use sticky tape to secure your wires. Also, try not to permanently glue your enclosure together to allow you to go back in and replace wires / components if needed. 
+**Tip:** Use sticky tape to secure your wires as your wiring might come loose whilst you assemble your sound machine. 
 
 [[[joining-jumper-wires]]]   
 
 [[[mount-components]]]  
 
 [[[taping-components]]] 
-
-[[[using-craft-knife]]]
 
 --- /task ---
 
@@ -115,7 +115,6 @@ Now that you have crafted your sound machine, you might need extra-long wires to
 
 --- /collapse ---
 
-
 --- collapse ---
 ---
 title: My wires or components wont stay in place
@@ -126,7 +125,6 @@ Some connections are stronger than others so you might find that you need to use
 --- /collapse ---
 
 --- /task ---
-
 
 --- save ---
 
