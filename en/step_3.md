@@ -5,7 +5,7 @@
 </div>
 It’s good practice to build your project up gradually. In this step, you will connect and code your buzzers to create different sounds and test that they are working.
 <div>
-![](images/image.png){:width="300px"}
+![A large gripping tool is stuck with sticky tape to the top of a glass jar. A pull switch is inside the gripping tool waiting to be pulled to create a sound.](images/sound-bomb.PNG){:width="300px"}
 </div>
 </div>
 
