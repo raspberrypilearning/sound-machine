@@ -172,7 +172,7 @@ for i in range(100):
 title: Play a tune
 ---
 
-<mark>Include library of examples</mark>
+<mark>Include library of some examples</mark>
 
 --- code ---
 ---
