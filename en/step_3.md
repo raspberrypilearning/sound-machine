@@ -44,8 +44,6 @@ from picozero import Speaker
 
 --- /collapse ---
 
-<mark>Add StereoSpeaker if added to picozero</mark>
-
 --- /task ---
 
 --- task ---
@@ -54,8 +52,6 @@ Add code to set the pins for your connected buzzer(s):
 
 [[[single-buzzer-pin]]]
 [[[multiple-buzzer-pins]]]
-
-<mark>Add StereoSpeaker if added to picozero</mark>
 
 --- /task ---
  
@@ -132,26 +128,9 @@ def c_note():
 --- /collapse ---
 
 
---- collapse ---
+[[[pico-sound-frequency]]]
 
----
-title: Make a sound effect
----
-
-<mark>Include library of examples</mark>
-
---- code ---
----
-language: python
-filename: sound-machine.py
-line_numbers: false
-line_number_start: 1
-line_highlights: 1-5
----
-
---- /code ---
-
---- /collapse ---
+Look at the code for the example projects in the [Introduction](.) for more ideas. 
 
 --- collapse ---
 
@@ -166,8 +145,6 @@ title: Make a whitenoise drum beat effect
 language: python
 filename: sound-machine.py
 line_numbers: false
-line_number_start: 1
-line_highlights: 1-5
 ---
 for i in range(100):
     speaker.play(randint(500, 5000), duration=None)
@@ -199,7 +176,7 @@ line_highlights: 1-2
 
 --- /collapse ---
 
-<mark>Make an ingredient on reading music and turning it into a chiptune</mark>
+[[[sheet-to-note]]]
 
 --- /task ---
 

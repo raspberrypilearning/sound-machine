@@ -58,7 +58,7 @@ Here are some examples:
 
 [[[drop-switch]]]
 
-card-push-buttons # TRACY
+card-push-buttons # MR C
 
 [[[pull-switch]]]
 

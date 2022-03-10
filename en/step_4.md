@@ -5,7 +5,7 @@
 You need a way for the user to control the sounds. In this step, you will connect and code your control interfaces and test that this is working.
 </div>
 <div>
-![](images/image.png){:width="300px"}
+![This sound machine has a potentiometer that controls the speed of the tune played from the first buzzer. Pressing the button plays a couple of short notes from the second buzzer.](images/pot-speed.png){:width="300px"}
 </div>
 </div>
 
@@ -234,7 +234,8 @@ Do your buttons switch between tunes? Can you control the speed with your potent
 
 **Debug:** You might find some bugs in your project that you need to fix. Here are some common bugs.
 
-[pico-common-code-errors]
+[[[HARDWARE]]]
+[[[SOFTWARE]]]
 
 <mark>add an ingredient about using the onboard led to test outputs when no sound is heard</mark>
 
