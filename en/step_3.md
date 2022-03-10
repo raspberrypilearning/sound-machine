@@ -44,8 +44,6 @@ from picozero import Speaker
 
 --- /collapse ---
 
-<mark>Add StereoSpeaker if added to picozero</mark>
-
 --- /task ---
 
 --- task ---
@@ -54,8 +52,6 @@ Add code to set the pins for your connected buzzer(s):
 
 [[[single-buzzer-pin]]]
 [[[multiple-buzzer-pins]]]
-
-<mark>Add StereoSpeaker if added to picozero</mark>
 
 --- /task ---
  
@@ -89,8 +85,6 @@ A <span style="color: #0faeb0">**Chiptune**</span>, or 8-bit music, is a tune cr
 
 Add code within your new function to play a single note, a tune or make a sound effect:
 
-<mark>Need to make decisions on concurrency model.</mark>
-
 --- collapse ---
 
 ---
@@ -112,9 +106,13 @@ def c_note():
 
 --- /code ---
 
-<mark>Needs sorting when library is ready</mark>
+--- /collapse ---
 
-Play a note and allow other actions to take place while it is playing:
+--- collapse ---
+
+---
+title: Play a note and allow other actions to take place while it is playing
+---
 
 --- code ---
 ---
@@ -124,13 +122,21 @@ line_numbers: false
 line_number_start: 1
 line_highlights: 1-2
 ---
-def c_note(): 
-    speaker.play(523, 0.5, wait=False) 
+def high_sound(): 
+    speaker.play(600, 0.5) 
+    sleep(0.1)
+
+def low_sound():
+    speaker.play(400, 0.5)
+
+button.when_pressed = low_sound
+
+while True: 
+    high_sound()
 
 --- /code ---
 
 --- /collapse ---
-
 
 --- collapse ---
 
@@ -240,22 +246,57 @@ chirp()
 
 --- /task ---
 
-<mark> add in something here about stopping sounds from playing in Thonny</mark>
+--- task ---
+
+A user can manually stop code that is running using the red stop icon in Thonny. At this point, if a buzzer is making a sound the sound will continue playing - this can be very annoying! 
+
+--- collapse ---
+
+---
+title: Turn buzzers off when code is stopped before it has finished
+---
+
+--- code ---
+---
+language: python
+filename: sound-machine.py
+line_numbers: false
+line_number_start: 1
+line_highlights: 14, 18-19
+---
+BEAT = 0.4
+
+liten_mus = [ ['d5', BEAT / 2], ['d#5', BEAT / 2], ['f5', BEAT], ['d6', BEAT], ['a#5', BEAT], ['d5', BEAT],  
+              ['f5', BEAT], ['d#5', BEAT], ['d#5', BEAT], ['c5', BEAT / 2],['d5', BEAT / 2], ['d#5', BEAT], 
+              ['c6', BEAT], ['a5', BEAT], ['d5', BEAT], ['g5', BEAT], ['f5', BEAT], ['f5', BEAT], ['d5', BEAT / 2],
+              ['d#5', BEAT / 2], ['f5', BEAT], ['g5', BEAT], ['a5', BEAT], ['a#5', BEAT], ['a5', BEAT], ['g5', BEAT],
+              ['g5', BEAT], ['', BEAT / 2], ['a#5', BEAT / 2], ['c6', BEAT / 2], ['d6', BEAT / 2], ['c6', BEAT / 2],
+              ['a#5', BEAT / 2], ['a5', BEAT / 2], ['g5', BEAT / 2], ['a5', BEAT / 2], ['a#5', BEAT / 2], ['c6', BEAT],
+              ['f5', BEAT], ['f5', BEAT], ['f5', BEAT / 2], ['d#5', BEAT / 2], ['d5', BEAT], ['f5', BEAT], ['d6', BEAT],
+              ['d6', BEAT / 2], ['c6', BEAT / 2], ['b5', BEAT], ['g5', BEAT], ['g5', BEAT], ['c6', BEAT / 2],
+              ['a#5', BEAT / 2], ['a5', BEAT], ['f5', BEAT], ['d6', BEAT], ['a5', BEAT], ['a#5', BEAT * 1.5]]
+
+
+try:
+    for note in liten_mus:
+        speaker.play(note) 
+
+finally:
+    speaker.off() # turns speaker off when code is stopped by user
+
+--- /code ---
+
+--- /collapse ---
+
+
+--- /task ---
 
 --- task ---
 
 **Debug:** You might find some bugs in your tune that you need to fix. Here are some common bugs.
 
---- collapse ---
-
----
-title: I don't hear anything when I run my sound function
----
-
-+ Check that the pins in your code match the pins your Speaker is connected to.
-+ Check that you have removed the sticker that covers the sound hole of your buzzer
-
---- /collapse ---
+[[[debug-pico-code]]] 
+[[[debug-pico-hardware]]]
 
 --- collapse ---
 

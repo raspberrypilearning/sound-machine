@@ -55,9 +55,7 @@ It could have:
 + Earphones - you will also need three crocodile/alligator clip leads to connect to them
 + Multiple buzzers if you have them
 
-Will you also use LEDs?
-
-As an optional extra, you may wish to use a single coloured LED or an RGB LED. You will need to make sure that there are enough pins on your Raspberry Pi Pico for an LED if this is something that you would like to add. 
+![A collection of diagrams showing multiple buttons, a headphone jack.](images/output-components.png){:width="400px"}
 
 --- /task ---
 
@@ -70,6 +68,8 @@ You could use any combination of:
 + One or more buttons
 + A potentiometer (you can control the pitch of the buzzer with the potentiometer, or the speed of a regular beat)
 + Crafted buttons/switches that make a connection
+
+![A collection of diagrams showing multiple buttons, a potentiometer.](images/input-components.png){:width="400px"}
 
 --- /task ---
 
@@ -85,6 +85,8 @@ Will you:
 + Use craft materials to make an enclosure
 
 **Tip:** You don't need to decide everything now. It's fine to iterate on your design as you start making. 
+
+![A collection of images showing example projects including a sound bomb pull switch, toy drop switch, a dj deck with dials and buttons, and a special effects board with multiple crafted buttons.](images/strip-examples.png){:width="400px"}
 
 --- /task ---
 
