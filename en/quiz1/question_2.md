@@ -13,9 +13,6 @@ language: python
 line_numbers: false
 ---
 
-annoying_button.when_pressed = annoying_sound
-calming_button.when_pressed = calming_sound
-happy_button.when_pressed = happy_sound
 
 --- /code ---
 
