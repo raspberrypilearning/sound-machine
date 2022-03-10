@@ -61,65 +61,17 @@ Add code within your new function to play a single note, a tune or make a sound 
 
 [[[note-length]]]
 
---- collapse ---
-
----
-title: Add a function to play a single note
----
-
-Play a note and wait for it to finish:
-
---- code ---
----
-language: python
-filename: sound_machine.py
-line_numbers: false
-
----
-def c_note(): 
-    speaker.play('c4', 0.5) # play the middle c for half a second
-
---- /code ---
-
---- /collapse ---
-
-[[[interrupt-tune]]]
-
---- collapse ---
-
----
-title: Play a tune and allow other actions to take place while it is playing
----
-
---- code ---
----
-language: python
-filename: sound_machine.py
-line_numbers: false
-
----
-def high_sound(): 
-    speaker.play(600, 0.5) 
-    sleep(0.1)
-
-def low_sound():
-    speaker.play(400, 0.5)
-
-button.when_pressed = low_sound
-
-while True: 
-    high_sound()
-
---- /code ---
-
---- /collapse ---
-
-
-[[[pico-sound-frequency]]]
+[[[frequency-numbers]]]
 
 Look at the code for the example projects in the [Introduction](.) for more ideas. 
 
 **Tip:** You can use `speaker.stop()` to stop a tune that is playing. 
+
+[[[play-single-note]]]
+
+[[[interrupt-tune]]]
+
+[[[pico-sound-frequency]]]
 
 [[[whitenoise-drum-beat]]]
 
@@ -182,7 +134,6 @@ If you manually stop your code whilst the buzzer is making a noise the noise mig
 [[[debug-pico-code]]] 
 [[[debug-pico-hardware]]]
 [[[pico-debug-led]]]
-
 
 --- collapse ---
 
