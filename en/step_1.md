@@ -32,21 +32,9 @@ Optional:
 
 ### Try it 
 
-**Look**
-
---- /task ---
-
-### Get inspiration 
-
-You are going to make some design decisions to create your sound board.
-
---- task ---
-
-Explore these example projects to get more ideas for creating your sound machine:
-
 **Sound effects board**
-Description
-![](images/image)
+This sound board has been crafted from cardboard with a number of foil buttons that play sound effects when activated.  
+![](images/sound_board.mp4)
 
 --- collapse ---
 ---
@@ -55,13 +43,13 @@ title: See inside
 --- code ---
 ---
 language: python
-filename: 
+filename: sound_board.py
 line_numbers: true
 line_number_start: 
 line_highlights: 
 ---
 
-from picozero import Speaker, RGBLED, Button
+from picozero import Speaker, Button
 from time import sleep
 from random import randint
 
@@ -77,8 +65,6 @@ def tada(): # Ta-Daaa!
     speaker.play(523, 0.1)
     sleep(0.1)
     speaker.play(523, 0.4)
-    for i in range(100, 0, -1):
-        speaker.play(523, 0.01, i/100)
         
 def chirp(): # series of high-pitched chirps
     for _ in range(2):
@@ -116,9 +102,17 @@ finally:
 
 --- /code ---
 
-
 --- /collapse ---
 
+--- /task ---
+
+### Get inspiration 
+
+You are going to make some design decisions to create your sound board.
+
+--- task ---
+
+Explore these example projects to get more ideas for creating your sound machine:
 
 **Play me a tune (using a drop switch)**
 A drop switch has been crafted using two pieces of foil with foil also attached to the bottom of a character. When the character is dropped on the switch, the tune activates.
@@ -148,7 +142,7 @@ switch = Switch(18)
 BEAT = 0.5 # 120 BPM
 
 defying = [ ['a5', BEAT / 2], ['a5', BEAT], ['e6', BEAT], ['d6', BEAT * 1.5], ['f#5', BEAT], ['a5', BEAT * 1.5],  
-              ['d5', BEAT], ['f#5', BEAT * 1.5], ['e5', BEAT / 2], ['e5', BEAT * 1.5]]
+              ['d5', BEAT], ['f#5', BEAT * 1.5], ['e5', BEAT / 2], ['e5', BEAT * 1.5] ]
 
 def play_song():
     try:
@@ -313,7 +307,7 @@ title: See inside
 --- code ---
 ---
 language: python
-filename: 
+filename: dj_desk.py
 line_numbers: true
 line_number_start: 
 line_highlights: 
@@ -337,7 +331,7 @@ liten_mus = [ ['d5', BEAT / 2], ['d#5', BEAT / 2], ['f5', BEAT], ['d6', BEAT], [
               ['a#5', BEAT / 2], ['a5', BEAT / 2], ['g5', BEAT / 2], ['a5', BEAT / 2], ['a#5', BEAT / 2], ['c6', BEAT],
               ['f5', BEAT], ['f5', BEAT], ['f5', BEAT / 2], ['d#5', BEAT / 2], ['d5', BEAT], ['f5', BEAT], ['d6', BEAT],
               ['d6', BEAT / 2], ['c6', BEAT / 2], ['b5', BEAT], ['g5', BEAT], ['g5', BEAT], ['c6', BEAT / 2],
-              ['a#5', BEAT / 2], ['a5', BEAT], ['f5', BEAT], ['d6', BEAT], ['a5', BEAT], ['a#5', BEAT * 1.5]]
+              ['a#5', BEAT / 2], ['a5', BEAT], ['f5', BEAT], ['d6', BEAT], ['a5', BEAT], ['a#5', BEAT * 1.5] ]
 
 def annoying_sound():
     speaker.play(523, 0.1)
@@ -370,8 +364,8 @@ finally:
 You are going to make some design decisions to create your sound board. Here are some example sound boards to help you with your ideas:
 
 **Sound effects board**
-Description
-![](images/sound-board.png)
+This sound board has been crafted from cardboard with a number of foil buttons that play sound effects when activated.  
+![](images/sound-board.png){:width="300px"}
 
 **Play me a tune (using a drop switch)**
 A drop switch has been crafted using two pieces of foil with foil also attached to the bottom of a character. When the character is dropped on the switch, the tune activates.
