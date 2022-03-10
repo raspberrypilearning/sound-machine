@@ -119,6 +119,7 @@ finally:
 
 --- /collapse ---
 
+
 **Play me a tune (using a drop switch)**
 A drop switch has been crafted using two pieces of foil with foil also attached to the bottom of a character. When the character is dropped on the switch, the tune activates.
 
