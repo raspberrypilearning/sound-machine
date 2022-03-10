@@ -15,9 +15,7 @@ def tada(): # Ta-Daaa!
     led.color = (0,0,0)
     sleep(0.1)
     led.color = (250,125,0)
-    speaker.play(523, 0.4)
-    for i in range(100, 0, -1):
-        speaker.play(523, 0.01, i/100)
+    speaker.play(523, 0.6)
 
 
 def chirp(): # series of high-pitched chirps
