@@ -58,7 +58,7 @@ Here are some examples:
 
 [[[drop-switch]]]
 
-card-push-buttons # MR C
+[[[cardboard-push-switch]]]
 
 [[[pull-switch]]]
 
