@@ -40,71 +40,6 @@ Connect your input components to the Raspberry Pi Pico.
 
 --- task ---
 
-Import the type of input component you are using from the picozero library:
-
-**Tip:** You can combine multiple imports into one line, for example `from picozero import LED, Button`.
-
---- collapse ---
-
----
-title: Import Button
----
-
---- code ---
----
-language: python
-filename: sound_machine.py
-line_numbers: false
----
-
-from picozero import Button
-
---- /code ---
-
---- /collapse ---
-
---- collapse ---
-
----
-title: Import Switch
----
-
---- code ---
----
-language: python
-filename: sound_machine.py
-line_numbers: false
----
-
-from picozero import Switch
-
---- /code ---
-
---- /collapse ---
-
---- collapse ---
-
----
-title: Import Potentiometer
----
-
---- code ---
----
-language: python
-filename: sound_machine.py
-line_numbers: false
----
-
-from picozero import Pot
-
---- /code ---
-
---- /collapse ---
-
---- /task ---
-
---- task ---
-
 Create a variable for each input component using the pin that you have connected it to:
 
 [[[single-button-pins]]]
@@ -239,13 +174,7 @@ Do your buttons switch between tunes? Can you control the speed with your potent
 
 [[[debug-pico-code]]] 
 [[[debug-pico-hardware]]]
-
-<mark>add an ingredient about using the onboard led to test outputs when no sound is heard</mark>
-
-Code runs, but nothings happens:
-+ Check that your inputs are connected correctly and that you used the correct pin in your code
-+ Check the Thonny Shell for any messages about variables or functions not being defined, you might have forgotten to change the examples to match your code
-+ Check your code carefully. You could add `print` statements to help you understand what is happening. 
+[[[pico-debug-led]]]
 
 If you find a bug that is not listed here. Can you work out how to fix it?
 
