@@ -49,13 +49,13 @@ Suggested combinations of input and outputs are:
 
 **Choose:** How many buttons and buzzers will your design use?
 
+![A collection of diagrams showing multiple buttons, a headphone jack.](images/output-components.png){:width="200px"}
+
 It could have:
 + One buzzer
 + Two buzzer to create stereo sound or a beat plus a note
 + Earphones - you will also need three crocodile/alligator clip leads to connect to them
 + Multiple buzzers if you have them
-
-![A collection of diagrams showing multiple buttons, a headphone jack.](images/output-components.png){:width="400px"}
 
 --- /task ---
 
@@ -63,13 +63,12 @@ It could have:
 
 **Choose:** What input components will you use for your device?
 
-You could use any combination of:
+![A collection of diagrams showing multiple buttons, a potentiometer.](images/input-components.png){:width="200px"}
 
+You could use any combination of:
 + One or more buttons
 + A potentiometer (you can control the pitch of the buzzer with the potentiometer, or the speed of a regular beat)
 + Crafted buttons/switches that make a connection
-
-![A collection of diagrams showing multiple buttons, a potentiometer.](images/input-components.png){:width="400px"}
 
 --- /task ---
 

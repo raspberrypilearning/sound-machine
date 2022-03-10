@@ -2,8 +2,8 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-</div>
 It’s good practice to build your project up gradually. In this step, you will connect and code your buzzers to create different sounds and test that they are working.
+</div>
 <div>
 ![A large gripping tool is stuck with sticky tape to the top of a glass jar. A pull switch is inside the gripping tool waiting to be pulled to create a sound.](images/sound-bomb.PNG){:width="300px"}
 </div>
