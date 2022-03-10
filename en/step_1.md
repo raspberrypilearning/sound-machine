@@ -26,11 +26,7 @@ Optional:
 + RGB LED(s) or single colour LED(s) with resistors and jumper wires
 + An additional passive tone buzzer for stereo sound
 
-<mark>Image of many different examples in a strip</mark>
-
 --- no-print ---
-
-<mark>Add examples - we'll need audio for these. </mark>
 
 --- task ---
 
