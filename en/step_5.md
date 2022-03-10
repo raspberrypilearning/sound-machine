@@ -5,7 +5,7 @@
 Make the physical parts of your new sound machine.
 </div>
 <div>
-![](images/image.png){:width="300px"}
+![](images/sound-board.png){:width="300px"}
 </div>
 </div>
 
@@ -58,7 +58,7 @@ Here are some examples:
 
 [[[drop-switch]]]
 
-[[[cardboard-push-switch]]]
+[cardboard-push-switch]
 
 [[[pull-switch]]]
 
