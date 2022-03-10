@@ -58,29 +58,31 @@ A <span style="color: #0faeb0">**Chiptune**</span>, or 8-bit music, is a tune cr
 
 Add code within your new function to play a single note, a tune or make a sound effect:
 
+### Useful information
+
 [[[list-of-notes]]]
 
 [[[note-length]]]
 
-[[[frequency-numbers]]]
+[[[frequency-numbers]]] 
 
-Look at the code for the example projects in the [Introduction](.) for more ideas. 
+[[[sheet-to-notes]]]
 
-**Tip:** You can use `speaker.stop()` to stop a tune that is playing. 
+### Code samples
 
 [[[play-single-note]]]
-
-[[[interrupt-tune]]]
-
-[[[pico-sound-frequency]]]
-
-[[[whitenoise-drum-beat]]]
 
 [[[play-a-tune]]]
 
 [[[notes-in-loop]]]
 
-[[[sheet-to-notes]]]
+[[[pico-sound-frequency]]]
+
+[[[whitenoise-drum-beat]]]
+
+[[[interrupt-tune]]]
+
+**Tip:** You can look at the code for the example projects in the [Introduction](.) for more ideas.
 
 --- /task ---
 
