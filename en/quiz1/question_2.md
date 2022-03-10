@@ -5,7 +5,9 @@
 legend: Question 2 of 3
 ---
 
-a code specific one
+This is the code for a four note piano:
+
+
 
 --- choices ---
 
