@@ -3,7 +3,7 @@
 Create a sound machine that will play sound effects or music using buttons, switches or a potentiometer.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Sounds**</span> can be helpful, calming, annoying and energising. A newborn baby can find a white noise machine calming and the sound helps them sleep. DJs use portable sound machines to compose beats as they travel. Pranksters use sound effect machines to make people laugh. Can you think of a sound machine that you have used in your day to day life?
+<span style="color: #0faeb0">**Sounds**</span> can be helpful, calming, annoying and energising. A newborn baby can find a white noise machine calming and the sound helps them sleep. DJs use portable sound machines to compose beats as they travel. Pranksters use sound effect machines to make people laugh. Can you think of a sound machine that you have used in your day to day life? 
 </p>
 
 You will:
@@ -26,11 +26,7 @@ Optional:
 + RGB LED(s) or single colour LED(s) with resistors and jumper wires
 + An additional passive tone buzzer for stereo sound
 
-<mark>Image of many different examples in a strip</mark>
-
 --- no-print ---
-
-<mark>Add examples - we'll need audio for these. </mark>
 
 --- task ---
 
@@ -64,6 +60,59 @@ line_numbers: true
 line_number_start: 
 line_highlights: 
 ---
+
+from picozero import Speaker, RGBLED, Button
+from time import sleep
+from random import randint
+
+# State which pins the components are placed on the Pico
+speaker = Speaker(5)
+button1 = Button(18)
+button2 = Button(19)
+button3 = Button(20)
+button4 = Button(21)
+
+#A series of functions which create annoying tones
+def tada(): # Ta-Daaa!
+    speaker.play(523, 0.1)
+    sleep(0.1)
+    speaker.play(523, 0.4)
+    for i in range(100, 0, -1):
+        speaker.play(523, 0.01, i/100)
+        
+def chirp(): # series of high-pitched chirps
+    for _ in range(2):
+        for i in range(5000, 2999, -100):
+            speaker.play(i, 0.02)
+        sleep(0.2)
+        
+def win(): # rising tones
+    for i in range(2000, 5000, 100):
+        speaker.play(i, 0.05)        
+    
+def womp(): # wah-wah-wah-waaaaahhhh
+    speaker.play(494, 0.5)
+    speaker.play(466, 0.5)
+    speaker.play(440, 0.5)
+    for i in range(10):
+        speaker.play(415, 0.05)
+        speaker.play(440, 0.05)
+    speaker.play(415, 0.2)
+            
+def stop(): # no sound or light
+    
+    led.off()
+    
+button1.when_pressed = tada
+button2.when_pressed = chirp
+button3.when_pressed = womp
+button4.when_pressed = win
+
+try:
+    while True:
+        sleep(0.1)
+finally:
+    stop()
 
 --- /code ---
 
@@ -301,8 +350,8 @@ try:
         speaker.play(note) 
         sleep(dial.value) # leave a gap between notes depending on potentiometer value
 finally:
-    speaker.off()
-    speaker2.off()
+    speaker.off() # turns speaker off when code is stopped by user
+    speaker2.off() # turns speaker2 off when code is stopped by user
 
 --- /code ---
 
@@ -319,23 +368,21 @@ finally:
 
 You are going to make some design decisions to create your sound board. Here are some example sound boards to help you with your ideas:
 
-<mark>Images of below with short descriptions</mark>
-
 **Sound effects board**
 Description
 ![](images/image)
 
 **Play me a tune (using a drop switch)**
 A drop switch has been crafted using two pieces of foil with foil also attached to the bottom of a character. When the character is dropped on the switch, the tune activates.
-![A character is dropped on two pieces of kitchen foil and a tune play.](images/wicked-player.jpeg){:width="300px"}
+![](images/wicked-player.jpeg){:width="300px"}
 
 **Sound Bomb (inverted party popper switch + annoying SFX cycle)**
-Description
-![](images/image)
+Based on the previous Party popper project, when the piece of cardboard is pulled, it allows a spring loaded switch (a clothes peg with tin foil) to close and plays an endless loop of annoying sounds.
+![](images/sound-bomb.PNG){:width="300px"}
 
 **Musical instrument with two buzzers - one with a whitenoise beat controlled by a potentiometer**
 This sound machine has a potentiometer that controls the speed of the tune played from the first buzzer. Pressing the button plays a couple of short notes from the second buzzer.
-![](images/pot-speed.png)
+![](images/pot-speed.png){:width="300px"}
 
 --- /print-only ---
 

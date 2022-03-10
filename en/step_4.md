@@ -5,7 +5,7 @@
 You need a way for the user to control the sounds. In this step, you will connect and code your control interfaces and test that this is working.
 </div>
 <div>
-![](images/image.png){:width="300px"}
+![This sound machine has a potentiometer that controls the speed of the tune played from the first buzzer. Pressing the button plays a couple of short notes from the second buzzer.](images/pot-speed.png){:width="300px"}
 </div>
 </div>
 
@@ -204,16 +204,29 @@ title: Change the speed of a tune using a potentiometer
 
 If you are using a potentiometer to control the speed of the tune then you will need to use the following code: 
 
-<mark> Add code in when picozero has been updated </mark>
-
 --- code ---
 ---
 language: python
 filename: sound-machine.py
 line_numbers: false
-line_number_start: 
-line_highlights: 
+line_number_start: 1
+line_highlights: 15
 ---
+BEAT = 0.4
+
+liten_mus = [ ['d5', BEAT / 2], ['d#5', BEAT / 2], ['f5', BEAT], ['d6', BEAT], ['a#5', BEAT], ['d5', BEAT],  
+              ['f5', BEAT], ['d#5', BEAT], ['d#5', BEAT], ['c5', BEAT / 2],['d5', BEAT / 2], ['d#5', BEAT], 
+              ['c6', BEAT], ['a5', BEAT], ['d5', BEAT], ['g5', BEAT], ['f5', BEAT], ['f5', BEAT], ['d5', BEAT / 2],
+              ['d#5', BEAT / 2], ['f5', BEAT], ['g5', BEAT], ['a5', BEAT], ['a#5', BEAT], ['a5', BEAT], ['g5', BEAT],
+              ['g5', BEAT], ['', BEAT / 2], ['a#5', BEAT / 2], ['c6', BEAT / 2], ['d6', BEAT / 2], ['c6', BEAT / 2],
+              ['a#5', BEAT / 2], ['a5', BEAT / 2], ['g5', BEAT / 2], ['a5', BEAT / 2], ['a#5', BEAT / 2], ['c6', BEAT],
+              ['f5', BEAT], ['f5', BEAT], ['f5', BEAT / 2], ['d#5', BEAT / 2], ['d5', BEAT], ['f5', BEAT], ['d6', BEAT],
+              ['d6', BEAT / 2], ['c6', BEAT / 2], ['b5', BEAT], ['g5', BEAT], ['g5', BEAT], ['c6', BEAT / 2],
+              ['a#5', BEAT / 2], ['a5', BEAT], ['f5', BEAT], ['d6', BEAT], ['a5', BEAT], ['a#5', BEAT * 1.5]]
+
+for note in liten_mus:
+        speaker.play(note) 
+        sleep(dial.value) # leave a gap between notes depending on potentiometer value
 
 --- /code ---
 
@@ -234,7 +247,8 @@ Do your buttons switch between tunes? Can you control the speed with your potent
 
 **Debug:** You might find some bugs in your project that you need to fix. Here are some common bugs.
 
-[pico-common-code-errors]
+[[[debug-pico-code]]] 
+[[[debug-pico-hardware]]]
 
 <mark>add an ingredient about using the onboard led to test outputs when no sound is heard</mark>
 

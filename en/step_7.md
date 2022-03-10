@@ -3,6 +3,12 @@
 If you have time you can upgrade your project.
 
 --- task ---
+Can you think of opportunities to use your sound machine? Could you create sound effects for a video, annoy your family and friends, or use a calm soundscape when you need to relax?
+--- /task ---
+
+
+
+--- task ---
 
 You can look inside each of the examples in the [Introduction](.) to see the how the code works and get more inspiration.
 

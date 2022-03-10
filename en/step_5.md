@@ -58,7 +58,7 @@ Here are some examples:
 
 [[[drop-switch]]]
 
-card-push-buttons # TRACY
+[[[cardboard-push-switch]]]
 
 [[[pull-switch]]]
 
@@ -100,18 +100,9 @@ Assemble your sound machine. Try not to permanently glue your enclosure together
 
 **Debug:** 
 
---- collapse ---
----
-title: My sounds are not playing, or not playing as I expected
----
-
 Your code was working before you assembled your sound machine. It is unlikely that your code will be broken at this stage. The majority of bugs will be from wiring and components. 
 
-+ Check that your components have been rewired to the correct pins (you should have noted these down earlier, they are displayed at the top of your code)
-+ Look for any loose connections and secure with tape
-+ Check that you haven't covered any conductive elements of your circuit with sticky tape or glue.
-
---- /collapse ---
+[[[debug-pico-hardware]]]
 
 --- collapse ---
 ---
