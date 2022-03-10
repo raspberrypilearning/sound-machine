@@ -370,7 +370,7 @@ You are going to make some design decisions to create your sound board. Here are
 
 **Sound effects board**
 Description
-![](images/image)
+![](images/sound-board.png)
 
 **Play me a tune (using a drop switch)**
 A drop switch has been crafted using two pieces of foil with foil also attached to the bottom of a character. When the character is dropped on the switch, the tune activates.
