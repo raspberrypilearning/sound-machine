@@ -5,7 +5,7 @@
 Make the physical parts of your new sound machine.
 </div>
 <div>
-![](images/sound-board.png){:width="300px"}
+![This sound board has been crafted from cardboard with a number of foil buttons that play sound effects when activated.](images/sound-board.png){:width="300px"}
 </div>
 </div>
 

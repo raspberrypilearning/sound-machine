@@ -14,8 +14,8 @@ You need a way for the user to control the sounds. In this step, you will connec
 **Find** the input components that you want to use for your sound machine. 
 
 You could use:
-+ One button for each tune
-+ A single button to move to the next tune
++ One button for each note, tune or effect
++ A single button to move to the next sound
 + Two socket to pin jumper wires that you can connect to a crafted button or switch
 + A potentiometer to select the tune or BPM (beats per minute) depending on the dial position
 
@@ -53,10 +53,8 @@ title: Import Button
 --- code ---
 ---
 language: python
-filename: mood-check-in.py
+filename: sound_machine.py
 line_numbers: false
-line_number_start: 1
-line_highlights: 1
 ---
 
 from picozero import Button
@@ -74,10 +72,8 @@ title: Import Switch
 --- code ---
 ---
 language: python
-filename: mood-check-in.py
+filename: sound_machine.py
 line_numbers: false
-line_number_start: 1
-line_highlights: 1
 ---
 
 from picozero import Switch
@@ -95,10 +91,8 @@ title: Import Potentiometer
 --- code ---
 ---
 language: python
-filename: mood-check-in.py
+filename: sound_machine.py
 line_numbers: false
-line_number_start: 1
-line_highlights: 1
 ---
 
 from picozero import Pot
@@ -139,10 +133,8 @@ Make sure you use the function names from your project and just use the name of 
 --- code ---
 ---
 language: python
-filename: sound-machine.py
+filename: sound_machine.py
 line_numbers: false
-line_number_start: 
-line_highlights: 
 ---
 
 annoying_button.when_pressed = annoying_sound
@@ -166,10 +158,8 @@ Make sure the function names match the tune functions you defined in the previou
 --- code ---
 ---
 language: python
-filename: sound-machine.py
+filename: sound_machine.py
 line_numbers: false
-line_number_start: 
-line_highlights: 
 ---
 option = 0 # store the current option
 
@@ -207,7 +197,7 @@ If you are using a potentiometer to control the speed of the tune then you will 
 --- code ---
 ---
 language: python
-filename: sound-machine.py
+filename: sound_machine.py
 line_numbers: false
 line_number_start: 1
 line_highlights: 15

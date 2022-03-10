@@ -1,6 +1,5 @@
-from picozero import Speaker, RGBLED, Button
+from picozero import Speaker, Button
 from time import sleep
-from random import randint
 
 # State which pins the components are placed on the Pico
 speaker = Speaker(5)
