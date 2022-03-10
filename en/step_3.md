@@ -187,7 +187,7 @@ line_highlights: 1-2
 
 --- /collapse ---
 
-[[[sheet-to-note]]]
+[[[sheet-to-notes]]]
 
 --- /task ---
 
