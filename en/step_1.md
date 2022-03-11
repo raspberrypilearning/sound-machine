@@ -61,7 +61,7 @@ Your browser does not support WebM video, try FireFox or Chrome
 </video>
 
 **Sound Bomb (inverted party popper switch + annoying SFX cycle)**
-Based on the previous Party popper project, when the piece of cardboard is pulled, it allows a spring loaded switch (a clothes peg with tin foil) to close and plays an endless loop of annoying sounds.
+Based on the previous Party popper project: when the piece of cardboard is pulled, it allows a spring loaded switch (a clothes peg with tin foil) to close and then plays an endless loop of annoying sounds and accompanying coloured lights.
 
 <video width="640" height="360" controls>
 <source src="images/soundbomb.mp4" type="video/mp4">
