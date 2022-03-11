@@ -82,6 +82,36 @@ Add code within your new function to play a single note, a tune or make a sound 
 
 [[[interrupt-tune]]]
 
+[[[sharing-a-ground-pin]]]
+
+--- collapse ---
+
+---
+title: Call a function 
+---
+
+Make sure that you have called the functions that you have written.
+
+--- code ---
+---
+language: python
+filename: sound_machine.py
+line_numbers: false
+line_number_start: 1
+line_highlights: 4
+---
+def chirp(): # Bird chirp sound
+    for _ in range(2):
+        for i in range(5000, 2999, -100):
+            speaker.play(i, 0.02)
+        sleep(0.2)
+
+chirp() 
+
+--- /code ---
+
+--- /collapse ---
+
 **Tip:** You can look at the code for the example projects in the [Introduction](.) for more ideas.
 
 --- /task ---
@@ -111,34 +141,6 @@ If you manually stop your code whilst the buzzer is making a noise the noise mig
 [[[debug-pico-code]]] 
 [[[debug-pico-hardware]]]
 [[[pico-debug-led]]]
-
---- collapse ---
-
----
-title: My sounds didn't play or my LED didn't light up 
----
-
-Make sure that you have called the functions that you have written.
-
---- code ---
----
-language: python
-filename: sound_machine.py
-line_numbers: false
-line_number_start: 1
-line_highlights: 4
----
-def chirp(): # Bird chirp sound
-    for _ in range(2):
-        for i in range(5000, 2999, -100):
-            speaker.play(i, 0.02)
-        sleep(0.2)
-
-chirp() 
-
---- /code ---
-
---- /collapse ---
 
 --- collapse ---
 
