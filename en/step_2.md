@@ -36,13 +36,7 @@ Your sound machine could be:
 
 ### How many components can you have?
 
-The Raspberry Pi Pico has eight **GND** pins so when you are using jumper wires, you can only have eight components unless some share a **GND** pin. 
-
-![An illustration of the Raspberry Pi Pico with the ground pins highlighted.](images/gnd-pins.png){:width="400px"}
-
-Each speaker can ony play one note at a time so you will need multiple speakers if you want to play multiple sounds at the same time. 
-
-There is only one **3V** pin so you can only use one potentiometer. There is also a limit to how much current the Raspberry Pi Pico can supply. 
+[[[pico-limitations]]]
 
 Suggested combinations of input and outputs are:
 + 1 potentiometer and 1 buzzer 
@@ -55,15 +49,13 @@ Suggested combinations of input and outputs are:
 
 **Choose:** How many buttons and buzzers will your design use?
 
+![A collection of diagrams showing multiple buttons, a headphone jack.](images/output-components.png){:width="200px"}
+
 It could have:
 + One buzzer
 + Two buzzer to create stereo sound or a beat plus a note
 + Earphones - you will also need three crocodile/alligator clip leads to connect to them
 + Multiple buzzers if you have them
-
-Will you also use LEDs?
-
-As an optional extra, you may wish to use a single coloured LED or an RGB LED. You will need to make sure that there are enough pins on your Raspberry Pi Pico for an LED if this is something that you would like to add. 
 
 --- /task ---
 
@@ -71,8 +63,9 @@ As an optional extra, you may wish to use a single coloured LED or an RGB LED. Y
 
 **Choose:** What input components will you use for your device?
 
-You could use any combination of:
+![A collection of diagrams showing multiple buttons, a potentiometer.](images/input-components.png){:width="200px"}
 
+You could use any combination of:
 + One or more buttons
 + A potentiometer (you can control the pitch of the buzzer with the potentiometer, or the speed of a regular beat)
 + Crafted buttons/switches that make a connection
@@ -91,6 +84,8 @@ Will you:
 + Use craft materials to make an enclosure
 
 **Tip:** You don't need to decide everything now. It's fine to iterate on your design as you start making. 
+
+![A collection of images showing example projects including a sound bomb pull switch, toy drop switch, a dj deck with dials and buttons, and a special effects board with multiple crafted buttons.](images/strip-examples.png){:width="400px"}
 
 --- /task ---
 

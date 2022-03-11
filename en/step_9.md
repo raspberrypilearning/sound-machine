@@ -4,16 +4,14 @@ If you are following the [Introduction to the Raspberry Pi Pico](https://project
 
 --- print-only ---
 
-![ProjectName project](images/projectname-project.png)
+![desc](images/communication-tool.PNG){:width="400px"}
 
 --- /print-only ---
 
 --- no-print ---
 
-<mark>add in the video link to the sensory gadget project here</mark>
-
 <video width="640" height="360" controls>
-<source src="images/file" type="video/mp4">
+<source src="images/communication-tool.mp4" type="video/mp4">
 Your browser does not support WebM video, try FireFox or Chrome
 </video>
 
