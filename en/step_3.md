@@ -58,7 +58,7 @@ A <span style="color: #0faeb0">**Chiptune**</span>, or 8-bit music, is a tune cr
 
 Add code within your new function to play a single note, a tune or make a sound effect:
 
-### Useful information
+### Useful information about sound
 
 [[[list-of-notes]]]
 
@@ -68,7 +68,7 @@ Add code within your new function to play a single note, a tune or make a sound 
 
 [[[sheet-to-notes]]]
 
-### Code samples
+### Sound code samples
 
 [[[play-single-note]]]
 
@@ -92,11 +92,33 @@ Enter code to **call** your first tune function.
 
 **Tip:** Make sure that your code to call the function is not indented
 
+--- /task ---
+
+--- task ---
+
+**Test:** Run your code to test that your sounds play as expected.
+
+If you manually stop your code whilst the buzzer is making a noise the noise might continue:
+
+[[[buzzer-off-code-stopped]]]
+
+--- /task ---
+
+--- task ---
+
+**Debug:** You might find some bugs that you need to fix. Here are some common bugs.
+
+[[[debug-pico-code]]] 
+[[[debug-pico-hardware]]]
+[[[pico-debug-led]]]
+
 --- collapse ---
 
 ---
-title: Call a function 
+title: My sounds didn't play or my LED didn't light up 
 ---
+
+Make sure that you have called the functions that you have written.
 
 --- code ---
 ---
@@ -117,26 +139,6 @@ chirp()
 --- /code ---
 
 --- /collapse ---
-
---- /task ---
-
---- task ---
-
-**Test:** Run your code to test that your sounds play as expected.
-
-If you manually stop your code whilst the buzzer is making a noise the noise might continue:
-
-[[[buzzer-off-code-stopped]]]
-
---- /task ---
-
---- task ---
-
-**Debug:** You might find some bugs that you need to fix. Here are some common bugs.
-
-[[[debug-pico-code]]] 
-[[[debug-pico-hardware]]]
-[[[pico-debug-led]]]
 
 --- collapse ---
 
