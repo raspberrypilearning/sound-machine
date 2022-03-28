@@ -160,11 +160,11 @@ switch.when_closed = play_song
 
 --- /collapse ---
 
-**Sound Bomb (inverted party popper switch + annoying SFX cycle)**
-Based on the previous Party popper project, when the piece of cardboard is pulled, it allows a spring loaded switch (a clothes peg with tin foil) to close and plays an endless loop of annoying sounds.
+**Sound Alarm (inverted party popper switch + annoying SFX cycle)**
+Based on the previous Party popper project: when the piece of cardboard is pulled, it allows a spring loaded switch (a clothes peg with tin foil) to close and then plays an endless loop of annoying sounds and accompanying coloured lights.
 
 <video width="640" height="360" controls>
-<source src="images/soundbomb.mp4" type="video/mp4">
+<source src="images/soundalarm.mp4" type="video/mp4">
 Your browser does not support WebM video, try FireFox or Chrome
 </video>
 
@@ -175,7 +175,7 @@ title: See inside
 --- code ---
 ---
 language: python
-filename: soundbomb.py
+filename: soundalarm.py
 line_numbers: true
 line_number_start: 
 line_highlights: 
@@ -236,7 +236,7 @@ def siren(): # Nee-Nor!
         speaker.play(2500, 0.5)
 
 
-def bomb(): # Dropping 'bomb' to crash
+def bomb(): # Dropping 'alarm' to crash
     bc = 240
     for i in range(5000, 1000, -50):
         led.color = (127,255,bc)
@@ -323,12 +323,11 @@ from time import sleep
 speaker = Speaker(5)
 speaker2 = Speaker(13)
 button = Button(18)
-dial = Pot(0)
 
 BEAT = 0.4
 
-liten_mus = [ ['d5', BEAT / 2], ['d#5', BEAT / 2], ['f5', BEAT], ['d6', BEAT], ['a#5', BEAT], ['d5', BEAT],  
-              ['f5', BEAT], ['d#5', BEAT], ['d#5', BEAT], ['c5', BEAT / 2],['d5', BEAT / 2], ['d#5', BEAT], 
+liten_mus = [ ['d5', BEAT / 2], ['d#5', BEAT / 2], ['f5', BEAT], ['d6', BEAT], ['a#5', BEAT], ['d5', BEAT],
+              ['f5', BEAT], ['d#5', BEAT], ['d#5', BEAT], ['c5', BEAT / 2],['d5', BEAT / 2], ['d#5', BEAT],
               ['c6', BEAT], ['a5', BEAT], ['d5', BEAT], ['g5', BEAT], ['f5', BEAT], ['f5', BEAT], ['d5', BEAT / 2],
               ['d#5', BEAT / 2], ['f5', BEAT], ['g5', BEAT], ['a5', BEAT], ['a#5', BEAT], ['a5', BEAT], ['g5', BEAT],
               ['g5', BEAT], ['', BEAT / 2], ['a#5', BEAT / 2], ['c6', BEAT / 2], ['d6', BEAT / 2], ['c6', BEAT / 2],
@@ -337,17 +336,15 @@ liten_mus = [ ['d5', BEAT / 2], ['d#5', BEAT / 2], ['f5', BEAT], ['d6', BEAT], [
               ['d6', BEAT / 2], ['c6', BEAT / 2], ['b5', BEAT], ['g5', BEAT], ['g5', BEAT], ['c6', BEAT / 2],
               ['a#5', BEAT / 2], ['a5', BEAT], ['f5', BEAT], ['d6', BEAT], ['a5', BEAT], ['a#5', BEAT * 1.5] ]
 
+sound = [ [523, 0.1], [None, 0.1], [523, 0.4] ]
+
 def annoying_sound():
-    speaker.play(523, 0.1)
-    sleep(0.1)
-    speaker.play(523, 0.4)
+    speaker.play(sound, wait=False)
 
 button.when_pressed = annoying_sound
 
 try:
-    for note in liten_mus:
-        speaker.play(note) 
-        sleep(dial.value) # leave a gap between notes depending on potentiometer value
+    speaker2.play(liten_mus, wait=False)
 finally:
     speaker.off() # turns speaker off when code is stopped by user
     speaker2.off() # turns speaker2 off when code is stopped by user
