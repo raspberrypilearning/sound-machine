@@ -21,7 +21,7 @@ Connect your buzzer(s) to the Raspberry Pi Pico:
 
 --- task ---
 
-Import Speaker from the picozero library then set the pins:
+Import Speaker from the picozero library, then set the pins:
 
 [[[single-buzzer-pin]]]
 [[[multiple-buzzer-pins]]]
@@ -32,7 +32,7 @@ It is now time to code your first sound.
 
 --- task ---
 
-**Define:** a function for your first sound. Think of sensible names for your sounds. For example, a function that will play an annoying sound could be called `annoying_sound`.
+**Define** a function for your first sound. Think of sensible names for your sounds. For example, a function that will play an annoying sound could be called `annoying_sound`.
 
 --- code ---
 ---
@@ -50,13 +50,13 @@ def sound_1(): # Your sound name
 --- /task ---
  
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-A <span style="color: #0faeb0">**Chiptune**</span>, or 8-bit music, is a tune created by programming the sound chips of computers to produce certain frequencies of sound rather than using traditional instruments - mostly in retro video games and arcade machines. Even though coding music now uses much more advanced techniques, people still love creating and listening to chiptunes because of their retro feel. You can recreate any piece of music at all using chiptune!
+A <span style="color: #0faeb0">**chiptune**</span>, or 8-bit music, is a tune created by programming the sound chips of computers to produce certain frequencies of sound rather than using traditional instruments — mostly in retro video games and arcade machines. Even though coding music now uses much more advanced techniques, people still love creating and listening to chiptunes because of their retro feel. You can recreate any piece of music you want using chiptune!
 </p>
 
 
 --- task ---
 
-Add code within your new function to play a single note, a tune or make a sound effect:
+Add code within your new function to play a single note, a tune, or make a sound effect:
 
 ### Useful information about sound
 
@@ -121,7 +121,7 @@ chirp()
 
 Enter code to **call** your first tune function. 
 
-**Tip:** Make sure that your code to call the function is not indented
+**Tip:** Make sure that your code to call the function is not indented.
 
 --- /task ---
 
@@ -129,7 +129,7 @@ Enter code to **call** your first tune function.
 
 **Test:** Run your code to test that your sounds play as expected.
 
-If you manually stop your code whilst the buzzer is making a noise the noise might continue:
+If you manually stop your code whilst the buzzer is making a noise, the noise might continue:
 
 [[[buzzer-off-code-stopped]]]
 
@@ -163,7 +163,7 @@ title: The main tune delays when I press a button
 
 When you use an event such as `when_pressed` to run a function, that function will run until it is finished and it will stop other code from running. 
 
-If you want to start a tune from an event then you can use `play` with `wait=False`. The function will finish and the tune will continue playing without delaying the code running in your main code.
+If you want to start a tune from an event, then you can use `play` with `wait=False`. The function will finish and the tune will continue playing without delaying the code running in your main code.
 
 --- code ---
 ---
@@ -176,7 +176,7 @@ line_highlights:
 sound = [ [523, 0.1], [None, 0.1], [523, 0.4] ]
 
 def annoying_sound():
-    speaker.play(sound, wait=False) # don't delay the main code 
+    speaker.play(sound, wait=False) # Don't delay the main code 
     
 button.when_pressed = annoying_sound
 
