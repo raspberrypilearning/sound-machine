@@ -74,15 +74,16 @@ Add code within your new function to play a single note, a tune or make a sound 
 
 [[[play-a-tune]]]
 
-[[[notes-in-loop]]]
-
 [[[pico-sound-frequency]]]
 
 [[[whitenoise-drum-beat]]]
 
+[[[sharing-a-ground-pin]]]
+
+[[[notes-in-loop]]]
+
 [[[interrupt-tune]]]
 
-[[[sharing-a-ground-pin]]]
 
 --- collapse ---
 
@@ -154,6 +155,35 @@ You may need to experiment with the notes and timing to get the tune just right.
 
 --- /collapse ---
 
+--- collapse ---
+
+---
+title: The main tune delays when I press a button
+---
+
+When you use an event such as `when_pressed` to run a function, that function will run until it is finished and it will stop other code from running. 
+
+If you want to start a tune from an event then you can use `play` with `wait=False`. The function will finish and the tune will continue playing without delaying the code running in your main code.
+
+--- code ---
+---
+language: python
+line_numbers: true
+line_number_start: 
+line_highlights: 
+---
+
+sound = [ [523, 0.1], [None, 0.1], [523, 0.4] ]
+
+def annoying_sound():
+    speaker.play(sound, wait=False) # don't delay the main code 
+    
+button.when_pressed = annoying_sound
+
+--- /code ---
+
+--- /collapse ---
+
 If you find a bug that is not listed here. Can you work out how to fix it?
 
 We love hearing about your bugs and how you fixed them. Use the **Send feedback** button at the bottom of this page and tell us if you found a different bug in your project.
@@ -173,4 +203,3 @@ Remember to:
 **Tip:** Remember to comment out `#` or delete the function call of the previous tune so that you only hear the one that you would like to test. 
 
 --- /task ---
-

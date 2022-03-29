@@ -31,6 +31,7 @@ Your sound machine could be:
 + Whole songs or tunes
 + Sound effects such as thunder or a bird chirping 
 + Use a variable input from a potentiometer to control pitch or the speed of a beat
++ Sounds that can be interrupted or sounds that play until they have completed
 
 --- /task ---
 
