@@ -1,29 +1,29 @@
 ## Introduction
 
-Create a sound machine that will play sound effects or music using buttons, switches or a potentiometer.
+Create a sound machine that will play sound effects or music using buttons, switches, or a potentiometer.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Sounds**</span> can be helpful, calming, annoying and energising. A newborn baby can find a white noise machine calming and the sound helps them sleep. DJs use portable sound machines to compose beats as they travel. Pranksters use sound effect machines to make people laugh. Can you think of a sound machine that you have used in your day to day life? 
+<span style="color: #0faeb0">**Sounds**</span> can be helpful, calming, annoying, and energising. A newborn baby can find a white noise machine calming and the sound can help them sleep. DJs use portable sound machines to compose beats as they travel. Pranksters use sound effect machines to make people laugh. Can you think of a sound machine that you have used in your day-to-day life? 
 </p>
 
 You will:
 
 + Design a device that uses sound for a specific purpose
-+ Program music or sounds effects to play on a buzzer
-+ Create an interface that allows user control of sounds
++ Program music or sound effects to play on a buzzer
++ Create an interface that allows a user to control sounds
 
 To complete this project you will need:
 
 + A Raspberry Pi Pico with pin headers soldered on
-+ A data USB A to micro USB cable
++ A data USB A to micro-USB cable
 + A potentiometer or buttons (bought or crafted)
 + A passive tone buzzer 
 + Jumper wires
-+ Craft materials including card, sticky tape and kitchen foil
++ Craft materials including card, sticky tape, and kitchen foil
 
 Optional:
 
-+ RGB LED(s) or single colour LED(s) with resistors and jumper wires
++ RGB LED(s) or single-colour LED(s) with resistors and jumper wires
 + An additional passive tone buzzer for stereo sound
 
 --- no-print ---
@@ -57,30 +57,30 @@ from picozero import Speaker, Button
 from time import sleep
 from random import randint
 
-# State which pins the components are placed on the Pico
+# State which pins the components are attached to on the Pico
 speaker = Speaker(5)
 button1 = Button(18)
 button2 = Button(19)
 button3 = Button(20)
 button4 = Button(21)
 
-#A series of functions which create annoying tones
+# A series of functions that create annoying tones
 def tada(): # Ta-Daaa!
     speaker.play(523, 0.1)
     sleep(0.1)
     speaker.play(523, 0.4)
         
-def chirp(): # series of high-pitched chirps
+def chirp(): # Series of high-pitched chirps
     for _ in range(2):
         for i in range(5000, 2999, -100):
             speaker.play(i, 0.02)
         sleep(0.2)
         
-def win(): # rising tones
+def win(): # Rising tones
     for i in range(2000, 5000, 100):
         speaker.play(i, 0.05)        
     
-def womp(): # wah-wah-wah-waaaaahhhh
+def womp(): # Wah-wah-wah-waaaaahhhh
     speaker.play(494, 0.5)
     speaker.play(466, 0.5)
     speaker.play(440, 0.5)
@@ -89,7 +89,7 @@ def womp(): # wah-wah-wah-waaaaahhhh
         speaker.play(440, 0.05)
     speaker.play(415, 0.2)
             
-def stop(): # no sound or light
+def stop(): # No sound or light
     
     led.off()
     
@@ -160,8 +160,8 @@ switch.when_closed = play_song
 
 --- /collapse ---
 
-**Sound Alarm (inverted party popper switch + annoying SFX cycle)**
-Based on the previous Party popper project: when the piece of cardboard is pulled, it allows a spring loaded switch (a clothes peg with tin foil) to close and then plays an endless loop of annoying sounds and accompanying coloured lights.
+**Sound alarm (inverted party popper switch + annoying SFX cycle)**
+Based on the previous Party popper project: when the piece of cardboard is pulled, it allows a spring-loaded switch (a clothes peg with tin foil) to close and then plays an endless loop of annoying sounds and accompanying coloured lights.
 
 <video width="640" height="360" controls>
 <source src="images/soundalarm.mp4" type="video/mp4">
@@ -185,12 +185,12 @@ from picozero import Speaker, RGBLED, Switch
 from time import sleep
 from random import randint
 
-# State which pins the components are placed on the Pico
+# State which pins the components are attached to on the Pico
 speaker = Speaker(5)
 led = RGBLED(13, 14, 15)
 trigger = Switch(18)
 
-# A series of functions which create annoying tones
+# A series of functions that create annoying tones
 
 def tada(): # Ta-Daaa!
     led.color = (250,125,0)
@@ -203,7 +203,7 @@ def tada(): # Ta-Daaa!
         speaker.play(523, 0.01, i/100)
 
 
-def chirp(): # series of high-pitched chirps
+def chirp(): # Series of high-pitched chirps
     for _ in range(5):
         bc = 255
         rc = 0
@@ -215,7 +215,7 @@ def chirp(): # series of high-pitched chirps
         sleep(0.2)
 
 
-def alarm(): # rising tones
+def alarm(): # Rising tones
     for _ in range(5):
         gc = 255
         bc = 0
@@ -243,29 +243,29 @@ def bomb(): # Dropping 'alarm' to crash
         speaker.play(i, 0.05)
         bc -= 3
     led.color = (255,0,0)
-    for i in range(1000): # white noise loop 1 sec
-        tone = randint(1000,5000) # pick a random number 1k-5k
-        speaker.play(tone, 0.001) # play tone for 1/1000th sec
+    for i in range(1000): # White noise loop 1 second
+        tone = randint(1000,5000) # Pick a random number
+        speaker.play(tone, 0.001) # Play tone for 1/1000th second
     sleep(0.2)
 
 
-def womp(): # wah-wah-wah-waaaaahhhh
-    led.color = (255,255,255) # white
+def womp(): # Wah-wah-wah-waaaaahhhh
+    led.color = (255,255,255) # White
     speaker.play(494, 0.5)
-    led.color = (125,125,125) # dim
+    led.color = (125,125,125) # Dim
     speaker.play(466, 0.5)
-    led.color = (60,60,60) # dimmer
+    led.color = (60,60,60) # Dimmer
     speaker.play(440, 0.5)
     for i in range(10):
         speaker.play(415, 0.05)
-        led.color = (0,0,0) # off
+        led.color = (0,0,0) # Off
         speaker.play(440, 0.05)
-        led.color = (255,255,255) # white 
+        led.color = (255,255,255) # White 
     speaker.play(415, 0.2)    
 
 
 def noise():
-    sound = randint(1,6) # pick a number between 1-6
+    sound = randint(1,6) # Pick a number between 1–6
     if sound == 1:
         tada()
     elif sound == 2:
@@ -279,11 +279,11 @@ def noise():
     elif sound == 6:
         womp()
         
-def safe(): # no sound or light
+def safe(): # No sound or light
     speaker.off()
     led.off()
 
-# loop to check if switch is closed
+# Loop to check if switch is closed
 
 while True: 
     if trigger.is_closed:
@@ -296,7 +296,7 @@ while True:
 
 --- /collapse ---
 
-**Musical instrument with two buzzers - one with a whitenoise beat controlled by a potentiometer**
+**Musical instrument with two buzzers – one with a white noise beat controlled by a potentiometer**
 This sound machine has a potentiometer that controls the speed of the tune played from the first buzzer. Pressing the button plays a couple of short notes from the second buzzer.
 
 <video width="640" height="360" controls>
@@ -347,10 +347,10 @@ button.when_pressed = annoying_sound
 try:
     for note in liten_mus:
         speaker2.play(note) 
-        sleep(dial.value) # leave a gap between notes depending on potentiometer value
+        sleep(dial.value) # Leave a gap between notes depending on potentiometer value
 finally:
-    speaker.off() # turns speaker off when code is stopped by user
-    speaker2.off() # turns speaker2 off when code is stopped by user
+    speaker.off() # Turns speaker off when code is stopped by user
+    speaker2.off() # Turns speaker2 off when code is stopped by user
 
 --- /code ---
 
@@ -375,11 +375,11 @@ This sound board has been crafted from cardboard with a number of foil buttons t
 A drop switch has been crafted using two pieces of foil with foil also attached to the bottom of a character. When the character is dropped on the switch, the tune activates.
 ![](images/wicked-player.jpeg){:width="300px"}
 
-**Sound Bomb (inverted party popper switch + annoying SFX cycle)**
-Based on the previous Party popper project, when the piece of cardboard is pulled, it allows a spring loaded switch (a clothes peg with tin foil) to close and plays an endless loop of annoying sounds.
+**Sound bomb (inverted party popper switch + annoying SFX cycle)**
+Based on the previous Party popper project, when the piece of cardboard is pulled, it allows a spring-loaded switch (a clothes peg with tin foil) to close and plays an endless loop of annoying sounds.
 ![](images/sound-bomb.PNG){:width="300px"}
 
-**Musical instrument with two buzzers - one with a whitenoise beat controlled by a potentiometer**
+**Musical instrument with two buzzers – one with a white noise beat controlled by a potentiometer**
 This sound machine has a potentiometer that controls the speed of the tune played from the first buzzer. Pressing the button plays a couple of short notes from the second buzzer.
 ![](images/pot-speed.png){:width="300px"}
 
