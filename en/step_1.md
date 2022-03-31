@@ -3,7 +3,7 @@
 Create a sound machine that will play sound effects or music using buttons, switches, or a potentiometer.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Sounds**</span> can be helpful, calming, annoying, and energising. A newborn baby can find a white noise machine calming and the sound can help them sleep. DJs use portable sound machines to compose beats as they travel. Pranksters use sound effect machines to make people laugh. Can you think of a sound machine that you have used in your day-to-day life? 
+<span style="color: #0faeb0">**Sounds**</span> can be helpful, calming, annoying, and energising. A newborn baby can find a white noise machine calming and the sound can help them sleep. DJs use portable sound machines to compose beats as they travel. Pranksters use sound effects machines to make people laugh. Can you think of a sound machine that you have used in your day-to-day life? 
 </p>
 
 You will:
@@ -15,7 +15,7 @@ You will:
 To complete this project you will need:
 
 + A Raspberry Pi Pico with pin headers soldered on
-+ A data USB A to micro-USB cable
++ A data USB A to micro USB cable
 + A potentiometer or buttons (bought or crafted)
 + A passive tone buzzer 
 + Jumper wires
