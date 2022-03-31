@@ -16,7 +16,7 @@ What is the purpose of your sounds machine? How will the user use inputs to cont
 Your sound machine could be:
 
 + An instrument
-+ A musical player
++ A music player
 + A sound effects creator
 + A machine that makes you feel calm
 + A machine designed to annoy others with silly noises
