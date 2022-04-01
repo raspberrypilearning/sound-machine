@@ -14,12 +14,12 @@ You need a way for the user to control the sounds. In this step, you will connec
 **Find** the input components that you want to use for your sound machine. 
 
 You could use:
-+ One button for each note, tune or effect
++ One button for each note, tune, or effect
 + A single button to move to the next sound
-+ Two socket to pin jumper wires that you can connect to a crafted button or switch
++ Two socket–pin jumper wires that you can connect to a crafted button or switch
 + A potentiometer to select the tune or BPM (beats per minute) depending on the dial position
 
-You will also need two socket-socket jumper wires for each button or three socket-to-socket wires for a potentiometer. 
+You will also need two socket–socket jumper wires for each button or three socket–socket wires for a potentiometer. 
 
 --- /task ---
 
@@ -63,7 +63,7 @@ title: Play a different tune when each button is pressed
 
 You can have multiple buttons that each call a different function when they are pressed. 
 
-Make sure you use the function names from your project and just use the name of the function, do not call it by adding brackets.
+Make sure you use the function names from your project and just use the name of the function. Do not call it by adding brackets.
 
 --- code ---
 ---
@@ -96,20 +96,20 @@ language: python
 filename: sound_machine.py
 line_numbers: false
 ---
-option = 0 # store the current option
+option = 0 # Store the current option
 
-def choice(): # call the next function and update the option
+def choice(): # Call the next function and update the option
     global option
     if option == 0:
-        annoying_sound() # your first tune
+        annoying_sound() # Your first tune
     elif option == 1:
-        calming_sound() # your second tune
+        calming_sound() # Your second tune
     elif option == 2:
-        happy_sound() # your third tune
+        happy_sound() # Your third tune
     elif option == 3:    
         rgb.off()
     
-    # move to the next option
+    # Move to the next option
     if option == 3:
         option = 0
     else:
@@ -127,7 +127,7 @@ button.when_pressed = choice # Call the choice function when the button is press
 title: Change the speed of a tune using a potentiometer
 ---
 
-If you are using a potentiometer to control the speed of the tune then you will need to use the following code: 
+If you are using a potentiometer to control the speed of the tune, then you will need to use the following code: 
 
 --- code ---
 ---
@@ -151,7 +151,7 @@ liten_mus = [ ['d5', BEAT / 2], ['d#5', BEAT / 2], ['f5', BEAT], ['d6', BEAT], [
 
 for note in liten_mus:
         speaker.play(note) 
-        sleep(dial.value) # leave a gap between notes depending on potentiometer value
+        sleep(dial.value) # Leave a gap between notes depending on the potentiometer value
 
 --- /code ---
 

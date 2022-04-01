@@ -1,6 +1,6 @@
 ## What next?
 
-If you are following the [Introduction to the Raspberry Pi Pico](https://projects.raspberrypi.org/en/pathways/pico-intro) path, you can move on to the [Sensory Gadget](https://projects.raspberrypi.org/en/projects/sensory-gadget) project. In this project, you will make a sensory gadget like a fidget toy or communication device.
+If you are following the [Introduction to the Raspberry Pi Pico](https://projects.raspberrypi.org/en/pathways/pico-intro) path, you can move on to the [Sensory gadget](https://projects.raspberrypi.org/en/projects/sensory-gadget) project. In this project, you will make a sensory gadget like a fidget toy or communication device.
 
 --- print-only ---
 

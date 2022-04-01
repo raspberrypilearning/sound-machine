@@ -11,7 +11,7 @@ Make the physical parts of your new sound machine.
 
 --- task ---
 
-**Think:** Some questions to consider in the design of the casing and interface for your sound machine: 
+**Think:** Some questions to consider in the design of the casing and interface for your sound machine are: 
 
 + What materials will you use? What do you have available?
 + If you are crafting buttons or switches, what kind will you make? How will they operate?
@@ -20,12 +20,12 @@ Make the physical parts of your new sound machine.
 --- /task ---
 
 <p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
-An <span style="color: #0faeb0">Acoustical engineer</span> studies the science of sound and makes decisions to provide the best experience for the audience. How will you ensure that the deisgn of your sound machine provides a good sound quality? 
+<span style="color: #0faeb0">Acoustic engineers</span> study the science of sound and make decisions to provide the best experience for the audience. How will you ensure that the deisgn of your sound machine provides a good sound quality? 
 </p>
 
 --- task ---
 
-**Tip:** Make sure that your code is **saved** and that your Thonny console is minimised. This will help to avoid you accidentally tapping your keyboard and editing your code whilst you make your sound machine. 
+**Tip:** Make sure that your code is **saved** and that your Thonny console is minimised. This will help you to avoid accidentally tapping your keyboard and editing your code whilst you make your sound machine. 
 
 --- /task ---
 
@@ -37,7 +37,7 @@ You could use:
 + Cardboard boxes
 + Recycled plastic items
 + Old toys
-+ LEGO
++ Lego
 + Duct tape
 + Hot glue (ask an adult!)
 + Scissors (ask an adult!)
@@ -62,7 +62,7 @@ Here are some examples:
 
 [[[pull-switch]]]
 
-Be careful if you are using any sharp or hot tools and get adult permission and supervision before you start!
+Be careful if you are using any sharp or hot tools and get adult permission and supervision before you start.
 
 [[[using-craft-knife]]]
 
@@ -92,7 +92,7 @@ Assemble your sound machine. Try not to permanently glue your enclosure together
 
 --- task ---
 
-**Test:** your sound machine. Now that it has been assembled, check that your components still work as intended. 
+**Test** your sound machine. Now that it has been assembled, check that your components still work as intended. 
 
 --- /task ---
 
@@ -115,7 +115,7 @@ Now that you have crafted your sound machine, you might need extra-long wires to
 
 --- collapse ---
 ---
-title: My wires or components wont stay in place
+title: My wires or components won't stay in place
 ---
 
 Some connections are stronger than others so you might find that you need to use tape to keep your wires connected to your components or to hold your components in place on your machine. Look at the instructions above to 'secure wires and components using tape'.
