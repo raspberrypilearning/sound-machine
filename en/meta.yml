@@ -2,8 +2,8 @@ title: Sound machine
 hero_image: images/banner.png
 description: Create a sound machine that will play sound effects or music using buttons, switches, or a potentiometer
 version: 4
-listed: false
-copyedit: false
+listed: true
+copyedit: true
 last_tested: "2021-03-26"
 steps:
   - title: Introduction
@@ -14,12 +14,12 @@ steps:
   - title: Craft your device
     completion: internal
   - title: Reflection
+    completion: external
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3
-    completion: external
   - title: Upgrade your project
   - title: Share
   - title: What next?
