@@ -23,7 +23,7 @@ To complete this project you will need:
 
 Optional:
 
-+ RGB LED(s) or single-colour LED(s) with resistors and jumper wires
++ Common cathode RGB LED(s) or single-colour LED(s) with resistors and jumper wires
 + An additional passive tone buzzer for stereo sound
 
 --- no-print ---
