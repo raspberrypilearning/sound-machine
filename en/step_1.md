@@ -14,7 +14,7 @@ You will:
 
 To complete this project you will need:
 
-##Hardware
+**Hardware:**
 
 You can purchase all the required hardware for this project and the other projects in this path from the [Pimoroni web store.](https://shop.pimoroni.com/products/pico-intro-kit?variant=39893512945747){:target='_blank'}
 
