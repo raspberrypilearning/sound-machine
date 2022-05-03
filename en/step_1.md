@@ -14,12 +14,23 @@ You will:
 
 To complete this project you will need:
 
+**Hardware:**
+
+You can purchase all the required hardware for this project and the other projects in this path from the [Pimoroni web store.](https://shop.pimoroni.com/products/pico-intro-kit?variant=39893512945747){:target='_blank'}
+
 + A Raspberry Pi Pico with pin headers soldered on
 + A data USB A to micro USB cable
 + A potentiometer or buttons (bought or crafted)
 + A passive tone buzzer 
 + Jumper wires
 + Craft materials including card, sticky tape, and kitchen foil
+
+**Software:**
++ Thonny – this project can be completed using the Thonny Python editor, which can be installed on a Linux, Windows, or Mac computer.
+
+[[[thonny-install]]]
+
+[[[change-theme-thonny]]]
 
 Optional:
 
