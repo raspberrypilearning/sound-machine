@@ -1,0 +1,65 @@
+State which pins the components are attached to on the Pico
+
+A series of functions that create annoying tones
+
+Series of high-pitched chirps
+
+Rising tones
+
+Wah-wah-wah-waaaaahhhh
+ 
+No sound or light
+ 
+120 BPM
+ 
+Turn speaker off if interrupted
+ 
+Ta-Daaa!
+ 
+Nee-Nor!
+ 
+Dropping 'alarm' to crash
+ 
+White noise loop 1 second
+ 
+Pick a random number
+ 
+Play tone for 1/1000th second
+ 
+White
+ 
+Dim
+ 
+Dimmer
+ 
+Off
+ 
+Pick a number between 1–6
+ 
+Loop to check if switch is closed
+
+Leave a gap between notes depending on potentiometer value
+
+Turns speaker off when code is stopped by user
+
+Turns speaker2 off when code is stopped by user
+
+Your sound name
+
+Bird chirp sound
+
+Don't delay the main code
+
+Store the current option
+
+Call the next function and update the option
+
+Your first tune
+
+Your second tune
+
+Your third tune
+
+Move to the next option
+
+Call the choice function when the button is pressed
