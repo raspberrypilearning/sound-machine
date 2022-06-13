@@ -2,7 +2,11 @@
 
 If you have time, you can upgrade your project.
 
---- task --- Can you think of opportunities to use your sound machine? You could create sound effects for a video, to annoy your family and friends, or use a calm soundscape when you need to relax. --- /task ---
+--- task ---
+
+Can you think of opportunities to use your sound machine? You could create sound effects for a video, to annoy your family and friends, or use a calm soundscape when you need to relax.
+
+--- /task ---
 
 
 
