@@ -46,7 +46,7 @@ Optional:
 **Sound effects board**
 This sound board has been crafted from cardboard with a number of foil buttons that play sound effects when activated.
 
-<video width="640" height="360" controls>
+<video width="640" height="360" controls preload="none" poster="images/sound-board-placeholder.png">
 <source src="images/sound_board.mp4" type="video/mp4">
 Your browser does not support WebM video, try FireFox or Chrome
 </video>
