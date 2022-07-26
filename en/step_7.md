@@ -31,7 +31,7 @@ Here are some other ideas you could try:
 **LEGO figure dance floor**
 A LEGO figure holds an RGB LED, which changes colour depending on the tune that is playing. Four buttons are used to select the tune. 
 
-<video width="640" height="360" controls>
+<video width="640" height="360" controls preload="none" poster="images/instrument-placeholder.png">
 <source src="images/LEGO-dance-floor.mp4" type="video/mp4">
 Your browser does not support WebM video, try FireFox or Chrome
 </video>
