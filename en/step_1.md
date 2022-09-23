@@ -1,4 +1,4 @@
-## Introduction
+## You will make
 
 Create a sound machine that will play sound effects or music using buttons, switches, or a potentiometer.
 
@@ -43,7 +43,7 @@ Optional:
 
 --- task ---
 
-### Try it 
+### Discover ▶️ 
 
 **Sound effects board**
 This sound board has been crafted from cardboard with a number of foil buttons that play sound effects when activated.
@@ -123,7 +123,7 @@ finally:
 
 --- /task ---
 
-### Get inspiration 
+### Get ideas 💭
 
 You are going to make some design decisions to create your sound board.
 
@@ -376,7 +376,7 @@ finally:
 
 --- print-only ---
 
-### Get inspiration 
+### Get ideas 💭
 
 You are going to make some design decisions to create your sound board. Here are some example sound boards to help you with your ideas:
 
