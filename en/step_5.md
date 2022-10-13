@@ -58,8 +58,6 @@ Here are some examples:
 
 [[[drop-switch]]]
 
-[cardboard-push-switch]
-
 [[[pull-switch]]]
 
 Be careful if you are using any sharp or hot tools and get adult permission and supervision before you start.
