@@ -34,6 +34,10 @@ If you already have a Raspberry Pi Pico, you can purchase the electronic compone
 
 [[[change-theme-thonny]]]
 
++ picozero - you will need to set up picozero on your Raspberry Pi Pico
+
+[[[set-up-picozero]]]
+
 Optional:
 
 + Common cathode RGB LED(s) or single-colour LED(s) with resistors and jumper wires
