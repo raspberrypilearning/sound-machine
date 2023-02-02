@@ -10,7 +10,7 @@ If you are following the [Introduction to the Raspberry Pi Pico](https://project
 
 --- no-print ---
 
-<video width="640" height="360" controls>
+<video width="640" height="360" controls preload="none" poster="images/assistive-placeholder.png">
 <source src="images/communication-tool.mp4" type="video/mp4">
 Your browser does not support WebM video, try FireFox or Chrome
 </video>
