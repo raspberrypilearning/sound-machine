@@ -1,4 +1,4 @@
-## Introduction
+## You will make
 
 Create a sound machine that will play sound effects or music using buttons, switches, or a potentiometer.
 
@@ -18,6 +18,8 @@ To complete this project you will need:
 
 You can purchase all the required hardware for this project and the other projects in this path from the [Pimoroni web store.](https://shop.pimoroni.com/products/pico-intro-kit?variant=39893512945747){:target='_blank'}
 
+If you already have a Raspberry Pi Pico, you can purchase the electronic components you need for this project and the other projects in the path from [The Kitronik web store.](https://kitronik.co.uk/products/5343-raspberry-pi-foundation-pico-pathway-pack)
+
 + A Raspberry Pi Pico with pin headers soldered on
 + A data USB A to micro USB cable
 + A potentiometer or buttons (bought or crafted)
@@ -32,6 +34,10 @@ You can purchase all the required hardware for this project and the other projec
 
 [[[change-theme-thonny]]]
 
++ picozero - you will need to set up picozero on your Raspberry Pi Pico
+
+[[[set-up-picozero]]]
+
 Optional:
 
 + Common cathode RGB LED(s) or single-colour LED(s) with resistors and jumper wires
@@ -41,11 +47,11 @@ Optional:
 
 --- task ---
 
-### Try it
+### Discover ▶️
 
 **Sound effects board** This sound board has been crafted from cardboard with a number of foil buttons that play sound effects when activated.
 
-<video width="640" height="360" controls>
+<video width="640" height="360" controls preload="none" poster="images/sound-board-placeholder.png">
 <source src="images/sound_board.mp4" type="video/mp4">
 Your browser does not support WebM video, try FireFox or Chrome
 </video>
@@ -88,7 +94,7 @@ try: while True: sleep(0.1) finally: stop()
 
 --- /task ---
 
-### Get inspiration
+### Get ideas 💭
 
 You are going to make some design decisions to create your sound board.
 
@@ -98,7 +104,7 @@ Explore these example projects to get more ideas for creating your sound machine
 
 **Play me a tune (using a drop switch)** A drop switch has been crafted using two pieces of foil with foil also attached to the bottom of a character. When the character is dropped on the switch, the tune activates.
 
-<video width="640" height="360" controls>
+<video width="640" height="360" controls preload="none" poster="images/wicked-placeholder.png">
 <source src="images/wicked-player.mp4" type="video/mp4">
 Your browser does not support WebM video, try FireFox or Chrome
 </video>
@@ -132,7 +138,7 @@ switch.when_closed = play_song --- /code ---
 
 **Sound alarm (inverted party popper switch + annoying SFX cycle)** Based on the previous Party popper project: when the piece of cardboard is pulled, it allows a spring-loaded switch (a clothes peg with tin foil) to close and then plays an endless loop of annoying sounds and accompanying coloured lights.
 
-<video width="640" height="360" controls>
+<video width="640" height="360" controls preload="none" poster="images/soundalarm-placeholder.png">
 <source src="images/soundalarm.mp4" type="video/mp4">
 Your browser does not support WebM video, try FireFox or Chrome
 </video>
@@ -194,7 +200,7 @@ while True: if trigger.is_closed: noise() else: safe()
 
 **Musical instrument with two buzzers – one with a white noise beat controlled by a potentiometer** This sound machine has a potentiometer that controls the speed of the tune played from the first buzzer. Pressing the button plays a couple of short notes from the second buzzer.
 
-<video width="640" height="360" controls>
+<video width="640" height="360" controls preload="none" poster="images/instrument-placeholder.png">
 <source src="images/pot-speed.mp4" type="video/mp4">
 Your browser does not support WebM video, try FireFox or Chrome
 </video>
@@ -237,7 +243,7 @@ try: for note in liten_mus: speaker2.play(note) sleep(dial.value) # Leave a gap 
 
 --- print-only ---
 
-### Get inspiration
+### Get ideas 💭
 
 You are going to make some design decisions to create your sound board. Here are some example sound boards to help you with your ideas:
 
