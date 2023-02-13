@@ -1,66 +1,66 @@
-## Craft your device
+## Fabrique ton appareil
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Make the physical parts of your new sound machine.
+Fabrique les parties physiques de ta nouvelle machine à sons.
 </div>
 <div>
-![This sound board has been crafted from cardboard with a number of foil buttons that play sound effects when activated.](images/sound-board.png){:width="300px"}
+![Cette carte à sons a été fabriquée à partir de carton avec un certain nombre de boutons en aluminium qui produisent des effets sonores lorsqu'ils sont activés.](images/sound-board.png){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-**Think:** Some questions to consider in the design of the casing and interface for your sound machine are:
+**Réfléchis :** Voici quelques questions à te poser lors de la conception du boîtier et de l'interface de ta machine à sons :
 
-+ What materials will you use? What do you have available?
-+ If you are crafting buttons or switches, what kind will you make? How will they operate?
-+ How will you mount your controls so they are sturdy and easy to reach?
++ Quels matériaux vas-tu utiliser ? Qu'as-tu à disposition ?
++ Si tu fabriques des boutons ou des interrupteurs, quel type feras-tu ? Comment fonctionneront-ils ?
++ Comment vas-tu monter tes commandes pour qu'elles soient solides et faciles d'accès ?
 
 --- /task ---
 
 <p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
-<span style="color: #0faeb0">Acoustic engineers</span> study the science of sound and make decisions to provide the best experience for the audience. How will you ensure that the deisgn of your sound machine provides a good sound quality? 
+<span style="color: #0faeb0">Les ingénieurs acoustiques</span> étudient la science du son et prennent des décisions pour offrir la meilleure expérience au public. Comment t'assureras-tu que la conception de ta machine à sons, offre une bonne qualité sonore ? 
 </p>
 
 --- task ---
 
-**Tip:** Make sure that your code is **saved** and that your Thonny console is minimised. This will help you to avoid accidentally tapping your keyboard and editing your code whilst you make your sound machine.
+**Astuce :** Assure-toi que ton code est **enregistré** et que ta console Thonny est minimisée. Cela t'aidera à éviter d'appuyer accidentellement sur ton clavier et d'éditer ton code pendant que tu crées ta machine à sons.
 
 --- /task ---
 
 --- task ---
 
-**Find** the materials you will use to create the physical parts of your sound machine.
+**Trouve** les matériaux que tu utiliseras pour créer les parties physiques de ta machine à sons.
 
-You could use:
-+ Cardboard boxes
-+ Recycled plastic items
-+ Old toys
+Tu peux utiliser :
++ Boîtes en carton
++ Articles en plastique recyclé
++ Vieux jouets
 + Lego
-+ Duct tape
-+ Hot glue (ask an adult!)
-+ Scissors (ask an adult!)
-+ Craft knife (ask an adult!)
-+ 3D printer (if you're very lucky!)
++ Du ruban adhésif
++ De la colle chaude (demande l'aide d'un adulte !)
++ Ciseaux (demande l'aide d'un adulte !)
++ Couteau de bricolage (demande l'aide d'un adulte !)
++ Imprimante 3D (si tu es très chanceux !)
 
 --- /task ---
 
 --- task ---
 
-If you have chosen to craft buttons or switches, now is the time to make them.
+Si tu as choisi de fabriquer des boutons ou des interrupteurs, il est maintenant temps de les fabriquer.
 
-There are lots of different ways to craft buttons and switches that you can connect to the Raspberry Pi Pico.
+Il existe de nombreuses façons de créer des boutons et des interrupteurs que tu peux connecter au Raspberry Pi Pico.
 
-You need to use conductive material such as kitchen foil and make a connection between a **GND** pin and a **GP** pin. The Raspberry Pi Pico will be able to read whether GND and the GP pin are connected.
+Tu dois utiliser un matériau conducteur tel que du papier d'aluminium et établir une connexion entre une broche **GND** et une broche **GP**. Le Raspberry Pi Pico pourra ainsi détecter si les broches GND et GP sont connectés.
 
-Here are some examples:
+Voici quelques exemples :
 
 [[[drop-switch]]]
 
 [[[pull-switch]]]
 
-Be careful if you are using any sharp or hot tools and get adult permission and supervision before you start.
+Soit prudent si tu utilises des outils tranchants ou chauds et obtient la permission et la supervision d'un adulte avant de commencer.
 
 [[[using-craft-knife]]]
 
@@ -68,17 +68,17 @@ Be careful if you are using any sharp or hot tools and get adult permission and 
 
 --- task ---
 
-Make a note of which pins have been used for each component. This will help you connect your wires back onto your Raspberry Pi Pico.
+Note les broches qui ont été utilisées pour chaque composant. Cela t'aidera à reconnecter tes fils sur ton Raspberry Pi Pico.
 
-**Tip**: The pins are listed at the top of your code.
+**Astuce**: Les broches sont listées en haut de ton code.
 
 --- /task ---
 
 --- task ---
 
-Assemble your sound machine. Try not to permanently glue your enclosure together as you might want replace wires or components at a later date.
+Assemble ta machine à sons. Essaye de ne pas coller ton boîtier de manière permanente car tu pourrais vouloir remplacer des fils ou des composants ultérieurement.
 
-**Tip:** Use sticky tape to secure your wires as your wiring might come loose whilst you assemble your sound machine.
+**Astuce :** Utilise du ruban adhésif pour fixer tes fils car ton câblage pourrait se détacher pendant que tu assembles ta machine à sons.
 
 [[[joining-jumper-wires]]]
 
@@ -90,33 +90,33 @@ Assemble your sound machine. Try not to permanently glue your enclosure together
 
 --- task ---
 
-**Test** your sound machine. Now that it has been assembled, check that your components still work as intended.
+**Teste** ta machine à sons. Maintenant qu'elle est assemblée, vérifie que tes composants fonctionnent toujours comme prévu.
 
 --- /task ---
 
 --- task ---
 
-**Debug:**
+**Déboguer:**
 
-Your code was working before you assembled your sound machine. It is unlikely that your code will be broken at this stage. The majority of bugs will be from wiring and components.
+Ton code fonctionnait avant que tu n'aies assemblé ta machine à sons. Il est peu probable que ton code soit cassé à ce stade. La majorité des bogues proviendront du câblage et des composants.
 
 [[[debug-pico-hardware]]]
 
 --- collapse ---
 ---
-title: My wires aren't long enough now that they are in my sound machine
+title : Mes fils ne sont plus assez longs maintenant qu'ils sont dans ma machine à sons
 ---
 
-Now that you have crafted your sound machine, you might need extra-long wires to attach your component to your Raspberry Pi pins. Look at the instructions above to 'join jumper wires to extend them'.
+Maintenant que tu as conçu ta machine à sons, tu auras peut-être besoin de fils plus longs pour attacher ton composant aux broches de ton Raspberry Pi. Regarde les instructions ci-dessus pour "joindre les fils de connexion pour les étendre".
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: My wires or components won't stay in place
+title : Mes fils ou mes composants ne tiennent pas en place
 ---
 
-Some connections are stronger than others so you might find that you need to use tape to keep your wires connected to your components or to hold your components in place on your machine. Look at the instructions above to 'secure wires and components using tape'.
+Certaines connexions sont plus solides que d'autres, tu devras donc peut-être utiliser du ruban adhésif pour maintenir tes fils connectés à tes composants ou pour maintenir tes composants en place sur ta machine. Consulte les instructions ci-dessus pour "fixer les fils et les composants à l'aide de ruban adhésif".
 
 --- /collapse ---
 
