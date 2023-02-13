@@ -1,92 +1,92 @@
-## Design your sound machine
+## Conçois ta machine à sons
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-What is the purpose of your sounds machine? How will the user use inputs to control the sounds that are made? 
+A quoi sert ta machine à sons ? Comment l'utilisateur utilisera-t-il les entrées pour contrôler les sons émis ? 
 </div>
 <div>
-![A character is dropped on two pieces of kitchen foil and a tune plays.](images/wicked-player.jpeg){:width="300px"}
+![Un personnage tombe sur deux morceaux de papier d'aluminium et une mélodie joue.](images/wicked-player.jpeg){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-**Choose:** Decide on the purpose of your sound machine. Who is it for and how will it be used?
+**Choisis :** Décide de l'objectif de ta machine à sons. A qui s'adresse-t-elle et comment sera-t-elle utilisée ?
 
-Your sound machine could be:
+Ta machine à sons pourrait être :
 
-+ An instrument
-+ A music player
-+ A sound effects creator
-+ A machine that makes you feel calm
-+ A machine designed to annoy others with silly noises
++ Un instrument
++ Un lecteur de musique
++ Un créateur d'effets sonores
++ Une machine qui te rassure
++ Une machine conçue pour embêter les autres avec des bruits idiots
 
 --- /task ---
 
 --- task ---
 
-**Choose:** What sounds will your sound machine play?
+**Choisis :** Quels sons ta machine jouera-t-elle ?
 
-+ Single musical notes for an instrument
-+ Whole songs or tunes
-+ Sound effects such as thunder or a bird chirping
-+ Use a variable input from a potentiometer to control the pitch or speed of a beat
-+ Sounds that can be interrupted or sounds that play until they have completed
++ Simples notes de musique d'un instrument
++ Chansons entières ou des airs
++ Effets sonores tels que le tonnerre ou le gazouillis d'un oiseau
++ Utiliser l'entrée variable d'un potentiomètre pour contrôler la hauteur ou la vitesse d'un battement
++ Des sons qui peuvent être interrompus ou joués jusqu'à ce qu'ils soient terminés
 
 --- /task ---
 
-### How many components can you have?
+### Combien de composants peux-tu avoir ?
 
 [[[pico-limitations]]]
 
-Suggested combinations of input and outputs are:
-+ 1 potentiometer and 1 buzzer
-+ 4 buttons and buzzer
-+ 8 crafted buttons and a buzzer
-+ 1 potentiometer, 2 buttons, and 2 buzzers
-+ Multiple buttons and a matching number of buzzers to play chords (multiple notes at the same time)
+Les combinaisons suggérées d'entrées et de sorties sont :
++ 1 potentiomètre et 1 buzzer
++ 4 boutons et buzzer
++ 8 boutons artisanaux et un buzzer
++ 1 potentiomètre, 2 boutons et 2 buzzers
++ Plusieurs boutons et un nombre correspondant de buzzers pour jouer des accords (plusieurs notes en même temps)
 
 --- task ---
 
-**Choose:** How many buttons and buzzers will your design use?
+**Choisis :** Combien de boutons et de buzzers ta conception utilisera-t-elle ?
 
-![A collection of diagrams showing multiple buttons and a headphone jack.](images/output-components.png){:width="200px"}
+![Une collection de diagrammes montrant plusieurs boutons et une prise casque.](images/output-components.png){:width="200px"}
 
-It could have:
-+ One buzzer
-+ Two buzzers to create stereo sound or a beat plus a note
-+ Earphones – you will also need three crocodile/alligator clip leads to connect to them
-+ Multiple buzzers if you have them
+Elle pourrait avoir :
++ Un buzzer
++ Deux buzzers pour créer un son stéréo ou un battement plus une note
++ Des écouteurs – tu auras également besoin de trois câbles à pince crocodile/alligator pour t'y connecter
++ Plusieurs buzzers si tu en as
 
 --- /task ---
 
 --- task ---
 
-**Choose:** What input components will you use for your device?
+**Choisis :** Quels composants d'entrée utiliseras-tu pour ton appareil ?
 
-![A collection of diagrams showing multiple buttons and a potentiometer.](images/input-components.png){:width="200px"}
+![Une collection de schémas montrant plusieurs boutons et un potentiomètre.](images/input-components.png){:width="200px"}
 
-You could use any combination of:
-+ One or more buttons
-+ A potentiometer (you can control the pitch of the buzzer with the potentiometer, or the speed of a regular beat)
-+ Crafted buttons/switches that make a connection
+Tu peux utiliser n'importe quelle combinaison de :
++ Un ou plusieurs boutons
++ Un potentiomètre (tu peux contrôler la hauteur du buzzer avec le potentiomètre, ou la vitesse d'un battement régulier)
++ Boutons/commutateurs artisanaux qui établissent une connexion
 
 --- /task ---
 
 --- task ---
 
-**Design:** Decide on the overall look of your device. What will your sound machine look like? How will you attach your inputs and outputs?
+**Aspect :** Décide de l'apparence générale de ton appareil. À quoi ressemblera ta machine à sons ? Comment vas-tu connecter tes entrées et tes sorties ?
 
-Will you:
+Vas-tu:
 
-+ Base your design on a traditional instrument such as a piano?
-+ Draw a picture or make a scene with buttons to trigger relevant sounds?
-+ Craft switches or buttons?
-+ Use craft materials to make an enclosure?
++ Baser ta conception sur un instrument traditionnel tel qu'un piano ?
++ Dessiner une image ou créer une scène avec des boutons pour déclencher des sons pertinents ?
++ Fabriquer des interrupteurs ou des boutons ?
++ Utiliser des matériaux de bricolage pour fabriquer un conteneur ?
 
-**Tip:** You don't need to decide everything now. It's fine to iterate on your design as you start making.
+**Astuce :** Tu n'as pas besoin de tout décider maintenant. C'est bien d'itérer sur ta conception lorsque tu commences à réaliser.
 
-![A collection of images showing example projects including a sound bomb pull switch, toy drop switch, a dj deck with dials and buttons, and a special effects board with multiple crafted buttons.](images/strip-examples.png){:width="400px"}
+![Une collection d'images montrant des exemples de projets, y compris un interrupteur à tirette de bombe sonore, un interrupteur de chute de jouet, une platine DJ avec des cadrans et des boutons, et une carte d'effets spéciaux avec plusieurs boutons fabriqués.](images/strip-examples.png){:width="400px"}
 
 --- /task ---
 
