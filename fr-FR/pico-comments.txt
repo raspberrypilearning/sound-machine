@@ -1,65 +1,65 @@
-State which pins the components are attached to on the Pico
+Indique à quelles broches les composants sont reliés sur le Pico
 
-A series of functions that create annoying tones
+Une série de fonctions qui créent des tonalités gênantes
 
-Series of high-pitched chirps
+Série de gazouillis aigus
 
-Rising tones
+Tonalités montantes
 
 Wah-wah-wah-waaaaahhhh
  
-No sound or light
+Pas de son ni de lumière
  
 120 BPM
  
-Turn speaker off if interrupted
+Éteindre le haut-parleur en cas d'interruption
  
 Ta-Daaa!
  
 Nee-Nor!
  
-Dropping 'alarm' to crash
+'alarm' décroissante pour planter
  
-White noise loop 1 second
+Boucle de bruit blanc 1 seconde
  
-Pick a random number
+Choisir un nombre au hasard
  
-Play tone for 1/1000th second
+Joue la tonalité pendant 1/1000e de seconde
  
-White
+Blanc
  
 Dim
  
-Dimmer
+Variateur
  
 Off
  
-Pick a number between 1–6
+Choisit un nombre entre 1 et 6
  
-Loop to check if switch is closed
+Boucle pour vérifier si l'interrupteur est fermé
 
-Leave a gap between notes depending on potentiometer value
+Laisse un espace entre les notes en fonction de la valeur du potentiomètre
 
-Turns speaker off when code is stopped by user
+Éteint le haut-parleur lorsque le code est arrêté par l'utilisateur
 
-Turns speaker2 off when code is stopped by user
+Éteint le haut-parleur2 lorsque le code est arrêté par l'utilisateur
 
-Your sound name
+Ton nom de son
 
-Bird chirp sound
+Bruit de gazouillis d'oiseau
 
-Don't delay the main code
+Ne pas retarder le code principal
 
-Store the current option
+Mémoriser l'option actuelle
 
-Call the next function and update the option
+Appelle la fonction suivante et met à jour l'option
 
-Your first tune
+Ton premier morceau
 
-Your second tune
+Ton deuxième morceau
 
-Your third tune
+Ton troisième morceau
 
-Move to the next option
+Passe à l'option suivante
 
-Call the choice function when the button is pressed
+Appelle la fonction de choix lorsque le bouton est enfoncé
