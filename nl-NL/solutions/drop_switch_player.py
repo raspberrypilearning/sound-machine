@@ -9,7 +9,7 @@ defying = [ ['a5', BEAT / 2], ['a5', BEAT], ['e6', BEAT], ['d6', BEAT * 1.5], ['
               ['d5', BEAT], ['f#5', BEAT * 1.5], ['e5', BEAT / 2], ['e5', BEAT * 1.5]]
 
 def play_song():
-    try:
+    probeer:
         speaker.play(defying)
            
     finally: # Turn speaker off if interrupted
