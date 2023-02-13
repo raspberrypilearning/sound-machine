@@ -42,7 +42,7 @@ Which note will play when the button connected to pin GP20 is pressed?
 
   --- feedback ---
 
-  That's not it. Looks carefully at which button is connected to GP20 and what happens when it is pressed. 
+  That's not it. Look carefully at which button is connected to GP20 and what happens when it is pressed. 
 
   --- /feedback ---
 
@@ -58,7 +58,7 @@ Which note will play when the button connected to pin GP20 is pressed?
 
   --- feedback ---
   
-That's not it. Looks carefully at which button is connected to GP20 and what happens when it is pressed. 
+That's not it. Look carefully at which button is connected to GP20 and what happens when it is pressed. 
 
   --- /feedback ---
 
