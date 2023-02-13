@@ -1,52 +1,50 @@
-## Reflection
+## Snelle quiz
 
-Well done, you have learnt a lot! Now it's time to reflect — reflecting is an important part of learning because it helps make new connections in your brain.
+Beantwoord de drie vragen. Er zijn tips om je naar het juiste antwoord te leiden.
 
-Answer the three questions below to reflect on what you've learnt.
+Klik na het beantwoorden van elke vraag op **Controleer mijn antwoord**.
 
-After each question, press submit. You will be guided towards the correct answer. You can do this activity as many times as you want to.
-
-Have fun!
+Veel plezier!
 
 --- question ---
 
 ---
-legend: Question 1 of 3
+legend: Vraag 1 van 3
 ---
 
-Which of these components **do not** have polarity (a positive and negative leg).
+Welke van deze componenten **hebben geen polariteit** (een positief en negatief been).
 
 --- choices ---
 
-- ( ) A buzzer
+- ( ) Een zoemer
 
   --- feedback ---
 
-Try again, a buzzer does have polarity (usually shown by a '+' above the positive leg). When you wire a buzzer the wrong way round, it will still make a sound, but it might not play as you expected.
+Probeer het opnieuw, een zoemer heeft een polariteit (meestal aangegeven met een '+' boven het positieve been). Wanneer je een zoemer verkeerd aansluit, zal het nog steeds een geluid maken, maar het speelt mogelijk niet zoals je had verwacht.
 
   --- /feedback ---
 
-- (x) A button
+- (X) Een knop
 
   --- feedback ---
 
-Correct! A button doesn't have any polarity. You can place a button in any direction. The Raspberry Pi Pico will check if the connection is closed or open.
+Juist! Een knop heeft geen polariteit. Je kunt een knop in elke richting plaatsen. De Raspberry Pi Pico controleert of de verbinding gesloten of open is.
 
   --- /feedback ---
 
-- ( ) A potentiometer
+- ( ) Een potentiometer
 
   --- feedback ---
 
-Not quite, a potentiometer has three legs. A positive, a ground, and an analogue signal. These must be connected correctly for your potentiometer to work as expected. If you mix up the positive and ground then the potentiometer will work in reverse.
+Niet helemaal, een potentiometer heeft drie benen. Een positief, een aarde en een analoog signaal. Deze moeten correct zijn aangesloten om de potentiometer te laten werken zoals verwacht. Als je de plus en aarde door elkaar haalt, werkt de potentiometer omgekeerd.
 
   --- /feedback ---
 
-- ( ) A single-colour LED
+- ( ) Een eenkleurige LED
 
   --- feedback ---
 
-Not quite, a single-colour LED has one long leg (positive) and one short leg (ground) and needs to be wired correctly.
+Niet helemaal, een enkele kleur LED heeft een lang been (positief) en een kort been (aarde) en moet correct worden bedraad.
 
   --- /feedback ---
 
