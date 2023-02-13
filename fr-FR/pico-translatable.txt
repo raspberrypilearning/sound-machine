@@ -1,73 +1,73 @@
-speaker
+haut-parleur
 
-button1
+bouton1
 
-button2
+bouton2
 
-button3
+bouton3
 
-button4
+bouton4
 
 tada
 
-chirp
+gazouiller
 
-win
+gagner
 
-womp
+mauviette
 
-stop
+arreter
 
-switch
+interrupteur
 
-BEAT
+RYTHME
 
-defying
+defiant
 
-play_song
+joue_morceau
 
 led
 
-trigger
+declencher
 
-alarm
+alarme
 
-siren
+sirene
 
-bomb
+bombe
 
-tone
+ton
 
-noise
+bruit
 
-sound
+son
 
-safe
+sur
 
-dial
+cadran
 
 listen_mus
 
-annoying_sound
+son_ennuyeux
 
 note
 
-sound_1
+son_1
 
-annoying_button
+bouton_ennuyeux
 
-calming_button
+bouton_calmant
 
-happy_button
+bouton_heureux
 
-calming_sound
+son_calmant
 
-happy_sound
+son_heureux
 
 option
 
-play_c
+joue_c
 
-play_d
+joue_d
 
-play_e
+joue_e
