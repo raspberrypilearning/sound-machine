@@ -1,13 +1,13 @@
-## Share
+## Partager
 
-If you are in a club, why not share your project with friends? You could also show your family how your project works.
+Si tu es dans un club, pourquoi ne pas partager ton projet avec des amis ? Tu peux également montrer à ta famille comment fonctionne ton projet.
 
 --- task ---
 
-Inspire the Raspberry Pi Foundation community with your project!
+Inspire la communauté Raspberry Pi Foundation avec ton projet !
 
-To submit a video of your sound machine to our [Sound machine - Community](https://wke.lt/w/s/eMsc_S){:target="_blank"} gallery, please complete [this form](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}. Remember to protect your identity by making sure that people do not appear in your video.
+Pour soumettre une vidéo de ta machine à sons dans notre galerie [Machine à sons - Communauté](https://wke.lt/w/s/eMsc_S){:target="_blank"}, rempli [ce formulaire](https://form.raspberrypi.org/f/community-project-submissions){:target="_blank"}. N'oublie pas de protéger ton identité en t'assurant qu'aucune personne n'apparaît dans ta vidéo.
 
-![A screenshot of our Community Gallery page for the Introduction to Pico path showing galleries for mood indicator, sound machine, and sensory gadget projects.](images/community-galleries.png)
+![Une capture d'écran de notre page de galerie communautaire pour le parcours d'introduction à Pico montrant des galeries pour des projets d'indicateur d'humeur, de machine à sons et de gadgets sensoriels.](images/community-galleries.png)
 
 --- /task ---
