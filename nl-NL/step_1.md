@@ -1,64 +1,64 @@
-## You will make
+## Wat ga je maken
 
-Create a sound machine that will play sound effects or music using buttons, switches, or a potentiometer.
+Maak een klankbord dat geluidseffecten of muziek afspeelt met knoppen, schakelaars of een potentiometer.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Sounds**</span> can be helpful, calming, annoying, and energising. A newborn baby can find a white noise machine calming and the sound can help them sleep. DJs use portable sound machines to compose beats as they travel. Pranksters use sound effects machines to make people laugh. Can you think of a sound machine that you have used in your day-to-day life? 
+<span style="color: #0faeb0">**Geluiden**</span> kunnen behulpzaam, kalmerend, vervelend en stimulerend zijn. Een pasgeboren baby vindt een witte ruis machine rustgevend en het geluid kan hen helpen bij het slapen. Dj's maken gebruik van draagbare klankborden om beats samen te stellen terwijl ze op reis zijn. Grapjassen gebruiken machines voor geluidseffecten om mensen te laten lachen. Kun je een klankbord bedenken dat je in je dagelijks leven hebt gebruikt? 
 </p>
 
-You will:
+Je gaat:
 
-+ Design a device that uses sound for a specific purpose
-+ Program music or sound effects to play on a buzzer
-+ Create an interface that allows a user to control sounds
++ Een apparaat ontwerpen dat geluid gebruikt voor een specifiek doel
++ Muziek of geluidseffecten programmeren om op een zoemer af te spelen
++ Een interface maken die een gebruiker helpt om geluiden te besturen
 
-To complete this project you will need:
+Om dit project te voltooien heb je het volgende nodig:
 
 **Hardware:**
 
-You can purchase all the required hardware for this project and the other projects in this path from the [Pimoroni web store.](https://shop.pimoroni.com/products/pico-intro-kit?variant=39893512945747){:target='_blank'}
+Je kunt alle benodigde hardware voor dit project en de andere projecten in dit pad kopen in de [Pimoroni webwinkel.](https://shop.pimoroni.com/products/pico-intro-kit?variant=39893512945747){:target='_blank'}
 
-If you already have a Raspberry Pi Pico, you can purchase the electronic components you need for this project and the other projects in the path from [The Kitronik web store.](https://kitronik.co.uk/products/5343-raspberry-pi-foundation-pico-pathway-pack)
+Als je al een Raspberry Pi Pico hebt, kun je de elektronische componenten die je nodig hebt voor dit project en de andere projecten in het pad kopen bij [de Kitronik webwinkel.](https://kitronik.co.uk/products/5343-raspberry-pi-foundation-pico-pathway-pack){: target='_blank
 
-+ A Raspberry Pi Pico with pin headers soldered on
-+ A data USB A to micro USB cable
-+ A potentiometer or buttons (bought or crafted)
-+ A passive tone buzzer
-+ Jumper wires
-+ Craft materials including card, sticky tape, and kitchen foil
++ Een Raspberry Pi Pico met daarop gesoldeerde pinkoppen
++ Een data USB A naar micro USB-kabel
++ Een potentiometer of knoppen (gekocht of zelfgemaakt)
++ Een passieve toon-zoemer
++ Verbindingsdraden
++ Knutselmaterialenmaterialen zoals papier, karton, plakband en folie
 
 **Software:**
-+ Thonny – this project can be completed using the Thonny Python editor, which can be installed on a Linux, Windows, or Mac computer.
++ Thonny – dit project kan worden voltooid met de Thonny Python editor, die kan worden geïnstalleerd op een Linux-, Windows- of Mac-computer.
 
 [[[thonny-install]]]
 
 [[[change-theme-thonny]]]
 
-+ picozero - you will need to set up picozero on your Raspberry Pi Pico
++ picozero - je moet picozero instellen op je Raspberry Pi Pico
 
 [[[set-up-picozero]]]
 
-Optional:
+Optioneel:
 
-+ Common cathode RGB LED(s) or single-colour LED(s) with resistors and jumper wires
-+ An additional passive tone buzzer for stereo sound
++ RGB-led(s) met gemeenschappelijke kathode of eenkleurige led(s) met weerstanden en verbindingsdraden
++ Een extra passieve toon-zoemer voor stereogeluid
 
 --- no-print ---
 
 --- task ---
 
-### Discover ▶️
+### Ontdek ▶️
 
-**Sound effects board** This sound board has been crafted from cardboard with a number of foil buttons that play sound effects when activated.
+**geluidseffectenbord** Dit klankbord is gemaakt van karton met een aantal folieknoppen die geluidseffecten afspelen wanneer ze worden geactiveerd.
 
 <video width="640" height="360" controls preload="none" poster="images/sound-board-placeholder.png">
 <source src="images/sound_board.mp4" type="video/mp4">
-Your browser does not support WebM video, try FireFox or Chrome
+Je browser ondersteunt geen WebM-video, probeer Firefox of Chrome
 </video>
 
 --- collapse ---
 ---
-title: See inside
+Title: Zie binnenkant
 ---
 --- code ---
 ---
@@ -68,10 +68,10 @@ line_highlights:
 
 from picozero import Speaker, Button from time import sleep from random import randint
 
-# State which pins the components are attached to on the Pico
+# Geef aan op welke pennen de onderdelen op de Pico zijn bevestigd
 speaker = Speaker(5) button1 = Button(18) button2 = Button(19) button3 = Button(20) button4 = Button(21)
 
-# A series of functions that create annoying tones
+# Een reeks functies die vervelende tonen creëren
 def tada(): # Ta-Daaa! speaker.play(523, 0.1) sleep(0.1) speaker.play(523, 0.4)
 
 def chirp(): # Series of high-pitched chirps for _ in range(2): for i in range(5000, 2999, -100): speaker.play(i, 0.02) sleep(0.2)
@@ -94,24 +94,24 @@ try: while True: sleep(0.1) finally: stop()
 
 --- /task ---
 
-### Get ideas 💭
+### Ideeën opdoen 💭
 
-You are going to make some design decisions to create your sound board.
+Je gaat een aantal ontwerpbeslissingen nemen om je klankbord te maken.
 
 --- task ---
 
-Explore these example projects to get more ideas for creating your sound machine:
+Bekijk deze voorbeeldprojecten om meer ideeën te krijgen voor het maken van je klankbord:
 
-**Play me a tune (using a drop switch)** A drop switch has been crafted using two pieces of foil with foil also attached to the bottom of a character. When the character is dropped on the switch, the tune activates.
+**Speel een deuntje voor mij (met behulp van een drop-schakelaar)** Er is een drop-schakelaar gemaakt met twee stukjes folie met folie die ook aan de onderkant van een poppetje is bevestigd. Wanneer het poppetje op de schakelaar wordt gezet, wordt de melodie geactiveerd.
 
 <video width="640" height="360" controls preload="none" poster="images/wicked-placeholder.png">
 <source src="images/wicked-player.mp4" type="video/mp4">
-Your browser does not support WebM video, try FireFox or Chrome
+Je browser ondersteunt geen WebM-video, probeer Firefox of Chrome
 </video>
 
 --- collapse ---
 ---
-title: See inside
+Title: Zie binnenkant
 ---
 --- code ---
 ---
@@ -136,16 +136,16 @@ switch.when_closed = play_song --- /code ---
 
 --- /collapse ---
 
-**Sound alarm (inverted party popper switch + annoying SFX cycle)** Based on the previous Party popper project: when the piece of cardboard is pulled, it allows a spring-loaded switch (a clothes peg with tin foil) to close and then plays an endless loop of annoying sounds and accompanying coloured lights.
+**Geluidsbom (omgekeerde party popper-schakelaar + vervelende SFX-cyclus)** Gebaseerd op het vorige Party popper-project: wanneer aan het stuk karton wordt getrokken, kan een veerbelaste schakelaar (een wasknijper met keukenfolie) sluiten en vervolgens speelt een eindeloze lus van irritante geluiden en bijbehorende gekleurde lampjes.
 
 <video width="640" height="360" controls preload="none" poster="images/soundalarm-placeholder.png">
 <source src="images/soundalarm.mp4" type="video/mp4">
-Your browser does not support WebM video, try FireFox or Chrome
+Je browser ondersteunt geen WebM-video, probeer Firefox of Chrome
 </video>
 
 --- collapse ---
 ---
-title: See inside
+Title: Zie binnenkant
 ---
 --- code ---
 ---
@@ -155,10 +155,10 @@ line_highlights:
 
 from picozero import Speaker, RGBLED, Switch from time import sleep from random import randint
 
-# State which pins the components are attached to on the Pico
+# Geef aan op welke pennen de onderdelen op de Pico zijn bevestigd
 speaker = Speaker(5) led = RGBLED(13, 14, 15) trigger = Switch(18)
 
-# A series of functions that create annoying tones
+# Een reeks functies die vervelende tonen creëren
 
 def tada(): # Ta-Daaa! led.color = (250,125,0) speaker.play(523, 0.1) led.color = (0,0,0) sleep(0.1) led.color = (250,125,0) speaker.play(523, 0.4) for i in range(100, 0, -1): speaker.play(523, 0.01, i/100)
 
@@ -189,7 +189,7 @@ def noise(): sound = randint(1,6) # Pick a number between 1–6 if sound == 1: t
 
 def safe(): # No sound or light speaker.off() led.off()
 
-# Loop to check if switch is closed
+# Lus om te controleren of de schakelaar gesloten is
 
 while True: if trigger.is_closed: noise() else: safe()
 
@@ -198,16 +198,16 @@ while True: if trigger.is_closed: noise() else: safe()
 
 --- /collapse ---
 
-**Musical instrument with two buzzers – one with a white noise beat controlled by a potentiometer** This sound machine has a potentiometer that controls the speed of the tune played from the first buzzer. Pressing the button plays a couple of short notes from the second buzzer.
+**muziekinstrument met twee zoemers – een met een witte ruis die wordt geregeld door een potentiometer** Dit klankbord heeft een potentiometer die de snelheid van het geluid van de eerste zoemer regelt. Door op de knop te drukken, speel je een paar korte noten van de tweede zoemer af.
 
 <video width="640" height="360" controls preload="none" poster="images/instrument-placeholder.png">
 <source src="images/pot-speed.mp4" type="video/mp4">
-Your browser does not support WebM video, try FireFox or Chrome
+Je browser ondersteunt geen WebM-video, probeer Firefox of Chrome
 </video>
 
 --- collapse ---
 ---
-title: See inside
+Title: Zie binnenkant
 ---
 --- code ---
 ---
@@ -243,18 +243,18 @@ try: for note in liten_mus: speaker2.play(note) sleep(dial.value) # Leave a gap 
 
 --- print-only ---
 
-### Get ideas 💭
+### Ideeën opdoen 💭
 
-You are going to make some design decisions to create your sound board. Here are some example sound boards to help you with your ideas:
+Je gaat een aantal ontwerpbeslissingen nemen om je geluidskaart te maken. Hier zijn enkele voorbeelden van geluidsborden die je helpen met je ideeën:
 
-**Sound effects board** This sound board has been crafted from cardboard with a number of foil buttons that play sound effects when activated.  
+**geluidseffecten bord** Dit geluidsbord is gemaakt van karton met een aantal folieknoppen die geluidseffecten afspelen wanneer je ze activeert.  
 ![](images/sound-board.png){:width="300px"}
 
-**Play me a tune (using a drop switch)** A drop switch has been crafted using two pieces of foil with foil also attached to the bottom of a character. When the character is dropped on the switch, the tune activates. ![](images/wicked-player.jpeg){:width="300px"}
+**Speel me een melodie (met behulp van een stopknop)** Er is een drop-switch gemaakt met twee stukjes folie met folie die ook aan de onderkant van een personage is bevestigd. Wanneer het teken op de schakelaar wordt gezet, wordt het deuntje geactiveerd. ![](images/wicked-player.jpeg){:width="300px"}
 
-**Sound bomb (inverted party popper switch + annoying SFX cycle)** Based on the previous Party popper project, when the piece of cardboard is pulled, it allows a spring-loaded switch (a clothes peg with tin foil) to close and plays an endless loop of annoying sounds. ![](images/sound-bomb.PNG){:width="300px"}
+**Geluidsbom (omgekeerde feestpopper-schakelaar + vervelende SFX-cyclus)** op basis van het vorige Party popper-project laat het een veerbelaste schakelaar (een wasknijper met keukenfolie) sluiten en speelt een eindeloze lus van vervelende geluiden af. ![](images/sound-bomb.PNG){:width="300px"}
 
-**Musical instrument with two buzzers – one with a white noise beat controlled by a potentiometer** This sound machine has a potentiometer that controls the speed of the tune played from the first buzzer. Pressing the button plays a couple of short notes from the second buzzer. ![](images/pot-speed.png){:width="300px"}
+**muziekinstrument met twee zoemers – een met een witte ruis die wordt geregeld door een potentiometer** Dit klankbord heeft een potentiometer die de snelheid van het geluid van de eerste zoemer regelt. Door op de knop te drukken, speel je een paar korte noten van de tweede zoemer af. ![](images/pot-speed.png){:width="300px"}
 
 --- /print-only ---
 
