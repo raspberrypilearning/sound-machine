@@ -1,17 +1,17 @@
-## Compose your sounds
+## Compose tes sons
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-It’s good practice to build your project up gradually. In this step, you will connect and code your buzzers to create different sounds and test that they are working.
+C'est une bonne pratique de construire ton projet progressivement. Dans cette étape, tu vas connecter et coder tes buzzers pour créer différents sons et tester leur bon fonctionnement.
 </div>
 <div>
-![A large gripping tool is stuck with sticky tape to the top of a glass jar. A pull switch is inside the gripping tool waiting to be pulled to create a sound.](images/sound-bomb.PNG){:width="300px"}
+![Un gros outil de préhension est collé avec du ruban adhésif sur le dessus d'un bocal en verre. Un interrupteur à tirette se trouve à l'intérieur de l'outil de préhension attendant d'être tiré pour créer un son.](images/sound-bomb.PNG){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Connect your buzzer(s) to the Raspberry Pi Pico:
+Connecte ton (tes) buzzer(s) au Raspberry Pi Pico :
 
 \[[[single-buzzer-wire]]\] \[[[stereo-buzzer-wiring\]]] [[[earphones-wiring]]]
 
@@ -19,17 +19,17 @@ Connect your buzzer(s) to the Raspberry Pi Pico:
 
 --- task ---
 
-Import Speaker from the picozero library, then set the pins:
+Importe la classe Speaker depuis la bibliothèque picozero, puis définis les broches :
 
 \[[[single-buzzer-pin]]\] \[[[multiple-buzzer-pins\]]]
 
 --- /task ---
 
-It is now time to code your first sound.
+Il est maintenant temps de coder ton premier son.
 
 --- task ---
 
-**Define** a function for your first sound. Think of sensible names for your sounds. For example, a function that will play an annoying sound could be called `annoying_sound`.
+**Définis** une fonction pour ton premier son. Pense à des noms sensés pour tes sons. Par exemple, une fonction qui jouera un son gênant pourrait s'appeler `son_genant`.
 
 --- code ---
 ---
@@ -45,14 +45,14 @@ def sound_1(): # Your sound name
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-A <span style="color: #0faeb0">**chiptune**</span>, or 8-bit music, is a tune created by programming the sound chips of computers to produce certain frequencies of sound rather than using traditional instruments — mostly in retro video games and arcade machines. Even though coding music now uses much more advanced techniques, people still love creating and listening to chiptunes because of their retro feel. You can recreate any piece of music you want using chiptune!
+Une musique <span style="color: #0faeb0">**chiptune**</span>, ou 8 bits, est une mélodie créée en programmant les puces sonores des ordinateurs pour produire certaines fréquences sonores plutôt qu'en utilisant des instruments traditionnels, principalement dans les jeux vidéo rétro et les machines d'arcade. Même si le codage de la musique utilise désormais des techniques beaucoup plus avancées, les gens aiment toujours créer et écouter des chiptunes en raison de leur sensation rétro. Tu peux recréer n'importe quel morceau de musique que tu veux en utilisant chiptune !
 </p>
 
 --- task ---
 
-Add code within your new function to play a single note, a tune, or make a sound effect:
+Ajoute du code dans ta nouvelle fonction pour jouer une seule note, une mélodie ou créer un effet sonore :
 
-### Useful information about sound
+### Informations utiles sur le son
 
 [[[list-of-notes]]]
 
@@ -62,7 +62,7 @@ Add code within your new function to play a single note, a tune, or make a sound
 
 [[[sheet-to-notes]]]
 
-### Sound code samples
+### Exemples de code sonore
 
 [[[play-single-note]]]
 
@@ -82,10 +82,10 @@ Add code within your new function to play a single note, a tune, or make a sound
 --- collapse ---
 
 ---
-title: Call a function
+title : Appeler une fonction
 ---
 
-Make sure that you have called the functions that you have written.
+Assure-toi que tu as appelé les fonctions que tu as écrites.
 
 --- code ---
 ---
@@ -100,23 +100,23 @@ chirp()
 
 --- /collapse ---
 
-**Tip:** You can look at the code for the example projects in the [Introduction](.) for more ideas.
+**Astuce :** Tu peux consulter le code des exemples de projets dans [l'Introduction](.) pour plus d'idées.
 
 --- /task ---
 
 --- task ---
 
-Enter code to **call** your first tune function.
+Entre le code pour **appeler** ta première fonction musicale.
 
-**Tip:** Make sure that your code to call the function is not indented.
+**Astuce :** Assure-toi que ton code pour appeler la fonction n'est pas indenté.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Run your code to test that your sounds play as expected.
+**Test :** Exécute ton code pour tester que tes sons jouent comme prévu.
 
-If you manually stop your code whilst the buzzer is making a noise, the noise might continue:
+Si tu arrêtes manuellement ton code alors que le buzzer fait du bruit, le bruit peut continuer :
 
 [[[buzzer-off-code-stopped]]]
 
@@ -124,31 +124,31 @@ If you manually stop your code whilst the buzzer is making a noise, the noise mi
 
 --- task ---
 
-**Debug:** You might find some bugs that you need to fix. Here are some common bugs.
+**Débogage :** Il est possible que tu trouves des bogues que tu doives corriger. Voici quelques bogues assez courants.
 
 \[[[debug-pico-code]]\] \[[[debug-pico-hardware\]]] [[[pico-debug-led]]]
 
 --- collapse ---
 
 ---
-title: My tune does not sound as I expected
+title : Ma mélodie ne sonne pas comme je m'y attendais
 ---
 
-Check your code carefully.
+Vérifie bien ton code.
 
-You may need to experiment with the notes and timing to get the tune just right.
+Tu devras peut-être expérimenter avec les notes et le timing pour obtenir la bonne mélodie.
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: The main tune delays when I press a button
+title : La mélodie principale est retardée lorsque j'appuie sur un bouton
 ---
 
-When you use an event such as `when_pressed` to run a function, that function will run until it is finished and it will stop other code from running.
+Lorsque tu utilises un événement tel que `when_pressed` pour exécuter une fonction, cette fonction s'exécutera jusqu'à ce qu'elle soit terminée et empêchera l'exécution d'autres codes.
 
-If you want to start a tune from an event, then you can use `play` with `wait=False`. The function will finish and the tune will continue playing without delaying the code running in your main code.
+Si tu souhaites démarrer une mélodie à partir d'un événement, tu peux utiliser `play` avec `wait=False`. La fonction se terminera et la mélodie continuera à jouer sans retarder l'exécution du code dans ton code principal.
 
 --- code ---
 ---
@@ -166,22 +166,22 @@ button.when_pressed = annoying_sound
 
 --- /collapse ---
 
-If you find a bug that is not listed here. Can you work out how to fix it?
+Si tu trouves un bogue qui n'est pas répertorié ici. Peux-tu trouver comment y remédier ?
 
-We love hearing about your bugs and how you fixed them. Use the **Send feedback** button at the bottom of this page and tell us if you found a different bug in your project.
+Nous aimons avoir des nouvelles de tes bogues et de la façon dont tu les as corrigés. Utilise le bouton **Envoyer des commentaires** en bas de cette page et dis-nous si tu as trouvé un bogue différent dans ton projet.
 
 --- /task ---
 
 --- task ---
 
-**Create** and **test** the rest of the tune functions that you would like to create.
+**Crée** et **teste** le reste des fonctions musicales que tu souhaites créer.
 
-Remember to:
-+ Define the function
-+ Enter the code to play your tune
-+ Call the function
-+ Test the function
+Souviens-toi:
++ Définis la fonction
++ Entre le code pour jouer ton morceau
++ Appelle la fonction
++ Teste la fonction
 
-**Tip:** Remember to comment out `#` or delete the function call of the previous tune so that you only hear the one that you would like to test.
+**Astuce :** N'oublie pas de commenter `#` ou de supprimer l'appel de fonction du morceau précédent afin de n'entendre que celui que tu souhaites tester.
 
 --- /task ---
