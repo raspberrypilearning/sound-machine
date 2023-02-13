@@ -1,17 +1,17 @@
-## Compose your sounds
+## Stel je geluiden samen
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-It’s good practice to build your project up gradually. In this step, you will connect and code your buzzers to create different sounds and test that they are working.
+Het is een goede gewoonte om je project geleidelijk op te bouwen. In deze stap maak je verbinding en codeer je zoemers om verschillende geluiden te maken en te testen of ze werken.
 </div>
 <div>
-![A large gripping tool is stuck with sticky tape to the top of a glass jar. A pull switch is inside the gripping tool waiting to be pulled to create a sound.](images/sound-bomb.PNG){:width="300px"}
+![Een grote lijmklem is met plakband vastgemaakt aan de bovenkant van een glazen pot. De lijmklem houdt een trekschakelaar vast, als je daar aan trekt wordt een geluid gemaakt.](images/sound-bomb.PNG){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Connect your buzzer(s) to the Raspberry Pi Pico:
+Sluit je zoemer(s) aan op de Raspberry Pi Pico:
 
 \[[[single-buzzer-wire]]\] \[[[stereo-buzzer-wiring\]]] [[[earphones-wiring]]]
 
@@ -19,17 +19,17 @@ Connect your buzzer(s) to the Raspberry Pi Pico:
 
 --- task ---
 
-Import Speaker from the picozero library, then set the pins:
+Importeer Speaker uit de picozero-bibliotheek en stel vervolgens de pinnen in:
 
 \[[[single-buzzer-pin]]\] \[[[multiple-buzzer-pins\]]]
 
 --- /task ---
 
-It is now time to code your first sound.
+Het is nu tijd om je eerste geluid te coderen.
 
 --- task ---
 
-**Define** a function for your first sound. Think of sensible names for your sounds. For example, a function that will play an annoying sound could be called `annoying_sound`.
+**Definieer** een functie voor je eerste geluid. Bedenk logische namen voor je geluiden. Een functie die een irritant geluid afspeelt, kan bijvoorbeeld `irritant_geluid`heten.
 
 --- code ---
 ---
@@ -45,14 +45,14 @@ def sound_1(): # Your sound name
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-A <span style="color: #0faeb0">**chiptune**</span>, or 8-bit music, is a tune created by programming the sound chips of computers to produce certain frequencies of sound rather than using traditional instruments — mostly in retro video games and arcade machines. Even though coding music now uses much more advanced techniques, people still love creating and listening to chiptunes because of their retro feel. You can recreate any piece of music you want using chiptune!
+Een <span style="color: #0faeb0">**chiptune**</span>, of 8-bit muziek, is een melodie die is gemaakt door de geluidschips van computers te programmeren om bepaalde frequenties geluid te produceren in plaats van traditionele instrumenten te gebruiken, vooral in retro-videogames en arcade-machines. Hoewel het coderen van muziek nu veel geavanceerdere technieken gebruikt, houden mensen nog steeds van het maken en luisteren naar chiptunes vanwege hun retro-gevoel. Je kunt elk muziekstuk dat je wilt opnieuw maken met chiptune!
 </p>
 
 --- task ---
 
-Add code within your new function to play a single note, a tune, or make a sound effect:
+Voeg code toe aan je nieuwe functie om een enkele noot of een melodie af te spelen of een geluidseffect te maken:
 
-### Useful information about sound
+### Nuttige informatie over geluid
 
 [[[list-of-notes]]]
 
@@ -62,7 +62,7 @@ Add code within your new function to play a single note, a tune, or make a sound
 
 [[[sheet-to-notes]]]
 
-### Sound code samples
+### Voorbeelden van geluidscodes
 
 [[[play-single-note]]]
 
@@ -82,10 +82,10 @@ Add code within your new function to play a single note, a tune, or make a sound
 --- collapse ---
 
 ---
-title: Call a function
+title: Roep een functie aan
 ---
 
-Make sure that you have called the functions that you have written.
+Zorg ervoor dat je de functies die je hebt geschreven worden aangeroepen.
 
 --- code ---
 ---
@@ -100,23 +100,23 @@ chirp()
 
 --- /collapse ---
 
-**Tip:** You can look at the code for the example projects in the [Introduction](.) for more ideas.
+**Tip:** je kunt de code voor de voorbeeldprojecten bekijken in de [Inleiding](.) voor meer ideeën.
 
 --- /task ---
 
 --- task ---
 
-Enter code to **call** your first tune function.
+Voer code in om je eerste functie voor een noot of melodie **aan te roepen**.
 
-**Tip:** Make sure that your code to call the function is not indented.
+**Tip:** Zorg ervoor dat je nieuwe code niet inspringt.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Run your code to test that your sounds play as expected.
+**Test:** Voer je code uit om te testen of je geluiden worden afgespeeld zoals verwacht.
 
-If you manually stop your code whilst the buzzer is making a noise, the noise might continue:
+Als je de code handmatig stopt terwijl de zoemer een geluid maakt, kan het geluid aanhouden:
 
 [[[buzzer-off-code-stopped]]]
 
@@ -124,31 +124,31 @@ If you manually stop your code whilst the buzzer is making a noise, the noise mi
 
 --- task ---
 
-**Debug:** You might find some bugs that you need to fix. Here are some common bugs.
+**Fouten oplossen:** Mogelijk vind je enkele fouten in jouw project die je moet oplossen. Hier zijn enkele veelvoorkomende fouten.
 
 \[[[debug-pico-code]]\] \[[[debug-pico-hardware\]]] [[[pico-debug-led]]]
 
 --- collapse ---
 
 ---
-title: My tune does not sound as I expected
+Title: Mijn melodie klinkt niet zoals ik had verwacht
 ---
 
-Check your code carefully.
+Controleer je code zorgvuldig.
 
-You may need to experiment with the notes and timing to get the tune just right.
+Je moet misschien experimenteren met de noten en de timing om de melodie juist te krijgen.
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: The main tune delays when I press a button
+title: De hoofdmelodie wordt te laat afgespeeld wanneer ik op een knop druk
 ---
 
-When you use an event such as `when_pressed` to run a function, that function will run until it is finished and it will stop other code from running.
+Wanneer je een gebeurtenis gebruikt zoals `wanneer_ingedrukt` om een functie uit te voeren, wordt die functie uitgevoerd totdat deze is voltooid en stopt de andere code.
 
-If you want to start a tune from an event, then you can use `play` with `wait=False`. The function will finish and the tune will continue playing without delaying the code running in your main code.
+Als je een melodie met een gebeurtenis ("event") wilt starten, kun je `PLAY` gebruiken met `wait=False`. De functie wordt voltooid en de melodie blijft spelen zonder de code, die in je hoofdcode wordt uitgevoerd, te vertragen.
 
 --- code ---
 ---
@@ -166,22 +166,22 @@ button.when_pressed = annoying_sound
 
 --- /collapse ---
 
-If you find a bug that is not listed here. Can you work out how to fix it?
+Als je een fout vindt die hier niet wordt vermeld. Kun je erachter komen hoe je het kunt oplossen?
 
-We love hearing about your bugs and how you fixed them. Use the **Send feedback** button at the bottom of this page and tell us if you found a different bug in your project.
+We horen graag over je fouten en hoe je ze hebt opgelost. Gebruik de **Feedback verzenden** knop onderaan deze pagina en vertel ons of je een andere fout in je project hebt gevonden.
 
 --- /task ---
 
 --- task ---
 
-**Create** and **test** the rest of the tune functions that you would like to create.
+**Maak** en **test** de rest van de melodiefuncties die je wilt maken.
 
-Remember to:
-+ Define the function
-+ Enter the code to play your tune
-+ Call the function
-+ Test the function
+Vergeet niet om:
++ De functie te definiëren
++ De code in te voeren om je melodie af te spelen
++ De functie aan te roepen
++ De functie te testen
 
-**Tip:** Remember to comment out `#` or delete the function call of the previous tune so that you only hear the one that you would like to test.
+**Tip:** Vergeet niet om `#` een commentaarregel te gebruiken, of de functie-aanroep van de vorige melodie te verwijderen, zodat je alleen de melodie hoort die je wilt testen.
 
 --- /task ---
