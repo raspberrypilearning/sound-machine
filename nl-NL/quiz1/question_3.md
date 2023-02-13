@@ -2,46 +2,46 @@
 --- question ---
 
 ---
-legend: Question 3 of 3
+legend: Vraag 3 van 3
 ---
 
-You have made a really cool sound machine and your friends are really impressed. What could you do to your sound machine to make it more robust to ensure that it lasts for a long time?
+Je hebt een cool klankbord gemaakt en je vrienden zijn echt onder de indruk. Wat kun je doen met je klankbord om het robuuster te maken om ervoor te zorgen dat het lange tijd meegaat?
 
 --- choices ---
 
-- ( ) Use more sticky tape to secure the components.
+- ( ) gebruik meer plakband om de onderdelen vast te zetten.
 
 
   --- feedback ---
 
-This is definitely something that would make your sound machine more robust, but it is not the only option.
+Dit is zeker iets dat je klankbord robuuster zou maken, maar het is niet de enige optie.
 
   --- /feedback ---
 
-- ( ) Use hot glue (with supervision) to secure components to surfaces.
+- ( ) gebruik hete lijm (met supervisie) om onderdelen op oppervlakken vast te zetten.
 
 
   --- feedback ---
 
-This would be really useful for securing your components, but there might be other options too!
+Dit zou erg handig zijn om je componenten te beveiligen, maar er zijn mogelijk ook andere opties!
 
   --- /feedback ---
 
-- ( ) Use better quality materials, like a stronger box, to secure your components.
+- ( ) gebruik materialen van betere kwaliteit, zoals een sterkere doos, om je onderdelen vast te zetten.
 
 
   --- feedback ---
 
-Having better quality materials will definitely help, but this isn't the only thing you can do.
+Het gebruiken van materialen van betere kwaliteit zal zeker helpen, maar dit is niet het enige wat je kunt doen.
 
   --- /feedback ---
 
-- (x) All of the above
+- (X) Alle bovenstaande antwoorden
 
 
   --- feedback ---
 
-That's right! All of these options would make your sound machine more robust and are things to consider after your sound machine has been used by others and you are happy with the overall design.
+Dat klopt! Al deze opties zouden je klankbord robuuster maken en zijn dingen om rekening mee te houden nadat je klankbord door anderen is gebruikt en je tevreden bent met het algehele ontwerp.
 
   --- /feedback ---
 
