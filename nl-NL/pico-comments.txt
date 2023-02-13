@@ -1,65 +1,65 @@
-State which pins the components are attached to on the Pico
+Geef aan op welke pennen de onderdelen op de Pico zijn bevestigd
 
-A series of functions that create annoying tones
+Een reeks functies die vervelende tonen creëren
 
-Series of high-pitched chirps
+Reeks hoge pieptonen
 
-Rising tones
+Stijgende tonen
 
-Wah-wah-wah-waaaaahhhh
+Wah-wah-wah-waaaaaahhhhh
  
-No sound or light
+Geen geluid of licht
  
-120 BPM
+120 slagen per minuut
  
-Turn speaker off if interrupted
+Schakel de luidspreker uit als deze wordt onderbroken
  
-Ta-Daaa!
+TA-Daaa!
  
-Nee-Nor!
+Nee-Naw!
  
-Dropping 'alarm' to crash
+'Alarm' laten vallen om te crashen
  
-White noise loop 1 second
+Witte ruis lus 1 seconde
  
-Pick a random number
+Kies een willekeurig getal
  
-Play tone for 1/1000th second
+Speel een toon gedurende 1/1000e seconde
  
-White
+Wit
  
 Dim
  
 Dimmer
  
-Off
+Uit
  
-Pick a number between 1–6
+Kies een getal tussen 1 en 6
  
-Loop to check if switch is closed
+Lus om te controleren of de schakelaar gesloten is
 
-Leave a gap between notes depending on potentiometer value
+Laat een pauze tussen de noten, afhankelijk van de waarde van de potentiometer
 
-Turns speaker off when code is stopped by user
+Hiermee schakel je de luidspreker uit wanneer de code wordt gestopt door de gebruiker
 
-Turns speaker2 off when code is stopped by user
+Schakelt luidspreker2 uit wanneer de code wordt gestopt door de gebruiker
 
-Your sound name
+Je geluidsnaam
 
-Bird chirp sound
+Vogel getjilp geluid
 
-Don't delay the main code
+Vertraag de hoofdcode niet
 
-Store the current option
+Sla de huidige optie op.
 
-Call the next function and update the option
+Roep de volgende functie op en werk de optie bij
 
-Your first tune
+Je eerste nummer
 
-Your second tune
+Je tweede nummer
 
-Your third tune
+Je derde nummer
 
-Move to the next option
+Ga naar de volgende optie
 
-Call the choice function when the button is pressed
+Roep de keuzefunctie aan wanneer de knop wordt ingedrukt
