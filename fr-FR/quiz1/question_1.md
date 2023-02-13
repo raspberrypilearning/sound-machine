@@ -1,52 +1,50 @@
-## Reflection
+## Questionnaire rapide
 
-Well done, you have learnt a lot! Now it's time to reflect — reflecting is an important part of learning because it helps make new connections in your brain.
+Réponds aux trois questions. Il y a des conseils pour te guider vers la bonne réponse.
 
-Answer the three questions below to reflect on what you've learnt.
+Lorsque tu as répondu à chaque question, cliquez sur **Vérifier ma réponse**.
 
-After each question, press submit. You will be guided towards the correct answer. You can do this activity as many times as you want to.
-
-Have fun!
+Amuse-toi bien !
 
 --- question ---
 
 ---
-legend: Question 1 of 3
+legend : Question 1 sur 3
 ---
 
-Which of these components **do not** have polarity (a positive and negative leg).
+Lequel de ces composants **n'a pas de polarité** (une broche positive et une autre négative).
 
 --- choices ---
 
-- ( ) A buzzer
+- ( ) Un buzzer
 
   --- feedback ---
 
-Try again, a buzzer does have polarity (usually shown by a '+' above the positive leg). When you wire a buzzer the wrong way round, it will still make a sound, but it might not play as you expected.
+Essaye à nouveau, un buzzer a une polarité (généralement indiquée par un '+' au-dessus de la broche positive). Lorsque tu câbles un buzzer dans le mauvais sens, il émettra toujours un son, mais il se peut qu'il ne le joue pas comme prévu.
 
   --- /feedback ---
 
-- (x) A button
+- (x) Un bouton
 
   --- feedback ---
 
-Correct! A button doesn't have any polarity. You can place a button in any direction. The Raspberry Pi Pico will check if the connection is closed or open.
+Correct ! Un bouton n'a pas de polarité. Tu peux placer un bouton dans n'importe quelle direction. Le Raspberry Pi Pico vérifiera si la connexion est fermée ou ouverte.
 
   --- /feedback ---
 
-- ( ) A potentiometer
+- ( ) Un potentiomètre
 
   --- feedback ---
 
-Not quite, a potentiometer has three legs. A positive, a ground, and an analogue signal. These must be connected correctly for your potentiometer to work as expected. If you mix up the positive and ground then the potentiometer will work in reverse.
+Pas tout à fait, un potentiomètre a trois broches. Un positif, une masse et un signal analogique. Celles-ci doivent être connectées correctement pour que ton potentiomètre fonctionne comme prévu. Si tu mélanges le positif et la masse, le potentiomètre fonctionnera en sens inverse.
 
   --- /feedback ---
 
-- ( ) A single-colour LED
+- ( ) Une LED monochrome
 
   --- feedback ---
 
-Not quite, a single-colour LED has one long leg (positive) and one short leg (ground) and needs to be wired correctly.
+Pas tout à fait, une LED monochrome a une broche longue (positive) et une broche courte (masse) et doit être câblée correctement.
 
   --- /feedback ---
 
