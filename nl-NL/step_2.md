@@ -1,92 +1,92 @@
-## Design your sound machine
+## Ontwerp je klankbord
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-What is the purpose of your sounds machine? How will the user use inputs to control the sounds that are made? 
+Wat is het doel van je klankbord? Hoe zal de gebruiker invoer gebruiken om de geluiden te regelen die worden gemaakt? 
 </div>
 <div>
-![A character is dropped on two pieces of kitchen foil and a tune plays.](images/wicked-player.jpeg){:width="300px"}
+![Een poppetje valt op twee stukjes aluminiumfolie en er wordt een melodie afgespeeld.](Images/wicked-player.jpeg){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-**Choose:** Decide on the purpose of your sound machine. Who is it for and how will it be used?
+**Kies:** Kies het doel van je klankmachine. Voor wie is het en hoe zal het worden gebruikt?
 
-Your sound machine could be:
+Je klankbord zou kunnen zijn:
 
-+ An instrument
-+ A music player
-+ A sound effects creator
-+ A machine that makes you feel calm
-+ A machine designed to annoy others with silly noises
++ Een instrument
++ Een muziekspeler
++ Een maker van geluidseffecten
++ Een kalmerende machine
++ Een machine die is ontworpen om anderen te ergeren met dwaze geluiden
 
 --- /task ---
 
 --- task ---
 
-**Choose:** What sounds will your sound machine play?
+**Kies:** welke geluiden zal je klankbord afspelen?
 
-+ Single musical notes for an instrument
-+ Whole songs or tunes
-+ Sound effects such as thunder or a bird chirping
-+ Use a variable input from a potentiometer to control the pitch or speed of a beat
-+ Sounds that can be interrupted or sounds that play until they have completed
++ Enkele muzikale noten voor een instrument
++ Hele nummers of nummers
++ Geluidseffecten zoals donder of vogeltjilpen
++ Gebruik een variabele invoer van een potentiometer om de pitch of snelheid van een slag te regelen
++ Geluiden die kunnen worden onderbroken of geluiden die worden afgespeeld totdat ze zijn voltooid
 
 --- /task ---
 
-### How many components can you have?
+### Hoeveel onderdelen wil je hebben?
 
 [[[pico-limitations]]]
 
-Suggested combinations of input and outputs are:
-+ 1 potentiometer and 1 buzzer
-+ 4 buttons and buzzer
-+ 8 crafted buttons and a buzzer
-+ 1 potentiometer, 2 buttons, and 2 buzzers
-+ Multiple buttons and a matching number of buzzers to play chords (multiple notes at the same time)
+Voorgestelde combinaties van invoer en uitvoer zijn:
++ 1 potentiometer en 1 zoemer
++ 4 knoppen en zoemer
++ 8 gemaakte knoppen en een zoemer
++ 1 potentiometer, 2 knoppen en 2 zoemers
++ Meerdere knoppen en een bijbehorend aantal zoemers om akkoorden te spelen (meerdere tonen tegelijkertijd)
 
 --- task ---
 
-**Choose:** How many buttons and buzzers will your design use?
+**Kies:** hoeveel knoppen en zoemers gebruik je in je ontwerp?
 
-![A collection of diagrams showing multiple buttons and a headphone jack.](images/output-components.png){:width="200px"}
+![Een verzameling diagrammen met meerdere knoppen en een hoofdtelefoonaansluiting.](images/output-components.png){:width="200px"}
 
-It could have:
-+ One buzzer
-+ Two buzzers to create stereo sound or a beat plus a note
-+ Earphones – you will also need three crocodile/alligator clip leads to connect to them
-+ Multiple buzzers if you have them
+Dat kan zijn:
++ Eén zoemer
++ Twee zoemers om stereogeluid of beat te maken
++ Koptelefoon – je hebt ook drie krokodil-/krokodillenklemmen nodig om er verbinding mee te maken
++ Meerdere zoemers als je ze hebt
 
 --- /task ---
 
 --- task ---
 
-**Choose:** What input components will you use for your device?
+**Kies:** welke invoercomponenten ga je gebruiken voor je apparaat?
 
-![A collection of diagrams showing multiple buttons and a potentiometer.](images/input-components.png){:width="200px"}
+![Een verzameling diagrammen met meerdere knoppen en een potentiometer.](images/input-components.png){:width="200px"}
 
-You could use any combination of:
-+ One or more buttons
-+ A potentiometer (you can control the pitch of the buzzer with the potentiometer, or the speed of a regular beat)
-+ Crafted buttons/switches that make a connection
+Je kunt elke combinatie gebruiken van:
++ Een of meer knoppen
++ Een potentiometer (je kunt de toonhoogte van de zoemer regelen met de potentiometer, of de snelheid van de slagen)
++ Zelf gemaakte knoppen/schakelaars die een verbinding maken
 
 --- /task ---
 
 --- task ---
 
-**Design:** Decide on the overall look of your device. What will your sound machine look like? How will you attach your inputs and outputs?
+**ontwerp:** Bepaal het uiterlijk van je apparaat. Hoe zal je klankbord eruit zien? Hoe sluit je je in- en uitgangen aan?
 
-Will you:
+Ga je:
 
-+ Base your design on a traditional instrument such as a piano?
-+ Draw a picture or make a scene with buttons to trigger relevant sounds?
-+ Craft switches or buttons?
-+ Use craft materials to make an enclosure?
++ Je ontwerp baseren op een traditioneel instrument zoals een piano?
++ Een afbeelding tekenen of een scène maken met knoppen om relevante geluiden te activeren?
++ Schakelaars of knoppen maken?
++ Knutselmaterialen gebruiken om een omhulsel te maken?
 
-**Tip:** You don't need to decide everything now. It's fine to iterate on your design as you start making.
+**Tip:** je hoeft nu nog niet alles te beslissen. Het is prima om je ontwerp elke keer wat bij te stellen terwijl je het maakt (dat noemen ze ook wel iteratief ontwerpen).
 
-![A collection of images showing example projects including a sound bomb pull switch, toy drop switch, a dj deck with dials and buttons, and a special effects board with multiple crafted buttons.](images/strip-examples.png){:width="400px"}
+![Een verzameling afbeeldingen met voorbeeldprojecten, waaronder een geluidsbom-trekschakelaar, een speelgoed stopknop, een dj-deck met instelwielen en knoppen, en een speciale effecten-bord met meerdere zelfgemaakte knoppen.](images/strip-examples.png){:width="400px"}
 
 --- /task ---
 
