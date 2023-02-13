@@ -1,64 +1,64 @@
-## You will make
+## Ce que tu vas faire
 
-Create a sound machine that will play sound effects or music using buttons, switches, or a potentiometer.
+Créer une machine à sons qui jouera des effets sonores ou de la musique à l'aide de boutons, d'interrupteurs ou d'un potentiomètre.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Sounds**</span> can be helpful, calming, annoying, and energising. A newborn baby can find a white noise machine calming and the sound can help them sleep. DJs use portable sound machines to compose beats as they travel. Pranksters use sound effects machines to make people laugh. Can you think of a sound machine that you have used in your day-to-day life? 
+<span style="color: #0faeb0">**Les sons**</span> peuvent être utiles, apaisants, ennuyeux et énergisants. Un nouveau-né peut trouver une machine à bruit blanc apaisante et le son peut l'aider à dormir. Les DJ utilisent des machines à sons portables pour composer des rythmes lors de leurs déplacements. Les farceurs utilisent des machines à effets sonores pour faire rire les gens. Peux-tu penser à une machine à sons que tu as utilisée dans ta vie de tous les jours ? 
 </p>
 
-You will:
+Tu vas devoir :
 
-+ Design a device that uses sound for a specific purpose
-+ Program music or sound effects to play on a buzzer
-+ Create an interface that allows a user to control sounds
++ Concevoir un appareil qui utilise le son dans un but précis
++ Programmer de la musique ou des effets sonores à jouer sur un buzzer
++ Créer une interface qui permet à un utilisateur de contrôler les sons
 
-To complete this project you will need:
+Pour mener à bien ce projet, tu auras besoin de :
 
-**Hardware:**
+**Matériel :**
 
-You can purchase all the required hardware for this project and the other projects in this path from the [Pimoroni web store.](https://shop.pimoroni.com/products/pico-intro-kit?variant=39893512945747){:target='_blank'}
+Tu peux acheter tout le matériel requis pour ce projet et les autres projets du parcours à partir de la [boutique en ligne Pimoroni.](https://shop.pimoroni.com/products/pico-intro-kit?variant=39893512945747){:target='_blank'}
 
-If you already have a Raspberry Pi Pico, you can purchase the electronic components you need for this project and the other projects in the path from [The Kitronik web store.](https://kitronik.co.uk/products/5343-raspberry-pi-foundation-pico-pathway-pack)
+Si tu as déjà un Raspberry Pi Pico, tu peux acheter les composants électroniques dont tu as besoin pour ce projet et les autres projets dans le parcours, depuis [La boutique en ligne Kitronik.](https://kitronik.co.uk/products/5343-raspberry-pi-foundation-pico-pathway-pack)
 
-+ A Raspberry Pi Pico with pin headers soldered on
-+ A data USB A to micro USB cable
-+ A potentiometer or buttons (bought or crafted)
-+ A passive tone buzzer
-+ Jumper wires
-+ Craft materials including card, sticky tape, and kitchen foil
++ Un Raspberry Pi Pico avec des broches soudées dessus
++ Un câble de données USB A vers micro USB
++ Un potentiomètre ou des boutons (achetés ou fabriqués)
++ Un buzzer à ton passif
++ Fils de connexion
++ Matériaux d'artisanat, y compris carte, ruban adhésif et papier d'aluminium
 
-**Software:**
-+ Thonny – this project can be completed using the Thonny Python editor, which can be installed on a Linux, Windows, or Mac computer.
+**Logiciel :**
++ Thonny – ce projet peut être réalisé à l'aide de l'éditeur Python Thonny, qui peut être installé sur un ordinateur Linux, Windows ou Mac.
 
 [[[thonny-install]]]
 
 [[[change-theme-thonny]]]
 
-+ picozero - you will need to set up picozero on your Raspberry Pi Pico
++ picozero - tu devras configurer la librairie picozero sur ton Raspberry Pi Pico
 
 [[[set-up-picozero]]]
 
-Optional:
+Facultatif :
 
-+ Common cathode RGB LED(s) or single-colour LED(s) with resistors and jumper wires
-+ An additional passive tone buzzer for stereo sound
++ LED(s) RVB à cathode commune ou LED(s) unicolore(s) avec résistances et fils de liaison
++ Un buzzer passif supplémentaire pour un son stéréo
 
 --- no-print ---
 
 --- task ---
 
-### Discover ▶️
+### Découvrir ▶️
 
-**Sound effects board** This sound board has been crafted from cardboard with a number of foil buttons that play sound effects when activated.
+**Carte d'effets sonores** Cette carte à sons a été fabriquée en carton avec un certain nombre de boutons en aluminium qui produisent des effets sonores lorsqu'ils sont activés.
 
 <video width="640" height="360" controls preload="none" poster="images/sound-board-placeholder.png">
 <source src="images/sound_board.mp4" type="video/mp4">
-Your browser does not support WebM video, try FireFox or Chrome
+Ton navigateur ne prend pas en charge la vidéo WebM, essaye FireFox ou Chrome
 </video>
 
 --- collapse ---
 ---
-title: See inside
+title : Voir en détails
 ---
 --- code ---
 ---
@@ -68,10 +68,10 @@ line_highlights:
 
 from picozero import Speaker, Button from time import sleep from random import randint
 
-# State which pins the components are attached to on the Pico
+# Indique à quelles broches les composants sont reliés sur le Pico
 speaker = Speaker(5) button1 = Button(18) button2 = Button(19) button3 = Button(20) button4 = Button(21)
 
-# A series of functions that create annoying tones
+# Une série de fonctions qui créent des tonalités gênantes
 def tada(): # Ta-Daaa! speaker.play(523, 0.1) sleep(0.1) speaker.play(523, 0.4)
 
 def chirp(): # Series of high-pitched chirps for _ in range(2): for i in range(5000, 2999, -100): speaker.play(i, 0.02) sleep(0.2)
@@ -94,24 +94,24 @@ try: while True: sleep(0.1) finally: stop()
 
 --- /task ---
 
-### Get ideas 💭
+### Trouver des idées 💭
 
-You are going to make some design decisions to create your sound board.
+Tu vas prendre des décisions de conception pour créer ta carte à sons.
 
 --- task ---
 
-Explore these example projects to get more ideas for creating your sound machine:
+Explore ces exemples de projets pour obtenir plus d'idées pour créer ta machine à sons :
 
-**Play me a tune (using a drop switch)** A drop switch has been crafted using two pieces of foil with foil also attached to the bottom of a character. When the character is dropped on the switch, the tune activates.
+**Joue-moi une mélodie (à l'aide d'un interrupteur à contact)** Un interrupteur à contact a été fabriqué à l'aide de deux morceaux de papier d'aluminium avec du papier d'aluminium également attaché au bas d'un personnage. Lorsque le personnage est déposé sur l'interrupteur, la mélodie s'active.
 
 <video width="640" height="360" controls preload="none" poster="images/wicked-placeholder.png">
 <source src="images/wicked-player.mp4" type="video/mp4">
-Your browser does not support WebM video, try FireFox or Chrome
+Ton navigateur ne prend pas en charge la vidéo WebM, essaye FireFox ou Chrome
 </video>
 
 --- collapse ---
 ---
-title: See inside
+title : Voir en détails
 ---
 --- code ---
 ---
@@ -136,16 +136,16 @@ switch.when_closed = play_song --- /code ---
 
 --- /collapse ---
 
-**Sound alarm (inverted party popper switch + annoying SFX cycle)** Based on the previous Party popper project: when the piece of cardboard is pulled, it allows a spring-loaded switch (a clothes peg with tin foil) to close and then plays an endless loop of annoying sounds and accompanying coloured lights.
+**Alarme sonore (interrupteur party popper inversé + cycle SFX gênant)** Basé sur le projet Party popper précédent : lorsque le morceau de carton est tiré, il permet à un interrupteur à ressort (une pince à linge avec du papier d'aluminium) de se fermer puis joue une boucle sans fin de sons gênants et de lumières colorées qui les accompagnent.
 
 <video width="640" height="360" controls preload="none" poster="images/soundalarm-placeholder.png">
 <source src="images/soundalarm.mp4" type="video/mp4">
-Your browser does not support WebM video, try FireFox or Chrome
+Ton navigateur ne prend pas en charge la vidéo WebM, essaye FireFox ou Chrome
 </video>
 
 --- collapse ---
 ---
-title: See inside
+title : Voir en détails
 ---
 --- code ---
 ---
@@ -155,10 +155,10 @@ line_highlights:
 
 from picozero import Speaker, RGBLED, Switch from time import sleep from random import randint
 
-# State which pins the components are attached to on the Pico
+# Indiquer à quelles broches les composants sont attachés sur le Pico
 speaker = Speaker(5) led = RGBLED(13, 14, 15) trigger = Switch(18)
 
-# A series of functions that create annoying tones
+# Une série de fonctions qui créent des tonalités gênantes
 
 def tada(): # Ta-Daaa! led.color = (250,125,0) speaker.play(523, 0.1) led.color = (0,0,0) sleep(0.1) led.color = (250,125,0) speaker.play(523, 0.4) for i in range(100, 0, -1): speaker.play(523, 0.01, i/100)
 
@@ -189,7 +189,7 @@ def noise(): sound = randint(1,6) # Pick a number between 1–6 if sound == 1: t
 
 def safe(): # No sound or light speaker.off() led.off()
 
-# Loop to check if switch is closed
+# Boucle pour vérifier si l'interrupteur est fermé
 
 while True: if trigger.is_closed: noise() else: safe()
 
@@ -198,16 +198,16 @@ while True: if trigger.is_closed: noise() else: safe()
 
 --- /collapse ---
 
-**Musical instrument with two buzzers – one with a white noise beat controlled by a potentiometer** This sound machine has a potentiometer that controls the speed of the tune played from the first buzzer. Pressing the button plays a couple of short notes from the second buzzer.
+**Instrument de musique avec deux buzzers – un avec un battement de bruit blanc contrôlé par un potentiomètre** Cette machine à sons possède un potentiomètre qui contrôle la vitesse de la mélodie jouée à partir du premier buzzer. Appuyer sur le bouton joue quelques notes courtes sur le deuxième buzzer.
 
 <video width="640" height="360" controls preload="none" poster="images/instrument-placeholder.png">
 <source src="images/pot-speed.mp4" type="video/mp4">
-Your browser does not support WebM video, try FireFox or Chrome
+Ton navigateur ne prend pas en charge la vidéo WebM, essaye FireFox ou Chrome
 </video>
 
 --- collapse ---
 ---
-title: See inside
+title : Voir en détails
 ---
 --- code ---
 ---
@@ -243,18 +243,18 @@ try: for note in liten_mus: speaker2.play(note) sleep(dial.value) # Leave a gap 
 
 --- print-only ---
 
-### Get ideas 💭
+### Trouve des idées 💭
 
-You are going to make some design decisions to create your sound board. Here are some example sound boards to help you with your ideas:
+Tu vas prendre des décisions de conception pour créer ta carte son. Voici quelques exemples de cartes à sons pour t'aider dans tes idées :
 
-**Sound effects board** This sound board has been crafted from cardboard with a number of foil buttons that play sound effects when activated.  
+**Carte d'effets sonores** Cette carte à sons a été fabriquée en carton avec un certain nombre de boutons en aluminium qui produisent des effets sonores lorsqu'ils sont activés.  
 ![](images/sound-board.png){:width="300px"}
 
-**Play me a tune (using a drop switch)** A drop switch has been crafted using two pieces of foil with foil also attached to the bottom of a character. When the character is dropped on the switch, the tune activates. ![](images/wicked-player.jpeg){:width="300px"}
+**Joue-moi une mélodie (à l'aide d'un interrupteur à contact)** Un interrupteur à contact a été fabriqué à l'aide de deux morceaux de papier d'aluminium avec du papier d'aluminium également attaché au bas d'un personnage. Lorsque le personnage est déposé sur l'interrupteur, la mélodie s'active. ![](images/wicked-player.jpeg){:width="300px"}
 
-**Sound bomb (inverted party popper switch + annoying SFX cycle)** Based on the previous Party popper project, when the piece of cardboard is pulled, it allows a spring-loaded switch (a clothes peg with tin foil) to close and plays an endless loop of annoying sounds. ![](images/sound-bomb.PNG){:width="300px"}
+**Bombe sonore (interrupteur Party Popper inversé + cycle SFX gênant)** Basé sur le projet Party Popper précédent, lorsque le morceau de carton est tiré, il permet à un interrupteur à ressort (une pince à linge avec du papier d'aluminium) de se fermer et de jouer une boucle sans fin de sons gênants. ![](images/sound-bomb.PNG){:width="300px"}
 
-**Musical instrument with two buzzers – one with a white noise beat controlled by a potentiometer** This sound machine has a potentiometer that controls the speed of the tune played from the first buzzer. Pressing the button plays a couple of short notes from the second buzzer. ![](images/pot-speed.png){:width="300px"}
+**Instrument de musique avec deux buzzers – un avec un battement de bruit blanc contrôlé par un potentiomètre** Cette machine à sons possède un potentiomètre qui contrôle la vitesse de la mélodie jouée à partir du premier buzzer. Appuyer sur le bouton joue quelques notes courtes à partir du deuxième buzzer. ![](images/pot-speed.png){:width="300px"}
 
 --- /print-only ---
 
