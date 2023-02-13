@@ -1,28 +1,30 @@
 ---
-title: Sound machine
+title: Machine à sons
 hero_image: images/banner.png
-description: Create a sound machine that will play sound effects or music using buttons, switches, or a potentiometer
+description:
+  - Créer une machine à sons qui jouera des effets sonores ou de la musique à l'aide de boutons,
+  - des interrupteurs ou un potentiomètre
 version: 4
 listed: true
 copyedit: true
-last_tested: '2021-03-26'
+last_tested: "2021-03-26"
 steps:
   - 
-    title: Introduction
+    title: Ce que tu vas faire
   - 
-    title: Design your sound machine
+    title: Conçois ta machine à sons
   - 
-    title: Compose your sounds
+    title: Compose tes sons
     completion:
       - engaged
   - 
-    title: Control your sounds
+    title: Contrôle tes sons
   - 
-    title: Craft your device
+    title: Fabrique ton appareil
     completion:
       - internal
   - 
-    title: Reflection
+    title: Questionnaire rapide
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -31,8 +33,8 @@ steps:
     completion:
       - external
   - 
-    title: Upgrade your project
+    title: Améliorer ton projet
   - 
-    title: Share
+    title: Partager
   - 
-    title: What next?
+    title: Et ensuite ?
