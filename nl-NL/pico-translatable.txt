@@ -1,73 +1,73 @@
-speaker
+luidspreker
 
-button1
+knop1
 
-button2
+knop2
 
-button3
+knop3
 
-button4
+knop4
 
 tada
 
-chirp
+tjilpen
 
 win
 
-womp
+verlies
 
 stop
 
-switch
+schakelaar
 
-BEAT
+Slag
 
-defying
+trotseren
 
-play_song
+speel_lied
 
-led
+LED
 
-trigger
+signaal
 
 alarm
 
-siren
+sirene
 
-bomb
+bom
 
-tone
+toon
 
-noise
+herrie
 
-sound
+geluid
 
-safe
+veilig
 
-dial
+instelwiel
 
 listen_mus
 
-annoying_sound
+vervelend_geluid
 
-note
+noot
 
-sound_1
+geluid_1
 
-annoying_button
+vervelende_knop
 
-calming_button
+kalmerende_knop
 
-happy_button
+blije_knop
 
-calming_sound
+kalmerend_geluid
 
-happy_sound
+blij_geluid
 
-option
+optie
 
-play_c
+speel_c
 
-play_d
+speel_d
 
-play_e
+speel_e
