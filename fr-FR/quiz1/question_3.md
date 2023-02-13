@@ -2,46 +2,46 @@
 --- question ---
 
 ---
-legend: Question 3 of 3
+legend : Question 3 sur 3
 ---
 
-You have made a really cool sound machine and your friends are really impressed. What could you do to your sound machine to make it more robust to ensure that it lasts for a long time?
+Tu as créé une machine à sons vraiment cool et tes amis sont vraiment impressionnés. Que pourrais-tu faire à ta machine à sons pour la rendre plus robuste afin qu'elle dure longtemps ?
 
 --- choices ---
 
-- ( ) Use more sticky tape to secure the components.
+- ( ) Utiliser plus de ruban adhésif pour fixer les composants.
 
 
   --- feedback ---
 
-This is definitely something that would make your sound machine more robust, but it is not the only option.
+C'est certainement quelque chose qui rendrait ta machine à sons plus robuste, mais ce n'est pas la seule option.
 
   --- /feedback ---
 
-- ( ) Use hot glue (with supervision) to secure components to surfaces.
+- ( ) Utiliser de la colle chaude (avec supervision) pour fixer les composants aux surfaces.
 
 
   --- feedback ---
 
-This would be really useful for securing your components, but there might be other options too!
+Ce serait vraiment utile pour sécuriser tes composants, mais il pourrait aussi y avoir d'autres options !
 
   --- /feedback ---
 
-- ( ) Use better quality materials, like a stronger box, to secure your components.
+- ( ) Utiliser des matériaux de meilleure qualité, comme une boîte plus solide, pour sécuriser tes composants.
 
 
   --- feedback ---
 
-Having better quality materials will definitely help, but this isn't the only thing you can do.
+Avoir des matériaux de meilleure qualité aidera certainement, mais ce n'est pas la seule chose que tu peux faire.
 
   --- /feedback ---
 
-- (x) All of the above
+- (x) Tout ce qui précède
 
 
   --- feedback ---
 
-That's right! All of these options would make your sound machine more robust and are things to consider after your sound machine has been used by others and you are happy with the overall design.
+C'est exact ! Toutes ces options rendraient ta machine à sons plus robuste et sont des éléments à prendre en compte une fois que ta machine à sons a été utilisée par d'autres et que tu es satisfait de la conception globale.
 
   --- /feedback ---
 
