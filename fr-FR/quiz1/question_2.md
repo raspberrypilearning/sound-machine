@@ -2,10 +2,10 @@
 --- question ---
 
 ---
-legend: Question 2 of 3
+legend : Question 2 sur 3
 ---
 
-This is the code for a three note piano:
+Voici le code d'un piano à trois notes :
 
 --- code ---
 ---
@@ -26,7 +26,7 @@ button1.when_pressed = play_c button2.when_pressed = play_d button3.when_pressed
 
 --- /code ---
 
-Which note will play when the button connected to pin GP20 is pressed?
+Quelle note sera jouée lorsque le bouton connecté à la broche GP20 est enfoncé ?
 
 --- choices ---
 
@@ -34,7 +34,7 @@ Which note will play when the button connected to pin GP20 is pressed?
 
   --- feedback ---
 
-  That's not it. Looks carefully at which button is connected to GP20 and what happens when it is pressed.
+  Ce n'est pas ça. Look carefully at which button is connected to GP20 and what happens when it is pressed.
 
   --- /feedback ---
 
@@ -42,7 +42,7 @@ Which note will play when the button connected to pin GP20 is pressed?
 
   --- feedback ---
 
-  Yes, that's correct. `button3` uses GP20 and `when_pressed` it calls the `play_e` function which plays the `e4` note.
+  Oui, c'est correct. `button3` utilise GP20 et `when_pressed` appelle la fonction `play_e` qui joue la note `e4`.
 
   --- /feedback ---
 
@@ -50,7 +50,7 @@ Which note will play when the button connected to pin GP20 is pressed?
 
   --- feedback ---
 
-That's not it. Looks carefully at which button is connected to GP20 and what happens when it is pressed.
+Ce n'est pas ça. Look carefully at which button is connected to GP20 and what happens when it is pressed.
 
   --- /feedback ---
 
