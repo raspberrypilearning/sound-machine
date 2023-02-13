@@ -1,10 +1,10 @@
-## What next?
+## Wat nu?
 
-If you are following the [Introduction to the Raspberry Pi Pico](https://projects.raspberrypi.org/en/pathways/pico-intro) path, you can move on to the [Sensory gadget](https://projects.raspberrypi.org/en/projects/sensory-gadget) project. In this project, you will make a sensory gadget like a fidget toy or communication device.
+Als je het [Inleiding tot Raspberry Pi Pico](https://projects.raspberrypi.org/en/pathways/pico-intro) pad volgt, kun je naar het [Sensorisch gadget](https://projects.raspberrypi.org/en/projects/sensory-gadget) project gaan. In dit project maak je een sensorisch gadget als een speeltje of communicatieapparaat.
 
 --- print-only ---
 
-![desc](images/communication-tool.PNG){:width="400px"}
+![beschrijving](images/communication-tool.PNG){:width="400px"}
 
 --- /print-only ---
 
@@ -12,7 +12,7 @@ If you are following the [Introduction to the Raspberry Pi Pico](https://project
 
 <video width="640" height="360" controls preload="none" poster="images/assistive-placeholder.png">
 <source src="images/communication-tool.mp4" type="video/mp4">
-Your browser does not support WebM video, try FireFox or Chrome
+Je browser ondersteunt geen WebM-video, probeer Firefox of Chrome
 </video>
 
 --- /no-print ---
