@@ -1,47 +1,47 @@
-## Control your sounds
+## Stel je geluiden samen
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You need a way for the user to control the sounds. In this step, you will connect and code your control interfaces and test that this is working.
+Je hebt een manier nodig waarop de gebruiker de geluiden kan regelen. In deze stap verbind en codeer je besturingsinterfaces en test je of dit werkt.
 </div>
 <div>
-![This sound machine has a potentiometer that controls the speed of the tune played from the first buzzer. Pressing the button plays a couple of short notes from the second buzzer.](images/pot-speed.png){:width="300px"}
+![Dit klankbord heeft een potentiometer die de snelheid regelt van de melodie van de eerste zoemer. Als je op de knop drukt, speel je een paar korte noten van de tweede zoemer af.](images/pot-speed.png){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-**Find** the input components that you want to use for your sound machine.
+**Zoek** de invoercomponenten die je voor je klankmachine wilt gebruiken.
 
-You could use:
-+ One button for each note, tune, or effect
-+ A single button to move to the next sound
-+ Two socket–pin jumper wires that you can connect to a crafted button or switch
-+ A potentiometer to select the tune or BPM (beats per minute) depending on the dial position
+Je zou kunnen gebruiken:
++ Eén knop voor elke noot, melodie of effect
++ Een enkele knop om naar het volgende geluid te gaan
++ Twee bus–pin verbindingsdraden die je kunt aansluiten op een zelfgemaakte knop of schakelaar
++ Een potentiometer om de melodie of BPM (slagen per minuut) te selecteren, afhankelijk van de positie van het instelwiel
 
-You will also need two socket–socket jumper wires for each button or three socket–socket wires for a potentiometer.
+Je hebt ook twee verbindingsdraden met stekkerbussen nodig voor elke knop of drie van die draden voor een potentiometer.
 
 --- /task ---
 
 --- task ---
 
-Connect your input components to the Raspberry Pi Pico.
+Sluit de gekozen invoercomponenten aan op de Raspberry Pi Pico.
 
 \[[[single-button-wiring]]\] \[[[multiple-button-wiring\]]] \[[[potentiometer-wiring]]\] \[[[crafted-switch-button-wiring\]]] \[[[multiple-crafted-switch-button-wiring]]\] \[[[sharing-a-ground-pin\]]]
 
-**Tip:** If you want to use components you have not used before, or need to wire some more, visit our [Introduction to the Pico](https://projects.raspberrypi.org/en/projects/introduction-to-the-pico){:target="_blank"} guide.
+**Tip:** als je onderdelen wilt gebruiken die je nog niet eerder hebt gebruikt, of als je nog meer onderdelen wilt bekabelen, bezoek dan onze [Inleiding tot Raspberry Pi Pico](https://projects.raspberrypi.org/en/projects/introduction-to-the-pico){:target="_blank"} gids.
 
 --- /task ---
 
 --- task ---
 
-Create a variable for each input component using the pin that you have connected it to:
+Maak een variabele voor elke invoercomponent met behulp van de pin waarop je deze hebt aangesloten:
 
 \[[[single-button-pins]]\] \[[[multiple-button-pins\]]] \[[[single-switch-pins]]\] \[[[multiple-switches-pins\]]] [[[potentiometer-pin]]]
 
 --- /task ---
 
-Now you need to add code to call your tune functions based on the input.
+Nu moet je code toevoegen om je melodiefuncties op basis van de invoer te kunnen aanroepen.
 
 --- task ---
 
@@ -49,12 +49,12 @@ Now you need to add code to call your tune functions based on the input.
 --- collapse ---
 
 ---
-title: Play a different tune when each button is pressed
+Title: Speel een andere melodie af wanneer elke knop wordt ingedrukt
 ---
 
-You can have multiple buttons that each call a different function when they are pressed.
+Je kunt meerdere knoppen hebben die elk een andere functie aanroepen wanneer ze worden ingedrukt.
 
-Make sure you use the function names from your project and just use the name of the function. Do not call it by adding brackets.
+Zorg ervoor dat je de functienamen van je project gebruikt. Roep het niet aan door haakjes toe te voegen.
 
 --- code ---
 ---
@@ -71,12 +71,12 @@ annoying_button.when_pressed = annoying_sound calming_button.when_pressed = calm
 --- collapse ---
 
 ---
-title: Change to the next tune when a single button is pressed
+Title: Ga naar de volgende melodie wanneer er op een knop wordt gedrukt
 ---
 
-Use an `option` variable to keep track of the current tune so that you can decide which function to call next.
+Gebruik een `optie` variabele om de huidige melodie bij te houden, zodat je kunt beslissen welke functie je daarna wilt aanroepen.
 
-Make sure the function names match the tune functions you defined in the previous step:
+Zorg ervoor dat de functienamen overeenkomen met de melodiefuncties die je in de vorige stap hebt gedefinieerd:
 
 --- code ---
 ---
@@ -103,10 +103,10 @@ button.when_pressed = choice # Call the choice function when the button is press
 --- collapse ---
 
 ---
-title: Change the speed of a tune using a potentiometer
+Title: Verander de snelheid van een melodie met een potentiometer
 ---
 
-If you are using a potentiometer to control the speed of the tune, then you will need to use the following code:
+Als je een potentiometer gebruikt om de snelheid van de melodie te regelen, dan moet je de volgende code gebruiken:
 
 --- code ---
 ---
@@ -129,21 +129,21 @@ for note in liten_mus: speaker.play(note) sleep(dial.value) # Leave a gap betwee
 
 --- task ---
 
-**Test:** Run your script and make sure that you can control your tunes.
+**Test:** Voer je script uit en zorg ervoor dat je je melodieën kunt bedienen.
 
-Do your buttons switch between tunes? Can you control the speed with your potentiometer?
+Schakelen je knoppen tussen melodieën? Kun je de snelheid regelen met je potentiometer?
 
 --- /task ---
 
 --- task ---
 
-**Debug:** You might find some bugs in your project that you need to fix. Here are some common bugs.
+**Fouten oplossen:** Mogelijk vind je enkele fouten in jouw project die je moet oplossen. Hier zijn enkele veelvoorkomende fouten.
 
 \[[[debug-pico-code]]\] \[[[debug-pico-hardware\]]] [[[pico-debug-led]]]
 
-If you find a bug that is not listed here. Can you work out how to fix it?
+Als je een fout vindt die hier niet wordt vermeld. Kun je achterhalen hoe je deze fout kan oplossen?
 
-We love hearing about your bugs and how you fixed them. Use the **Send feedback** button at the bottom of this page and tell us if you found a different bug in your project.
+We horen graag over je fouten en hoe je ze hebt opgelost. Gebruik de **Feedback verzenden** knop onderaan deze pagina en vertel ons of je een andere fout in je project hebt gevonden.
 
 --- /task ---
 
