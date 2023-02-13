@@ -1,47 +1,47 @@
-## Control your sounds
+## Contrôle tes sons
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You need a way for the user to control the sounds. In this step, you will connect and code your control interfaces and test that this is working.
+Tu as besoin d'un moyen pour que l'utilisateur puisse contrôler les sons. Dans cette étape, tu vas connecter et coder tes interfaces de contrôle et tester que cela fonctionne.
 </div>
 <div>
-![This sound machine has a potentiometer that controls the speed of the tune played from the first buzzer. Pressing the button plays a couple of short notes from the second buzzer.](images/pot-speed.png){:width="300px"}
+![Cette machine à sons possède un potentiomètre qui contrôle la vitesse du morceau joué sur le premier buzzer. Appuyer sur le bouton pour jouer quelques notes courtes sur le deuxième buzzer.](images/pot-speed.png){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-**Find** the input components that you want to use for your sound machine.
+**Recherche** les composants d'entrée que tu souhaites utiliser pour ta machine à sons.
 
-You could use:
-+ One button for each note, tune, or effect
-+ A single button to move to the next sound
-+ Two socket–pin jumper wires that you can connect to a crafted button or switch
-+ A potentiometer to select the tune or BPM (beats per minute) depending on the dial position
+Tu peux utiliser :
++ Un bouton pour chaque note, mélodie ou effet
++ Un seul bouton pour passer au son suivant
++ Deux fils mâle-femelle que tu peux connecter à un bouton ou un interrupteur fabriqué
++ Un potentiomètre pour sélectionner la mélodie ou le BPM (battements par minute) en fonction de la position du cadran
 
-You will also need two socket–socket jumper wires for each button or three socket–socket wires for a potentiometer.
+Tu auras également besoin de deux fils femelle-femelle pour chaque bouton ou de trois fils mâle-mâle pour un potentiomètre.
 
 --- /task ---
 
 --- task ---
 
-Connect your input components to the Raspberry Pi Pico.
+Connecte tes composants d'entrée au Raspberry Pi Pico.
 
 \[[[single-button-wiring]]\] \[[[multiple-button-wiring\]]] \[[[potentiometer-wiring]]\] \[[[crafted-switch-button-wiring\]]] \[[[multiple-crafted-switch-button-wiring]]\] \[[[sharing-a-ground-pin\]]]
 
-**Tip:** If you want to use components you have not used before, or need to wire some more, visit our [Introduction to the Pico](https://projects.raspberrypi.org/en/projects/introduction-to-the-pico){:target="_blank"} guide.
+**Astuce :** Si tu souhaites utiliser des composants que tu n'as pas utilisés auparavant, ou si tu as besoin d'en câbler d'autres, consulte notre guide [Présentation du Pico](https://projects.raspberrypi.org/en/projects/introduction-to-the-pico){:target="_blank"}.
 
 --- /task ---
 
 --- task ---
 
-Create a variable for each input component using the pin that you have connected it to:
+Crée une variable pour chaque composant d'entrée à l'aide du numéro de la broche à laquelle tu l'as connecté :
 
 \[[[single-button-pins]]\] \[[[multiple-button-pins\]]] \[[[single-switch-pins]]\] \[[[multiple-switches-pins\]]] [[[potentiometer-pin]]]
 
 --- /task ---
 
-Now you need to add code to call your tune functions based on the input.
+Maintenant, ajoute du code pour appeler tes fonctions musicales par rapport à l'entrée choisie.
 
 --- task ---
 
@@ -49,12 +49,12 @@ Now you need to add code to call your tune functions based on the input.
 --- collapse ---
 
 ---
-title: Play a different tune when each button is pressed
+title : Jouer un morceau différent lorsque tu appuies sur chaque bouton
 ---
 
-You can have multiple buttons that each call a different function when they are pressed.
+Tu peux avoir plusieurs boutons qui appellent chacun une fonction différente lorsqu'ils sont enfoncés.
 
-Make sure you use the function names from your project and just use the name of the function. Do not call it by adding brackets.
+Assure-toi d'utiliser les bons noms de fonction de ton projet et utilise simplement le nom de la fonction. Ne l'appel pas en ajoutant des crochets.
 
 --- code ---
 ---
@@ -71,12 +71,12 @@ annoying_button.when_pressed = annoying_sound calming_button.when_pressed = calm
 --- collapse ---
 
 ---
-title: Change to the next tune when a single button is pressed
+title : Passer au morceau suivant lorsqu'un seul bouton est enfoncé
 ---
 
-Use an `option` variable to keep track of the current tune so that you can decide which function to call next.
+Utilise une variable `option` pour garder une trace de la mélodie actuelle afin que tu puisses décider ensuite quelle fonction à appeler.
 
-Make sure the function names match the tune functions you defined in the previous step:
+Assure-toi que les noms de fonction correspondent bien aux fonctions musicales que tu as définies à l'étape précédente :
 
 --- code ---
 ---
@@ -103,10 +103,10 @@ button.when_pressed = choice # Call the choice function when the button is press
 --- collapse ---
 
 ---
-title: Change the speed of a tune using a potentiometer
+title : Modifier la vitesse d'un morceau à l'aide d'un potentiomètre
 ---
 
-If you are using a potentiometer to control the speed of the tune, then you will need to use the following code:
+Si tu utilises un potentiomètre pour contrôler la vitesse de la mélodie, tu devras utiliser le code suivant :
 
 --- code ---
 ---
@@ -129,21 +129,21 @@ for note in liten_mus: speaker.play(note) sleep(dial.value) # Leave a gap betwee
 
 --- task ---
 
-**Test:** Run your script and make sure that you can control your tunes.
+**Test :** Exécute ton script et assure-toi que tu peux contrôler tes morceaux.
 
-Do your buttons switch between tunes? Can you control the speed with your potentiometer?
+Tes boutons changent-ils les morceaux ? Peux-tu contrôler la vitesse avec ton potentiomètre ?
 
 --- /task ---
 
 --- task ---
 
-**Debug:** You might find some bugs in your project that you need to fix. Here are some common bugs.
+**Débogage :** Il est possible que tu trouves des bogues dans ton projet que tu dois corriger. Voici quelques bogues assez courants.
 
 \[[[debug-pico-code]]\] \[[[debug-pico-hardware\]]] [[[pico-debug-led]]]
 
-If you find a bug that is not listed here. Can you work out how to fix it?
+Si tu trouves un bogue qui n'est pas répertorié ici. Peux-tu trouver comment y remédier ?
 
-We love hearing about your bugs and how you fixed them. Use the **Send feedback** button at the bottom of this page and tell us if you found a different bug in your project.
+Nous aimons avoir des nouvelles de tes bogues et de la façon dont tu les as corrigés. Utilise le bouton **Envoyer des commentaires** en bas de cette page et dis-nous si tu as trouvé un bogue différent dans ton projet.
 
 --- /task ---
 
