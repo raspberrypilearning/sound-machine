@@ -34,7 +34,7 @@ Welke noot wordt afgespeeld wanneer de knop die is aangesloten op pen GP20 wordt
 
   --- feedback ---
 
-  Dat klopt niet. Look carefully at which button is connected to GP20 and what happens when it is pressed.
+  Dat klopt niet. Kijk goed welke knop is aangesloten op de GP20 en wat er gebeurt wanneer deze wordt ingedrukt.
 
   --- /feedback ---
 
@@ -50,7 +50,7 @@ Welke noot wordt afgespeeld wanneer de knop die is aangesloten op pen GP20 wordt
 
   --- feedback ---
 
-Dat klopt niet. Look carefully at which button is connected to GP20 and what happens when it is pressed.
+Dat klopt niet. Kijk goed welke knop is aangesloten op de GP20 en wat er gebeurt wanneer deze wordt ingedrukt.
 
   --- /feedback ---
 
