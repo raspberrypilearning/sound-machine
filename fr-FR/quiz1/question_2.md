@@ -34,7 +34,7 @@ Quelle note sera jouée lorsque le bouton connecté à la broche GP20 est enfonc
 
   --- feedback ---
 
-  Ce n'est pas ça. Look carefully at which button is connected to GP20 and what happens when it is pressed.
+  Ce n'est pas ça. Regarde attentivement quel bouton est connecté à la broche GP20 et ce qui se passe lorsqu'il est enfoncé.
 
   --- /feedback ---
 
@@ -50,7 +50,7 @@ Quelle note sera jouée lorsque le bouton connecté à la broche GP20 est enfonc
 
   --- feedback ---
 
-Ce n'est pas ça. Look carefully at which button is connected to GP20 and what happens when it is pressed.
+Ce n'est pas ça. Regarde attentivement quel bouton est connecté à la broche GP20 et ce qui se passe lorsqu'il est enfoncé.
 
   --- /feedback ---
 
