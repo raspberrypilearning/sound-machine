@@ -24,7 +24,7 @@ Probeer het opnieuw, een zoemer heeft een polariteit (meestal aangegeven met een
 
   --- /feedback ---
 
-- (X) Een knop
+- (x) Een knop
 
   --- feedback ---
 
