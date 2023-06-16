@@ -4,6 +4,8 @@ hero_image: images/banner.png
 description:
   - Maak een klankbord dat geluidseffecten of muziek afspeelt met knoppen, schakelaars of een potentiometer
   - schakelaars of een potentiometer
+meta_title: Raspberry Pi Pico projects | Sound machine
+meta_description: A Raspberry Pi Pico project to create a sound machine that plays sound effects using buttons, switches, or a potentiometer.
 version: 4
 listed: true
 copyedit: true
