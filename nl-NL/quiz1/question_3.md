@@ -36,7 +36,7 @@ Het gebruiken van materialen van betere kwaliteit zal zeker helpen, maar dit is 
 
   --- /feedback ---
 
-- (X) Alle bovenstaande antwoorden
+- (x) Alle bovenstaande antwoorden
 
 
   --- feedback ---
