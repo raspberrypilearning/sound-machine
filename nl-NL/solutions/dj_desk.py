@@ -1,34 +1,34 @@
 from picozero import Speaker, Pot, Button
 from time import sleep
 
-speaker = Speaker(5)
-speaker2 = Speaker(13)
-button = Button(18)
-dial = Pot(0)
+luidspreker = Speaker(5)
+luidspreker2 = Speaker(13)
+knop = Button(18)
+instelwiel = Pot(0)
 
-BEAT = 0.4
+SLAG = 0.4
 
-liten_mus = [ ['d5', BEAT / 2], ['d#5', BEAT / 2], ['f5', BEAT], ['d6', BEAT], ['a#5', BEAT], ['d5', BEAT],  
-              ['f5', BEAT], ['d#5', BEAT], ['d#5', BEAT], ['c5', BEAT / 2],['d5', BEAT / 2], ['d#5', BEAT], 
-              ['c6', BEAT], ['a5', BEAT], ['d5', BEAT], ['g5', BEAT], ['f5', BEAT], ['f5', BEAT], ['d5', BEAT / 2],
-              ['d#5', BEAT / 2], ['f5', BEAT], ['g5', BEAT], ['a5', BEAT], ['a#5', BEAT], ['a5', BEAT], ['g5', BEAT],
-              ['g5', BEAT], ['', BEAT / 2], ['a#5', BEAT / 2], ['c6', BEAT / 2], ['d6', BEAT / 2], ['c6', BEAT / 2],
-              ['a#5', BEAT / 2], ['a5', BEAT / 2], ['g5', BEAT / 2], ['a5', BEAT / 2], ['a#5', BEAT / 2], ['c6', BEAT],
-              ['f5', BEAT], ['f5', BEAT], ['f5', BEAT / 2], ['d#5', BEAT / 2], ['d5', BEAT], ['f5', BEAT], ['d6', BEAT],
-              ['d6', BEAT / 2], ['c6', BEAT / 2], ['b5', BEAT], ['g5', BEAT], ['g5', BEAT], ['c6', BEAT / 2],
-              ['a#5', BEAT / 2], ['a5', BEAT], ['f5', BEAT], ['d6', BEAT], ['a5', BEAT], ['a#5', BEAT * 1.5] ]
+liten_mus = [ ['d5', SLAG / 2], ['d#5', SLAG / 2], ['f5', SLAG], ['d6', SLAG], ['a#5', SLAG], ['d5', SLAG],  
+              ['f5', SLAG], ['d#5', SLAG], ['d#5', SLAG], ['c5', SLAG / 2],['d5', SLAG / 2], ['d#5', SLAG], 
+              ['c6', SLAG], ['a5', SLAG], ['d5', SLAG], ['g5', SLAG], ['f5', SLAG], ['f5', SLAG], ['d5', SLAG / 2],
+              ['d#5', SLAG / 2], ['f5', SLAG], ['g5', SLAG], ['a5', SLAG], ['a#5', SLAG], ['a5', SLAG], ['g5', SLAG],
+              ['g5', SLAG], ['', SLAG / 2], ['a#5', SLAG / 2], ['c6', SLAG / 2], ['d6', SLAG / 2], ['c6', SLAG / 2],
+              ['a#5', SLAG / 2], ['a5', SLAG / 2], ['g5', SLAG / 2], ['a5', SLAG / 2], ['a#5', SLAG / 2], ['c6', SLAG],
+              ['f5', SLAG], ['f5', SLAG], ['f5', SLAG / 2], ['d#5', SLAG / 2], ['d5', SLAG], ['f5', SLAG], ['d6', SLAG],
+              ['d6', SLAG / 2], ['c6', SLAG / 2], ['b5', SLAG], ['g5', SLAG], ['g5', SLAG], ['c6', SLAG / 2],
+              ['a#5', SLAG / 2], ['a5', SLAG], ['f5', SLAG], ['d6', SLAG], ['a5', SLAG], ['a#5', SLAG * 1.5] ]
 
-def annoying_sound():
-    speaker.play(523, 0.1)
+def vervelend_geluid():
+    luidspreker.play(523, 0.1)
     sleep(0.1)
-    speaker.play(523, 0.4)
+    luidspreker.play(523, 0.4)
 
-button.when_pressed = annoying_sound
+knop.when_pressed = vervelend_geluid
 
 try:
-    for note in liten_mus:
-        speaker.play(note) 
-        sleep(dial.value) # leave a gap between notes depending on potentiometer value
+    for noot in liten_mus:
+        luidspreker.play(noot) 
+        sleep(instelwiel.value) # Laat een pauze tussen de noten, afhankelijk van de waarde van de potentiometer
 finally:
-    speaker.off() # turns speaker off when code is stopped by user
-    speaker2.off() # turns speaker2 off when code is stopped by user
+    luidspreker.off() # Hiermee schakel je de luidspreker uit wanneer de code wordt gestopt door de gebruiker
+    luidspreker2.off() # Schakelt luidspreker2 uit wanneer de code wordt gestopt door de gebruiker
