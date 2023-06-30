@@ -2,7 +2,7 @@ Geef aan op welke pennen de onderdelen op de Pico zijn bevestigd
 
 Een reeks functies die vervelende tonen creëren
 
-Reeks hoge pieptonen
+Series of high-pitched chirps
 
 Stijgende tonen
 
