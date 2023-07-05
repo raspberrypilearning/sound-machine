@@ -1,0 +1,65 @@
+Geef aan op welke pennen de onderdelen op de Pico zijn bevestigd
+
+Een reeks functies die vervelende tonen creëren
+
+Series of high-pitched chirps
+
+Stijgende tonen
+
+Wah-wah-wah-waaaaaahhhhh
+ 
+Geen geluid of licht
+ 
+120 slagen per minuut
+ 
+Schakel de luidspreker uit als deze wordt onderbroken
+ 
+TA-Daaa!
+ 
+Nee-Naw!
+ 
+'Alarm' laten vallen om te crashen
+ 
+Witte ruis lus 1 seconde
+ 
+Kies een willekeurig getal
+ 
+Speel een toon gedurende 1/1000e seconde
+ 
+Wit
+ 
+Dim
+ 
+Dimmer
+ 
+Uit
+ 
+Kies een getal tussen 1 en 6
+ 
+Lus om te controleren of de schakelaar gesloten is
+
+Laat een pauze tussen de noten, afhankelijk van de waarde van de potentiometer
+
+Hiermee schakel je de luidspreker uit wanneer de code wordt gestopt door de gebruiker
+
+Schakelt luidspreker2 uit wanneer de code wordt gestopt door de gebruiker
+
+Je geluidsnaam
+
+Vogel getjilp geluid
+
+Vertraag de hoofdcode niet
+
+Sla de huidige optie op.
+
+Roep de volgende functie op en werk de optie bij
+
+Je eerste nummer
+
+Je tweede nummer
+
+Je derde nummer
+
+Ga naar de volgende optie
+
+Roep de keuzefunctie aan wanneer de knop wordt ingedrukt

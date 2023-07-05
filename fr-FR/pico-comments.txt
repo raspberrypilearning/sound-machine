@@ -1,0 +1,65 @@
+Indique à quelles broches les composants sont reliés sur le Pico
+
+Une série de fonctions qui créent des tonalités gênantes
+
+Série de gazouillis aigus
+
+Tonalités montantes
+
+Wah-wah-wah-waaaaahhhh
+ 
+Pas de son ni de lumière
+ 
+120 BPM
+ 
+Éteindre le haut-parleur en cas d'interruption
+ 
+Ta-Daaa!
+ 
+Nee-Nor!
+ 
+'alarm' décroissante pour planter
+ 
+Boucle de bruit blanc 1 seconde
+ 
+Choisir un nombre au hasard
+ 
+Joue la tonalité pendant 1/1000e de seconde
+ 
+Blanc
+ 
+Dim
+ 
+Variateur
+ 
+Off
+ 
+Choisit un nombre entre 1 et 6
+ 
+Boucle pour vérifier si l'interrupteur est fermé
+
+Laisse un espace entre les notes en fonction de la valeur du potentiomètre
+
+Éteint le haut-parleur lorsque le code est arrêté par l'utilisateur
+
+Éteint le haut-parleur2 lorsque le code est arrêté par l'utilisateur
+
+Ton nom de son
+
+Bruit de gazouillis d'oiseau
+
+Ne pas retarder le code principal
+
+Mémoriser l'option actuelle
+
+Appelle la fonction suivante et met à jour l'option
+
+Ton premier morceau
+
+Ton deuxième morceau
+
+Ton troisième morceau
+
+Passe à l'option suivante
+
+Appelle la fonction de choix lorsque le bouton est enfoncé
