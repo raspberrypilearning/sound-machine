@@ -5,7 +5,7 @@
 Wat is het doel van je klankbord? Hoe zal de gebruiker invoer gebruiken om de geluiden te regelen die worden gemaakt? 
 </div>
 <div>
-![Een poppetje valt op twee stukjes aluminiumfolie en er wordt een melodie afgespeeld.](Images/wicked-player.jpeg){:width="300px"}
+![Een poppetje valt op twee stukjes aluminiumfolie en er wordt een melodie afgespeeld.](images/wicked-player.jpeg){:width="300px"}
 </div>
 </div>
 
