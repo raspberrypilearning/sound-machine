@@ -14,23 +14,23 @@ line_numbers: false
 ---
 from picozero import Speaker, Button
 
-speaker = Speaker(5)
-button1 = Button(18)
-button2 = Button(19)
-button3 = Button(20)
+luidspreker = Speaker(5)
+knop1 = Button(18)
+knop2 = Button(19)
+knop3 = Button(20)
 
 def play_c():
-    speaker.play('c4', 1)
+    luidspreker.play('c4', 1)
     
 def play_d():
-    speaker.play('d4', 1)
+    luidspreker.play('d4', 1)
     
 def play_e():
-    speaker.play('e4', 1)
+    luidspreker.play('e4', 1)
     
-button1.when_pressed = play_c
-button2.when_pressed = play_d
-button3.when_pressed = play_e
+knop1.when_pressed = play_c
+knop2.when_pressed = play_d
+knop3.when_pressed = play_e
 
 --- /code ---
 
