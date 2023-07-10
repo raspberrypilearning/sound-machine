@@ -128,7 +128,7 @@ Voer code in om je eerste functie voor een noot of melodie **aan te roepen**.
 
 **Test:** Voer je code uit om te testen of je geluiden worden afgespeeld zoals verwacht.
 
-Als je de code handmatig stopt terwijl de zoemer een geluid maakt, kan het geluid aanhouden:
+Als je de code handmatig stopt terwijl de zoemer een geluid maakt, kan het geluid aanhouden: 
 
 [[[buzzer-off-code-stopped]]]
 
