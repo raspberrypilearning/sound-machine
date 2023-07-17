@@ -58,7 +58,7 @@ Maintenant, ajoute du code pour appeler tes fonctions musicales par rapport à l
 --- collapse ---
 
 ---
-title : Jouer un morceau différent lorsque tu appuies sur chaque bouton
+title: Jouer un morceau différent lorsque tu appuies sur chaque bouton
 ---
 
 Tu peux avoir plusieurs boutons qui appellent chacun une fonction différente lorsqu'ils sont enfoncés.
@@ -83,7 +83,7 @@ bouton_heureux.when_pressed = son_heureux
 --- collapse ---
 
 ---
-title : Passer au morceau suivant lorsqu'un seul bouton est enfoncé
+title: Passer au morceau suivant lorsqu'un seul bouton est enfoncé
 ---
 
 Utilise une variable `option` pour garder une trace de la mélodie actuelle afin que tu puisses décider ensuite quelle fonction à appeler.
@@ -124,7 +124,7 @@ bouton.when_pressed = choix # Appelle la fonction de choix lorsque le bouton est
 --- collapse ---
 
 ---
-title : Modifier la vitesse d'un morceau à l'aide d'un potentiomètre
+title: Modifier la vitesse d'un morceau à l'aide d'un potentiomètre
 ---
 
 Si tu utilises un potentiomètre pour contrôler la vitesse de la mélodie, tu devras utiliser le code suivant :

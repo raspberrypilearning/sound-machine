@@ -104,7 +104,7 @@ Ton code fonctionnait avant que tu n'aies assemblé ta machine à sons. Il est p
 
 --- collapse ---
 ---
-title : Mes fils ne sont plus assez longs maintenant qu'ils sont dans ma machine à sons
+title: Mes fils ne sont plus assez longs maintenant qu'ils sont dans ma machine à sons
 ---
 
 Maintenant que tu as conçu ta machine à sons, tu auras peut-être besoin de fils plus longs pour attacher ton composant aux broches de ton Raspberry Pi. Regarde les instructions ci-dessus pour "joindre les fils de connexion pour les étendre".
@@ -113,7 +113,7 @@ Maintenant que tu as conçu ta machine à sons, tu auras peut-être besoin de fi
 
 --- collapse ---
 ---
-title : Mes fils ou mes composants ne tiennent pas en place
+title: Mes fils ou mes composants ne tiennent pas en place
 ---
 
 Certaines connexions sont plus solides que d'autres, tu devras donc peut-être utiliser du ruban adhésif pour maintenir tes fils connectés à tes composants ou pour maintenir tes composants en place sur ta machine. Consulte les instructions ci-dessus pour "fixer les fils et les composants à l'aide de ruban adhésif".

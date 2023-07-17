@@ -87,7 +87,7 @@ Ajoute du code dans ta nouvelle fonction pour jouer une seule note, une mélodie
 --- collapse ---
 
 ---
-title : Appeler une fonction
+title: Appeler une fonction
 ---
 
 Assure-toi que tu as appelé les fonctions que tu as écrites.
@@ -145,7 +145,7 @@ Si tu arrêtes manuellement ton code alors que le buzzer fait du bruit, le bruit
 --- collapse ---
 
 ---
-title : Ma mélodie ne sonne pas comme je m'y attendais
+title: Ma mélodie ne sonne pas comme je m'y attendais
 ---
 
 Vérifie bien ton code.
@@ -157,7 +157,7 @@ Tu devras peut-être expérimenter avec les notes et le timing pour obtenir la b
 --- collapse ---
 
 ---
-title : La mélodie principale est retardée lorsque j'appuie sur un bouton
+title: La mélodie principale est retardée lorsque j'appuie sur un bouton
 ---
 
 Lorsque tu utilises un événement tel que `when_pressed` pour exécuter une fonction, cette fonction s'exécutera jusqu'à ce qu'elle soit terminée et empêchera l'exécution d'autres codes.
