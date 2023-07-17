@@ -1,4 +1,4 @@
-haut-parleur
+haut_parleur
 
 bouton1
 
@@ -14,7 +14,7 @@ gazouiller
 
 gagner
 
-mauviette
+perdre
 
 arreter
 
