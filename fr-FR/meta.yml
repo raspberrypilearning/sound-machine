@@ -4,8 +4,8 @@ hero_image: images/banner.png
 description:
   - Créer une machine à sons qui jouera des effets sonores ou de la musique à l'aide de boutons,
   - des interrupteurs ou un potentiomètre
-meta_title: Raspberry Pi Pico projects | Sound machine
-meta_description: A Raspberry Pi Pico project to create a sound machine that plays sound effects using buttons, switches, or a potentiometer.
+meta_title: Projets Raspberry Pi Pico | Machine à son
+meta_description: Un projet Raspberry Pi Pico pour créer une machine à sons qui joue des effets sonores à l'aide de boutons, d'interrupteurs ou d'un potentiomètre.
 version: 4
 listed: true
 copyedit: true
