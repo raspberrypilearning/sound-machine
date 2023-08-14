@@ -28,7 +28,7 @@ Je klankbord zou kunnen zijn:
 **Kies:** welke geluiden zal je klankbord afspelen?
 
 + Enkele muzikale noten voor een instrument
-+ Hele nummers of nummers
++ Hele liedjes of melodieën
 + Geluidseffecten zoals donder of vogeltjilpen
 + Gebruik een variabele invoer van een potentiometer om de pitch of snelheid van een slag te regelen
 + Geluiden die kunnen worden onderbroken of geluiden die worden afgespeeld totdat ze zijn voltooid

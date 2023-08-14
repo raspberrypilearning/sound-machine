@@ -16,9 +16,9 @@ Om dit project te voltooien heb je het volgende nodig:
 
 **Hardware:**
 
-Je kunt alle benodigde hardware voor dit project en de andere projecten in dit pad kopen in de [Pimoroni webwinkel.](https://shop.pimoroni.com/products/pico-intro-kit?variant=39893512945747){:target='_blank'} en de [Kitronik webwinkel.](https://kitronik.co.uk/products/5343-raspberry-pi-foundation-pico-pathway-pack){:target='_blank'}
+Je kunt alle benodigde hardware voor dit project en de andere projecten in dit pad kopen in de [Pimoroni webwinkel](https://shop.pimoroni.com/products/pico-intro-kit?variant=39893512945747){:target='_blank'} en de [Kitronik webwinkel.](https://kitronik.co.uk/products/5343-raspberry-pi-foundation-pico-pathway-pack){:target='_blank'}
 
-+ Een Raspberry Pi Pico met daarop gesoldeerde pinkoppen
++ Een Raspberry Pi Pico met gesoldeerde aansluitpinnen
 + Een data USB A naar micro USB-kabel
 + Een potentiometer of knoppen (gekocht of zelfgemaakt)
 + Een passieve toon-zoemer
